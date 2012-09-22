@@ -1,0 +1,476 @@
+<!doctype html>
+
+<head>
+    
+    <SCRIPT TYPE="text/javascript"> 
+        <!-- 
+        //Disable right click script 
+        var message="Sorry, right-click has been disabled"; 
+        /////////////////////////////////// 
+        function clickIE() {if (document.all) {(message);return false;}} 
+        function clickNS(e) {if 
+            (document.layers||(document.getElementById&&!document.all)) { 
+                if (e.which==2||e.which==3) {(message);return false;}}} 
+        if (document.layers) 
+        {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;} 
+        else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;} 
+        document.oncontextmenu=new Function("return false") 
+        // --> 
+        </SCRIPT> 
+    
+    <script type='text/javascript' src='jquery-1.7.1.min.js'></script>
+	<style>
+        body {
+            background-image:url('grad.png');
+            background-repeat: repeat-x;
+        }
+        #graphback {
+            background-image:url('bar-back.png');
+            background-repeat: repeat-x;
+            height: 41px;
+            width: 237px;
+            position: absolute;
+            left: 13px;
+            top: 20px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+        }
+        #one {
+            background-image:url('red.png');
+            background-repeat: repeat-x;
+            height: 39px;
+            position: relative;
+            top: 2px;
+            border-radius: 3px 0px 0px 3px;            
+            -webkit-border-radius: 3px 0px 0px 3px; 
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+        }
+        #two {
+            background-image:url('orange.png');
+            background-repeat: repeat-x;
+            height: 39px;
+            position: relative;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+        }
+        #three {
+            background-image:url('green.png');
+            background-repeat: repeat-x;
+            height: 39px;
+            position: relative;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+        }
+        #four {
+            background-image:url('blue.png');
+            background-repeat: repeat-x;
+            height: 39px;
+            position: relative;
+            top: 2px;
+            float: left;
+            border-radius: 0px 3px 3px 0px;            
+            -webkit-border-radius: 0px 3px 3px 0px; 
+            -webkit-transition: all 1s ease-in-out;
+        }
+        #label {
+            height: 51px;
+            width: 247px;
+            position: absolute;
+            left: 13px;
+            top: 5px;
+            font-family: arial;
+            font-size: 10px;
+            color: #fff;
+            text-align: center;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #legend {
+            height: 51px;
+            width: 247px;
+            position: absolute;
+            left: 13px;
+            top: 70px;
+            font-family: arial;
+            font-size: 10px;
+            color: #fff;
+            text-align: center;
+            opacity: 0;
+             -webkit-transition: all 1s ease-in-out;
+        }
+        #people {
+            
+            background-image:url('blue.png');
+            background-repeat: repeat-x;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            margin-right: 5px;
+            float:left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #one-leg {
+            
+            background-image:url('red.png');
+            background-repeat: repeat-x;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #two-leg {
+            
+            background-image:url('orange.png');
+            background-repeat: repeat-x;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #three-leg {
+            
+            background-image:url('green.png');
+            background-repeat: repeat-x;
+            height: 10px;
+            width: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            top: 2px;
+            float: left;
+            -webkit-transition: all 1s ease-in-out;
+            margin-right: 5px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #legend p {
+            
+            margin-top: 3px;
+            float: left;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        #cont1 {
+            
+            float: left;
+        }
+        #cont2 {
+            
+            float: left;
+        }
+        #cont3 {
+            
+            float: left;
+        }
+        #cont4 {
+            
+            float: left;
+        }
+        #cont5 {
+            
+            float: left;
+            display: none;
+        }
+        #cont6 {
+            
+            float: left;
+            display: none;
+        }
+        #cont7 {
+            
+            float: left;
+            display: none;
+        }
+        #cont8 {
+            
+            float: left;
+            display: none;
+        }
+        #declare {
+            
+            display: none;
+        }
+    </style>
+    
+    <script type="text/javascript">
+        
+        function disableSelection(target){
+            if (typeof target.onselectstart!="undefined") //IE route
+            target.onselectstart=function(){return false}
+            else if (typeof target.style.MozUserSelect!="undefined") //Firefox route
+            target.style.MozUserSelect="none"
+            else //All other route (ie: Opera)
+            target.onmousedown=function(){return false}
+            target.style.cursor = "default"
+        }
+        
+        </script>
+    
+    <script type='text/javascript'>
+        
+        $(document).ready(function(){
+        
+          $('#legend').toggle(function(){
+              document.getElementById('cont1').style.display= 'none';
+              document.getElementById('cont2').style.display= 'none';
+              document.getElementById('cont3').style.display= 'none';
+              document.getElementById('cont4').style.display= 'none';
+              document.getElementById('cont5').style.display= 'block';
+              document.getElementById('cont6').style.display= 'block';
+              document.getElementById('cont7').style.display= 'block';
+              document.getElementById('cont8').style.display= 'block';
+          },function(){
+              document.getElementById('cont5').style.display= 'none';
+              document.getElementById('cont6').style.display= 'none';
+              document.getElementById('cont7').style.display= 'none';
+              document.getElementById('cont8').style.display= 'none';
+              document.getElementById('cont1').style.display= 'block';
+              document.getElementById('cont2').style.display= 'block';
+              document.getElementById('cont3').style.display= 'block';
+              document.getElementById('cont4').style.display= 'block';
+          });  
+                          
+        });
+        
+        var alreadyDone;
+        
+        function welcome(){
+            
+            if (!alreadyDone) {
+                
+                loadDogDataW();
+            }
+            
+            alreadyDone=true;
+        }
+        
+        function reset() {
+            
+            
+            document.getElementById('one').style.width= 0 + '%';
+            document.getElementById('two').style.width= 0 + '%';
+            document.getElementById('four').style.width= 0 + '%';
+            document.getElementById('three').style.width= 0 + '%';
+            document.getElementById('legend').style.opacity= 0;
+            document.getElementById('declare').innerHTML= '';
+        }
+
+        function loadCow() {
+            
+            var farm = 6;
+            var wild = 20;
+            var offfarm = 28;
+            var people = 80;
+            
+            var total = farm + wild + offfarm + people;
+            
+            var farmedCow = (farm / total) * 100;
+            var wildCow = (wild / total) * 100;
+            var peopleYear = (people / total) * 100;
+            var offthefarm = (offfarm / total) * 100;
+            
+            document.getElementById('one').style.width= farmedCow + '%';
+            document.getElementById('two').style.width= wildCow + '%';
+            document.getElementById('four').style.width= peopleYear + '%';
+            document.getElementById('three').style.width= offthefarm + '%';
+            document.getElementById('four').style.paddingLeft= 2 + 'px';
+            document.getElementById('legend').style.opacity= 1;
+            document.getElementById('cont3').style.width= 25 + '%';
+            document.getElementById('cont7').style.width= 25 + '%';
+            document.getElementById('cont1').style.width= 25 + '%';
+            document.getElementById('cont2').style.width= 25 + '%';
+            document.getElementById('cont4').style.width= 25 + '%';
+            document.getElementById('cont5').style.width= 25 + '%';
+            document.getElementById('cont6').style.width= 25 + '%';
+            document.getElementById('cont8').style.width= 25 + '%';
+            document.getElementById('one-leg-text').innerHTML= 'Dairy';
+            document.getElementById('two-leg-text').innerHTML= 'Organic';
+            document.getElementById('three-leg-text').innerHTML= 'Wild';
+            document.getElementById('people-text').innerHTML= 'People';
+            document.getElementById('one-leg-text1').innerHTML= '6 yrs';
+            document.getElementById('two-leg-text1').innerHTML= '20 yrs';
+            document.getElementById('three-leg-text1').innerHTML= '28 yrs';
+            document.getElementById('people-text1').innerHTML= '80 yrs';
+            document.getElementById('declare').innerHTML= 'cows';
+        }
+        
+        function loadCat() {
+            
+            var indoor = 15;
+            var outdoor = 5;
+            var wildcat= 30;
+            var people = 80;
+            
+            var total = outdoor + indoor + wildcat + people;
+            
+            var catIndoor = (indoor / total) * 100;
+            var wildCat1 = (wildcat / total) * 100;
+            var catOutdoor = (outdoor / total) * 100;
+            var peopleYear = (people / total) * 100;
+            
+            document.getElementById('one').style.width= catIndoor + '%';
+            document.getElementById('two').style.width= catOutdoor + '%';
+            document.getElementById('four').style.width= peopleYear + '%';
+            document.getElementById('three').style.width= wildCat1 + '%';
+            document.getElementById('four').style.paddingLeft= 2 + 'px';
+            document.getElementById('legend').style.opacity= 1;
+            document.getElementById('cont3').style.width= 25 + '%';
+            document.getElementById('cont7').style.width= 25 + '%';
+            document.getElementById('cont1').style.width= 25 + '%';
+            document.getElementById('cont2').style.width= 25 + '%';
+            document.getElementById('cont4').style.width= 25 + '%';
+            document.getElementById('cont5').style.width= 25 + '%';
+            document.getElementById('cont6').style.width= 25 + '%';
+            document.getElementById('cont8').style.width= 25 + '%';
+            document.getElementById('one-leg-text').innerHTML= 'Indoor';
+            document.getElementById('two-leg-text').innerHTML= 'Outdoor';
+            document.getElementById('three-leg-text').innerHTML= 'Wildcat';
+            document.getElementById('people-text').innerHTML= 'People';
+            document.getElementById('one-leg-text1').innerHTML= '15 yrs';
+            document.getElementById('two-leg-text1').innerHTML= '5 yrs';
+            document.getElementById('three-leg-text1').innerHTML= '30 yrs';
+            document.getElementById('people-text1').innerHTML= '80 yrs';
+            document.getElementById('declare').innerHTML= 'cat';
+        }
+        
+        function loadDog() {
+                       
+            var sm = 18;
+            var med = 10;
+            var lg = 8;
+            var people = 80;
+            
+            var total = sm + med + lg + people;
+            
+            var dogYearsm = (sm / total) * 100;
+            var dogYearmed = (med / total) * 100;
+            var dogYearlg = (lg / total) * 100;
+            var peopleYear = (people / total) * 100;
+            
+            document.getElementById('one').style.width= dogYearsm + '%';
+            document.getElementById('two').style.width= dogYearmed + '%';
+            document.getElementById('three').style.width= dogYearlg + '%';
+            document.getElementById('three').style.display= 'block';
+            document.getElementById('four').style.width= peopleYear + '%';
+            document.getElementById('four').style.paddingLeft= 2 + 'px';
+            document.getElementById('legend').style.opacity= 1;
+            document.getElementById('one-leg-text').innerHTML= 'Sm.';
+            document.getElementById('two-leg-text').innerHTML= 'Med.';
+            document.getElementById('three-leg-text').innerHTML= 'Lg.';
+            document.getElementById('people-text').innerHTML= 'People';
+            document.getElementById('one-leg-text1').innerHTML= '18 yrs';
+            document.getElementById('two-leg-text1').innerHTML= '10 yrs';
+            document.getElementById('three-leg-text1').innerHTML= '8 yrs';
+            document.getElementById('people-text1').innerHTML= '80 yrs';
+            document.getElementById('cont1').style.width= 25 + '%';
+            document.getElementById('cont2').style.width= 25 + '%';
+            document.getElementById('cont3').style.width= 25 + '%';
+            document.getElementById('cont4').style.width= 25 + '%';
+            document.getElementById('cont5').style.width= 25 + '%';
+            document.getElementById('cont6').style.width= 25 + '%';
+            document.getElementById('cont7').style.width= 25 + '%';
+            document.getElementById('cont8').style.width= 25 + '%';
+            document.getElementById('declare').innerHTML= 'doggie';
+            
+        }
+        
+        function loadDogDataW(){
+            
+            if(document.getElementById('declare').innerHTML == 'doggie'){
+                
+            } else {
+                reset();
+                setTimeout(function(){loadDog();}, 500);
+            }
+            
+        }
+        
+        function loadDogData(){
+            
+            if(document.getElementById('declare').innerHTML == 'doggie'){
+                
+            } else {
+                reset();
+                setTimeout(function(){loadDog();}, 1250);
+            }
+            
+        }
+        
+        function loadCatData(){
+            
+            if(document.getElementById('declare').innerHTML == 'cat'){
+                
+            } else {
+                reset();
+                setTimeout(function(){loadCat();}, 1250);
+            }
+            
+        }
+        function loadCowData(){
+            
+            if(document.getElementById('declare').innerHTML == 'cows'){
+                
+            } else {
+                reset();
+                setTimeout(function(){loadCow();}, 1250);
+            }
+            
+        }
+    </script>
+</head>
+
+<body onload="welcome();">
+
+<div id="label">Life Expextancy</div>
+    
+<div id="graphback"><div id="one"></div> <div id="two"></div> <div id="three"></div> <div id="four"></div> </div>
+
+<div id="legend" class="1">
+    
+    <div id="cont1"><div id="one-leg"></div><p id="one-leg-text"></p></div>
+    <div id="cont2"><div id="two-leg"></div><p id="two-leg-text"></p></div>
+    <div id="cont3"><div id="three-leg"></div><p id="three-leg-text"></p></div>
+    <div id="cont4"><div id="people"></div><p id="people-text"></p></div>
+    
+    <div id="cont5"><div id="one-leg"></div><p id="one-leg-text1"></p></div>
+    <div id="cont6"><div id="two-leg"></div><p id="two-leg-text1"></p></div>
+    <div id="cont7"><div id="three-leg"></div><p id="three-leg-text1"></p></div>
+    <div id="cont8"><div id="people"></div><p id="people-text1"></p></div>
+    
+    <div id="declare"></div>
+
+</div>
+	
+</body>
+<script type="text/javascript">
+    disableSelection(document.body) //disable text selection on entire body of page
+    </script>
+</html>
