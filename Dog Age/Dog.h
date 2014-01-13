@@ -15,8 +15,10 @@
     IBOutlet id answerField;
     IBOutlet id numberField;
     IBOutlet id typeField;
+    
     IBOutlet id alertField;
     IBOutlet id errorSheet;
+    
     IBOutlet id MainWindow;
     IBOutlet id CalcText;
     IBOutlet id aButton;

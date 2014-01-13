@@ -270,10 +270,10 @@
 				FCDAAFF6181DB14A000128E1 /* MainMenuWeb.xib */,
 				FC7D32D716DC767C00689DC8 /* WindowController.h */,
 				FC7D32D816DC767C00689DC8 /* WindowController.m */,
+				112709BF14BBA1C200673DF8 /* Dog.h */,
 				112709BE14BBA1C200673DF8 /* Dog.m */,
 				FC7D32CA16DC6F9400689DC8 /* InAppStore */,
 				11713AFD14BEA43B00F5CC37 /* images */,
-				112709BF14BBA1C200673DF8 /* Dog.h */,
 				112709A814BBA19C00673DF8 /* Supporting Files */,
 			);
 			path = "Dog Age";
