@@ -10,24 +10,40 @@
 #import <WebKit/WebKit.h>
 
 
-@interface Dog : NSObject 
+@interface Dog : NSObject <NSApplicationDelegate>
 {
     IBOutlet id answerField;
     IBOutlet id numberField;
+    IBOutlet id numberField2;
     IBOutlet id typeField;
+    IBOutlet id typeField2;
     
     IBOutlet id alertField;
     IBOutlet id errorSheet;
     
-    IBOutlet id MainWindow;
+    IBOutlet id window;
     IBOutlet id CalcText;
     IBOutlet id aButton;
+    IBOutlet id aButton2;
+    
     IBOutlet id webView;
     IBOutlet NSProgressIndicator *myProgress;
+    IBOutlet NSProgressIndicator *myProgress2;
 }
+
+@property (assign) IBOutlet NSView *topView;
+@property (assign) IBOutlet NSView *view;
+@property (assign) IBOutlet NSView *secondView;
+
+
 - (IBAction)calculateAnswer:(id)sender;
 - (IBAction)isError:(id)sender;
 - (IBAction)doneError:(id)sender;
 - (IBAction)changeOperation:(id)sender;
 - (IBAction)changeAge:(id)sender;
+
+- (IBAction)showflip:(id)sender;
+- (IBAction)hideflip:(id)sender;
+
+
 @end

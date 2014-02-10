@@ -402,6 +402,124 @@
             document.getElementById('legend').style.opacity= 0;
             document.getElementById('declare').innerHTML= '';
         }
+   
+   function loadChicken() {
+       
+       var farm = 10;
+       var wild = 5;
+       var offfarm = 19;
+       var people = 80;
+       
+       var total = farm + wild + offfarm + people;
+       
+       var farmedRabbit = (farm / total) * 100;
+       var wildRabbit = (wild / total) * 100;
+       var peopleYear = (people / total) * 100;
+       var offthefarm = (offfarm / total) * 100;
+       
+       document.getElementById('one').style.width= farmedRabbit + '%';
+       document.getElementById('two').style.width= wildRabbit + '%';
+       document.getElementById('four').style.width= peopleYear + '%';
+       document.getElementById('three').style.width= offthefarm + '%';
+       document.getElementById('four').style.paddingLeft= 2 + 'px';
+       document.getElementById('legend').style.opacity= 1;
+       document.getElementById('cont3').style.width= 25 + '%';
+       document.getElementById('cont7').style.width= 25 + '%';
+       document.getElementById('cont1').style.width= 25 + '%';
+       document.getElementById('cont2').style.width= 25 + '%';
+       document.getElementById('cont4').style.width= 25 + '%';
+       document.getElementById('cont5').style.width= 25 + '%';
+       document.getElementById('cont6').style.width= 25 + '%';
+       document.getElementById('cont8').style.width= 25 + '%';
+       document.getElementById('one-leg-text').innerHTML= 'Farm';
+       document.getElementById('two-leg-text').innerHTML= 'Wild';
+       document.getElementById('three-leg-text').innerHTML= 'Pet';
+       document.getElementById('people-text').innerHTML= 'People';
+       document.getElementById('one-leg-text1').innerHTML= '10 yrs';
+       document.getElementById('two-leg-text1').innerHTML= '5 yrs';
+       document.getElementById('three-leg-text1').innerHTML= '19 yrs';
+       document.getElementById('people-text1').innerHTML= '80 yrs';
+       document.getElementById('declare').innerHTML= 'chicken';
+   }
+    
+    function loadDuck() {
+        
+        var farm = 10;
+        var wild = 18;
+        var offfarm = 7;
+        var people = 80;
+        
+        var total = farm + wild + offfarm + people;
+        
+        var farmedRabbit = (farm / total) * 100;
+        var wildRabbit = (wild / total) * 100;
+        var peopleYear = (people / total) * 100;
+        var offthefarm = (offfarm / total) * 100;
+        
+        document.getElementById('one').style.width= farmedRabbit + '%';
+        document.getElementById('two').style.width= wildRabbit + '%';
+        document.getElementById('four').style.width= peopleYear + '%';
+        document.getElementById('three').style.width= offthefarm + '%';
+        document.getElementById('four').style.paddingLeft= 2 + 'px';
+        document.getElementById('legend').style.opacity= 1;
+        document.getElementById('cont3').style.width= 25 + '%';
+        document.getElementById('cont7').style.width= 25 + '%';
+        document.getElementById('cont1').style.width= 25 + '%';
+        document.getElementById('cont2').style.width= 25 + '%';
+        document.getElementById('cont4').style.width= 25 + '%';
+        document.getElementById('cont5').style.width= 25 + '%';
+        document.getElementById('cont6').style.width= 25 + '%';
+        document.getElementById('cont8').style.width= 25 + '%';
+        document.getElementById('one-leg-text').innerHTML= 'Farm';
+        document.getElementById('two-leg-text').innerHTML= 'Wild';
+        document.getElementById('three-leg-text').innerHTML= 'Pet';
+        document.getElementById('people-text').innerHTML= 'People';
+        document.getElementById('one-leg-text1').innerHTML= '10 yrs';
+        document.getElementById('two-leg-text1').innerHTML= '18 yrs';
+        document.getElementById('three-leg-text1').innerHTML= '7 yrs';
+        document.getElementById('people-text1').innerHTML= '80 yrs';
+        document.getElementById('declare').innerHTML= 'duck';
+    }
+
+    
+    function loadRabbit() {
+        
+        var farm = 10;
+        var wild = 5;
+        var offfarm = 10;
+        var people = 80;
+        
+        var total = farm + wild + offfarm + people;
+        
+        var farmedRabbit = (farm / total) * 100;
+        var wildRabbit = (wild / total) * 100;
+        var peopleYear = (people / total) * 100;
+        var offthefarm = (offfarm / total) * 100;
+        
+        document.getElementById('one').style.width= farmedRabbit + '%';
+        document.getElementById('two').style.width= wildRabbit + '%';
+        document.getElementById('four').style.width= peopleYear + '%';
+        document.getElementById('three').style.width= offthefarm + '%';
+        document.getElementById('four').style.paddingLeft= 2 + 'px';
+        document.getElementById('legend').style.opacity= 1;
+        document.getElementById('cont3').style.width= 25 + '%';
+        document.getElementById('cont7').style.width= 25 + '%';
+        document.getElementById('cont1').style.width= 25 + '%';
+        document.getElementById('cont2').style.width= 25 + '%';
+        document.getElementById('cont4').style.width= 25 + '%';
+        document.getElementById('cont5').style.width= 25 + '%';
+        document.getElementById('cont6').style.width= 25 + '%';
+        document.getElementById('cont8').style.width= 25 + '%';
+        document.getElementById('one-leg-text').innerHTML= 'Farm';
+        document.getElementById('two-leg-text').innerHTML= 'Wild';
+        document.getElementById('three-leg-text').innerHTML= 'Pet';
+        document.getElementById('people-text').innerHTML= 'People';
+        document.getElementById('one-leg-text1').innerHTML= '10 yrs';
+        document.getElementById('two-leg-text1').innerHTML= '5 yrs';
+        document.getElementById('three-leg-text1').innerHTML= '12 yrs';
+        document.getElementById('people-text1').innerHTML= '80 yrs';
+        document.getElementById('declare').innerHTML= 'rabbit';
+    }
 
         function loadCow() {
             
@@ -564,6 +682,39 @@
             }
             
         }
+    function loadRabbitData(){
+        
+        if(document.getElementById('declare').innerHTML == 'rabbit'){
+            
+        } else {
+            reset();
+            setTimeout(function(){loadRabbit();}, 1250);
+        }
+        
+    }
+        
+        function loadDuckData(){
+            
+            if(document.getElementById('declare').innerHTML == 'duck'){
+                
+            } else {
+                reset();
+                setTimeout(function(){loadDuck();}, 1250);
+            }
+        
+    }
+    
+    
+    function loadChickenData(){
+        
+        if(document.getElementById('declare').innerHTML == 'chicken'){
+            
+        } else {
+            reset();
+            setTimeout(function(){loadChicken();}, 1250);
+        }
+        
+    }
     </script>
 </head>
 

@@ -9,6 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface WindowController : NSWindowController{
+    
+    IBOutlet id errorSheet;
+    IBOutlet id window;
+    
 @private
     
 }

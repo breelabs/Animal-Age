@@ -70,6 +70,8 @@
 		FC0C0896181D1BD600E34270 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C0892181D1BD600E34270 /* NSString+SymlinksAndAliases.m */; };
 		FC0C0897181D1BD600E34270 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C0894181D1BD600E34270 /* PFMoveApplication.m */; };
 		FC0C0898181D1BD600E34270 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C0894181D1BD600E34270 /* PFMoveApplication.m */; };
+		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
 		FC7D32D116DC704500689DC8 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CC16DC704500689DC8 /* INAppStoreWindow.m */; };
 		FC7D32D216DC704500689DC8 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CE16DC704500689DC8 /* INWindowButton.m */; };
 		FC7D32D316DC704500689DC8 /* NSColor+INAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32D016DC704500689DC8 /* NSColor+INAdditions.m */; };
@@ -97,6 +99,12 @@
 		FCDAAFF8181DB14A000128E1 /* MainMenuWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCDAAFF6181DB14A000128E1 /* MainMenuWeb.xib */; };
 		FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FCDAAFFC181DB207000128E1 /* dsa_pub.pem */; };
 		FCDB2E1817F84D610073D269 /* iTunesArtwork@2x.icns in Resources */ = {isa = PBXBuildFile; fileRef = FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */; };
+		FCFC922518A8408E0089176C /* rabbit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922218A8408E0089176C /* rabbit-icon.png */; };
+		FCFC922618A8408E0089176C /* rabbit-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922218A8408E0089176C /* rabbit-icon.png */; };
+		FCFC922718A8408E0089176C /* duck-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922318A8408E0089176C /* duck-icon.png */; };
+		FCFC922818A8408E0089176C /* duck-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922318A8408E0089176C /* duck-icon.png */; };
+		FCFC922918A8408E0089176C /* chicken-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922418A8408E0089176C /* chicken-icon.png */; };
+		FCFC922A18A8408E0089176C /* chicken-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFC922418A8408E0089176C /* chicken-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +142,7 @@
 		FC0C0892181D1BD600E34270 /* NSString+SymlinksAndAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SymlinksAndAliases.m"; sourceTree = "<group>"; };
 		FC0C0893181D1BD600E34270 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
 		FC0C0894181D1BD600E34270 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
+		FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC71CF90181A5C5000A33BC3 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Animal Age.entitlements"; path = "Animal Age/Animal Age.entitlements"; sourceTree = "<group>"; };
 		FC7D32CB16DC704500689DC8 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
 		FC7D32CC16DC704500689DC8 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
@@ -164,6 +173,9 @@
 		FCDAAFF7181DB14A000128E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenuWeb.xib; sourceTree = "<group>"; };
 		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iTunesArtwork@2x.icns"; sourceTree = "<group>"; };
+		FCFC922218A8408E0089176C /* rabbit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rabbit-icon.png"; sourceTree = "<group>"; };
+		FCFC922318A8408E0089176C /* duck-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duck-icon.png"; sourceTree = "<group>"; };
+		FCFC922418A8408E0089176C /* chicken-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */,
 				111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */,
 				112709A214BBA19C00673DF8 /* Cocoa.framework in Frameworks */,
@@ -181,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
 				FC0C0862181D1A7E00E34270 /* WebKit.framework in Frameworks */,
 				FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */,
@@ -215,6 +229,7 @@
 		112709A014BBA19C00673DF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */,
 				FCC944C8182FC31F00C52379 /* Sparkle.framework */,
 				FCDAAFF3181D1D11000128E1 /* Security.framework */,
 				111AECBD14BF842F00653A12 /* WebKit.framework */,
@@ -274,6 +289,9 @@
 		11713AFD14BEA43B00F5CC37 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FCFC922218A8408E0089176C /* rabbit-icon.png */,
+				FCFC922318A8408E0089176C /* duck-icon.png */,
+				FCFC922418A8408E0089176C /* chicken-icon.png */,
 				111AECB414BF7F4D00653A12 /* winback.png */,
 				111AECB114BF7D2000653A12 /* refresh.png */,
 				1195259614BF7B940015F78D /* cat-icon.png */,
@@ -443,6 +461,7 @@
 				111AECB514BF7F4D00653A12 /* winback.png in Resources */,
 				11C3EE8314BF8754003C96AE /* index.html in Resources */,
 				FCB87A7717F75F2400095753 /* Images.xcassets in Resources */,
+				FCFC922518A8408E0089176C /* rabbit-icon.png in Resources */,
 				FC7D32E916DC847300689DC8 /* close-active-color.tiff in Resources */,
 				FC7D32EA16DC847300689DC8 /* close-activenokey-color.tiff in Resources */,
 				FC7D32EB16DC847300689DC8 /* close-inactive-disabled-color.tiff in Resources */,
@@ -457,8 +476,10 @@
 				FC7D32F416DC847300689DC8 /* zoom-activenokey-color.tiff in Resources */,
 				FC7D32F516DC847300689DC8 /* zoom-inactive-disabled-color.tiff in Resources */,
 				FC7D32F616DC847300689DC8 /* zoom-pd-color.tiff in Resources */,
+				FCFC922718A8408E0089176C /* duck-icon.png in Resources */,
 				FC7D32F716DC847300689DC8 /* zoom-rollover-color.tiff in Resources */,
 				FCDB2E1817F84D610073D269 /* iTunesArtwork@2x.icns in Resources */,
+				FCFC922918A8408E0089176C /* chicken-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,12 +494,14 @@
 				FC0C0869181D1A7E00E34270 /* jquery-1.7.1.min.js in Resources */,
 				FC0C086A181D1A7E00E34270 /* cat-icon.png in Resources */,
 				FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */,
+				FCFC922818A8408E0089176C /* duck-icon.png in Resources */,
 				FC0C086B181D1A7E00E34270 /* arrows.png in Resources */,
 				FC0C086C181D1A7E00E34270 /* man.png in Resources */,
 				FC0C086D181D1A7E00E34270 /* top_bar.png in Resources */,
 				FC0C086E181D1A7E00E34270 /* dog-icon.png in Resources */,
 				FC0C086F181D1A7E00E34270 /* cow-icon.png in Resources */,
 				FC0C0870181D1A7E00E34270 /* refresh.png in Resources */,
+				FCFC922A18A8408E0089176C /* chicken-icon.png in Resources */,
 				FC0C0871181D1A7E00E34270 /* winback.png in Resources */,
 				FC0C0872181D1A7E00E34270 /* index.html in Resources */,
 				FC0C0874181D1A7E00E34270 /* Images.xcassets in Resources */,
@@ -492,6 +515,7 @@
 				FC0C0882181D1A7E00E34270 /* minimize-activenokey-color.tiff in Resources */,
 				FC0C0883181D1A7E00E34270 /* minimize-inactive-disabled-color.tiff in Resources */,
 				FC0C0884181D1A7E00E34270 /* minimize-pd-color.tiff in Resources */,
+				FCFC922618A8408E0089176C /* rabbit-icon.png in Resources */,
 				FC0C0885181D1A7E00E34270 /* minimize-rollover-color.tiff in Resources */,
 				FC0C0886181D1A7E00E34270 /* zoom-active-color.tiff in Resources */,
 				FC0C0887181D1A7E00E34270 /* zoom-activenokey-color.tiff in Resources */,
@@ -652,7 +676,7 @@
 				INFOPLIST_FILE = "Dog Age/Dog Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0744840C-DBD8-4315-9837-457DBC777136";
+				PROVISIONING_PROFILE = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -671,8 +695,8 @@
 				INFOPLIST_FILE = "Dog Age/Dog Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0744840C-DBD8-4315-9837-457DBC777136";
-				"PROVISIONING_PROFILE[sdk=macosx*]" = "0744840C-DBD8-4315-9837-457DBC777136";
+				PROVISIONING_PROFILE = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
+				"PROVISIONING_PROFILE[sdk=macosx*]" = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

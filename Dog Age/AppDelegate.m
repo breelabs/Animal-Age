@@ -11,8 +11,9 @@
 #import "INWindowButton.h"
 #import "PFMoveApplication.h"
 
+
 @implementation AppDelegate
-@synthesize popover, popcalc;
+@synthesize popover, popcalc, topView, view, poprevcalc, window;
 
 
 
@@ -24,7 +25,15 @@
 - (IBAction)showCalc:(id)sender {
     
     [[self popcalc] showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
+    
+    
 }
+
+- (IBAction)showrevCalc:(id)sender {
+    
+    [[self poprevcalc] showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
+}
+
 
 - (void)dealloc
 {
@@ -67,7 +76,11 @@
     [self setupMinimizeButton];
     [self setupZoomButton];
     
+    #ifdef WEBSITE
+    
     PFMoveToApplicationsFolderIfNecessary();
+    
+    #endif
 }
 
 - (void)setupCloseButton {
@@ -102,7 +115,16 @@ return YES;
 }
 
 - (void)awakeFromNib {
+        
+[view addSubview:topView];
 
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setBool:NO forKey:@"flipPref"];
+    NSString*  flipin = [defaults objectForKey:@"flipPref"];
+    int flipValue = [flipin doubleValue];
+    
+    NSLog(@"Flip Status: %d", flipValue);
+    
     
 NSString *path1 = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
 NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringEncoding error:nil];
@@ -110,16 +132,21 @@ NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringE
 [[graphView mainFrame] loadHTMLString:html baseURL:[[NSBundle mainBundle] resourceURL]];
 [graphView setDrawsBackground:NO]; 
    
-[MainWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"winback.png"]]];
+[window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"winback.png"]]];
 [graphView setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"winback.png"]]];
     
 NSImage *arrows = [NSImage imageNamed:@"arrows.png"];
 
-[arrowImage setImage: arrows];
+    [arrowImage setImage: arrows];
+    [arrowImage setAlternateImage: arrows] ;
+    [arrowImage2 setImage: arrows];
+    [arrowImage2 setAlternateImage: arrows] ;
     
 NSImage *dogIcon = [NSImage imageNamed:@"dog-icon.png"];
-[aButton setImage: dogIcon] ;
-[aButton setAlternateImage: dogIcon] ;
+    [aButton setImage: dogIcon] ;
+    [aButton setAlternateImage: dogIcon] ;
+    [aButton2 setImage: dogIcon] ;
+    [aButton2 setAlternateImage: dogIcon] ;
     
 [[TxtShddow cell] setBackgroundStyle:NSBackgroundStyleRaised];
 [[TxtShddow2 cell] setBackgroundStyle:NSBackgroundStyleRaised];
