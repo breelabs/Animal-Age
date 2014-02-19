@@ -10,7 +10,7 @@
 #import "WindowController.h"
 #import "INWindowButton.h"
 #import "PFMoveApplication.h"
-
+#import "topBar.h"
 
 @implementation AppDelegate
 @synthesize popover, popcalc, topView, view, poprevcalc, window;
@@ -115,8 +115,21 @@ return YES;
 }
 
 - (void)awakeFromNib {
-        
-[view addSubview:topView];
+
+    [topView setStartingColor:
+     [NSColor colorWithDeviceRed:0.84 green:0.82 blue:0.82 alpha:1.0]];
+    [topView setEndingColor:
+     [NSColor colorWithDeviceRed:0.47 green:0.47 blue:0.47 alpha:1.0]];
+    [topView setAngle:270];
+    
+    
+    [secondView setStartingColor:
+     [NSColor colorWithDeviceRed:0.84 green:0.82 blue:0.82 alpha:1.0]];
+    [secondView setEndingColor:
+     [NSColor colorWithDeviceRed:0.47 green:0.47 blue:0.47 alpha:1.0]];
+    [secondView setAngle:270];
+    
+    [view addSubview:topView];
 
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:NO forKey:@"flipPref"];
@@ -132,8 +145,8 @@ NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringE
 [[graphView mainFrame] loadHTMLString:html baseURL:[[NSBundle mainBundle] resourceURL]];
 [graphView setDrawsBackground:NO]; 
    
-[window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"winback.png"]]];
-[graphView setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"winback.png"]]];
+[window setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
+[graphView setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
     
 NSImage *arrows = [NSImage imageNamed:@"arrows.png"];
 
