@@ -22,14 +22,12 @@
 	<string>2.0.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>4</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.reference</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.8</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 JBD. All rights reserved.</string>
+	<string>Copyright © 2014 JBD. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
