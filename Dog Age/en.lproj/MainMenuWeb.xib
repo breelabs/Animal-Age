@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1090" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
@@ -427,6 +427,24 @@
                                     <action selector="showHelp:" target="-1" id="493"/>
                                 </connections>
                             </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Rpa-xy-4Wg">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Submit a support request..." id="xaL-lG-CGp">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForSupport:" target="iSf-RE-Yrn" id="fBM-0U-i0K"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Submit a feature request..." id="s0y-ra-jZK">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForFeature:" target="iSf-RE-Yrn" id="dfn-os-2kH"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Submit a bug report..." id="RzW-vI-nPW">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForBug:" target="iSf-RE-Yrn" id="jzM-kS-rX3"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
@@ -654,6 +672,7 @@ DQ
                 <outlet property="view" destination="wOI-iz-hAN" id="smT-0z-6HS"/>
             </connections>
         </viewController>
+        <customObject id="iSf-RE-Yrn" customClass="OpenFeedback"/>
         <popover behavior="t" id="nAd-pS-Y0h">
             <connections>
                 <outlet property="contentViewController" destination="Kl3-k2-VZh" id="j63-Me-iZP"/>

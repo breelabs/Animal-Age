@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4511" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1090" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4511"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3336"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="5056"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="WindowController">
@@ -547,7 +547,7 @@ DQ
             <rect key="frame" x="0.0" y="0.0" width="161" height="47"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <popUpButton identifier="types" verticalHuggingPriority="750" id="556">
+                <popUpButton identifier="types2" verticalHuggingPriority="750" id="556">
                     <rect key="frame" x="13" y="10" width="137" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <popUpButtonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" borderStyle="border" inset="2" id="557">
@@ -608,12 +608,7 @@ DQ
                     <rect key="frame" x="100" y="17" width="43" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="551">
-                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="0" maximumFractionDigits="3" id="552">
-                            <real key="roundingIncrement" value="0.0"/>
-                            <metadata>
-                                <bool key="localizesFormat" value="YES"/>
-                            </metadata>
-                        </numberFormatter>
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="552"/>
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -723,7 +718,7 @@ DQ
                     </connections>
                 </button>
                 <button focusRingType="none" id="675">
-                    <rect key="frame" x="224" y="2" width="39" height="32"/>
+                    <rect key="frame" x="224" y="4" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="refresh" imagePosition="overlaps" alignment="center" alternateImage="refresh" focusRingType="none" inset="2" id="676">
                         <behavior key="behavior" lightByContents="YES"/>
@@ -776,7 +771,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                     </buttonCell>
                 </button>
                 <button focusRingType="none" id="pRF-qq-quu">
-                    <rect key="frame" x="42" y="7" width="25" height="25"/>
+                    <rect key="frame" x="42" y="8" width="25" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="overlaps" alignment="center" focusRingType="none" inset="2" id="9dY-ia-4r7">
                         <behavior key="behavior" lightByContents="YES"/>
@@ -787,7 +782,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                     </connections>
                 </button>
                 <button focusRingType="none" id="3NI-bv-lR9">
-                    <rect key="frame" x="224" y="2" width="39" height="32"/>
+                    <rect key="frame" x="224" y="4" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="refresh" imagePosition="overlaps" alignment="center" alternateImage="refresh" focusRingType="none" inset="2" id="U06-8c-dOp">
                         <behavior key="behavior" lightByContents="YES"/>
@@ -808,7 +803,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                         <action selector="showrevCalc:" target="494" id="CCw-GC-52e"/>
                     </connections>
                 </button>
-                <progressIndicator identifier="myProgress" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Tgr-Hy-7Lt">
+                <progressIndicator identifier="myProgress2" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Tgr-Hy-7Lt">
                     <rect key="frame" x="124" y="11" width="16" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </progressIndicator>
@@ -886,12 +881,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                     <rect key="frame" x="104" y="10" width="43" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="8rp-P5-28G">
-                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="0" maximumFractionDigits="3" id="Pb5-vY-Gam">
-                            <real key="roundingIncrement" value="0.0"/>
-                            <metadata>
-                                <bool key="localizesFormat" value="YES"/>
-                            </metadata>
-                        </numberFormatter>
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="Pb5-vY-Gam"/>
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

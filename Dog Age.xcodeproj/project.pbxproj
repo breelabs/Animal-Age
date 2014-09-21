@@ -17,7 +17,6 @@
 		112709AE14BBA19C00673DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112709AD14BBA19C00673DF8 /* main.m */; };
 		112709B214BBA19C00673DF8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
 		112709B514BBA19C00673DF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112709B414BBA19C00673DF8 /* AppDelegate.m */; };
-		112709B814BBA19D00673DF8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112709B614BBA19D00673DF8 /* MainMenu.xib */; };
 		112709C014BBA1C200673DF8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 112709BE14BBA1C200673DF8 /* Dog.m */; };
 		1142291614BFEE8400B001E3 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1142291414BFE9D900B001E3 /* jquery-1.7.1.min.js */; };
 		1195259A14BF7B940015F78D /* cat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195259614BF7B940015F78D /* cat-icon.png */; };
@@ -37,7 +36,6 @@
 		FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112709A114BBA19C00673DF8 /* Cocoa.framework */; };
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
-		FC0C0867181D1A7E00E34270 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112709B614BBA19D00673DF8 /* MainMenu.xib */; };
 		FC0C0869181D1A7E00E34270 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1142291414BFE9D900B001E3 /* jquery-1.7.1.min.js */; };
 		FC0C086A181D1A7E00E34270 /* cat-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195259614BF7B940015F78D /* cat-icon.png */; };
 		FC0C086B181D1A7E00E34270 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195259714BF7B940015F78D /* arrows.png */; };
@@ -69,6 +67,9 @@
 		FC0C0897181D1BD600E34270 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C0894181D1BD600E34270 /* PFMoveApplication.m */; };
 		FC0C0898181D1BD600E34270 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C0894181D1BD600E34270 /* PFMoveApplication.m */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC4B888918C44D350020E657 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4B888818C44D350020E657 /* OpenFeedback.framework */; };
+		FC4B888A18C44D460020E657 /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4B888818C44D350020E657 /* OpenFeedback.framework */; };
+		FC4B888C18C452050020E657 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B888B18C452050020E657 /* MainMenu.xib */; };
 		FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
 		FC7D32D116DC704500689DC8 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CC16DC704500689DC8 /* INAppStoreWindow.m */; };
 		FC7D32D216DC704500689DC8 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CE16DC704500689DC8 /* INWindowButton.m */; };
@@ -123,7 +124,6 @@
 		112709B114BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		112709B314BBA19C00673DF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		112709B414BBA19C00673DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		112709B714BBA19D00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		112709BE14BBA1C200673DF8 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		112709BF14BBA1C200673DF8 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		1142291414BFE9D900B001E3 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.1.min.js"; sourceTree = "<group>"; };
@@ -139,6 +139,8 @@
 		FC0C0892181D1BD600E34270 /* NSString+SymlinksAndAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SymlinksAndAliases.m"; sourceTree = "<group>"; };
 		FC0C0893181D1BD600E34270 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
 		FC0C0894181D1BD600E34270 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
+		FC4B888818C44D350020E657 /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenFeedback.framework; path = "../../BeFit 3.4/OpenFeedback.framework"; sourceTree = "<group>"; };
+		FC4B888B18C452050020E657 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
 		FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC71CF90181A5C5000A33BC3 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Animal Age.entitlements"; path = "Animal Age/Animal Age.entitlements"; sourceTree = "<group>"; };
 		FC7D32CB16DC704500689DC8 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
@@ -169,7 +171,7 @@
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCDAAFF7181DB14A000128E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenuWeb.xib; sourceTree = "<group>"; };
 		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
-		FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "iTunesArtwork@2x.icns"; sourceTree = "<group>"; };
+		FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "iTunesArtwork@2x.icns"; path = "../iTunesArtwork@2x.icns"; sourceTree = "<group>"; };
 		FCFC922218A8408E0089176C /* rabbit-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rabbit-icon.png"; sourceTree = "<group>"; };
 		FCFC922318A8408E0089176C /* duck-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duck-icon.png"; sourceTree = "<group>"; };
 		FCFC922418A8408E0089176C /* chicken-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken-icon.png"; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4B888918C44D350020E657 /* OpenFeedback.framework in Frameworks */,
 				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
 				FC0C0862181D1A7E00E34270 /* WebKit.framework in Frameworks */,
@@ -206,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				FC71CF90181A5C5000A33BC3 /* Animal Age.entitlements */,
-				FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */,
 				FCB87A7617F75F2400095753 /* Images.xcassets */,
 				112709A714BBA19C00673DF8 /* Dog Age */,
 				112709A014BBA19C00673DF8 /* Frameworks */,
@@ -226,6 +228,7 @@
 		112709A014BBA19C00673DF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC4B888818C44D350020E657 /* OpenFeedback.framework */,
 				FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */,
 				FCC944C8182FC31F00C52379 /* Sparkle.framework */,
 				FCDAAFF3181D1D11000128E1 /* Security.framework */,
@@ -249,7 +252,6 @@
 		112709A714BBA19C00673DF8 /* Dog Age */ = {
 			isa = PBXGroup;
 			children = (
-				FCDAAFFC181DB207000128E1 /* dsa_pub.pem */,
 				FCEFEABC18B16F93008B33B8 /* Classes */,
 				FC7D32F816DC847A00689DC8 /* resources */,
 				11C3EE8514BF9C77003C96AE /* htdocs */,
@@ -307,7 +309,9 @@
 		FC7D32F816DC847A00689DC8 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				112709B614BBA19D00673DF8 /* MainMenu.xib */,
+				FCDB2E1717F84D610073D269 /* iTunesArtwork@2x.icns */,
+				FCDAAFFC181DB207000128E1 /* dsa_pub.pem */,
+				FC4B888B18C452050020E657 /* MainMenu.xib */,
 				FCDAAFF6181DB14A000128E1 /* MainMenuWeb.xib */,
 				FCFC922218A8408E0089176C /* rabbit-icon.png */,
 				FCFC922318A8408E0089176C /* duck-icon.png */,
@@ -453,7 +457,6 @@
 			files = (
 				112709AC14BBA19C00673DF8 /* InfoPlist.strings in Resources */,
 				112709B214BBA19C00673DF8 /* Credits.rtf in Resources */,
-				112709B814BBA19D00673DF8 /* MainMenu.xib in Resources */,
 				1142291614BFEE8400B001E3 /* jquery-1.7.1.min.js in Resources */,
 				1195259A14BF7B940015F78D /* cat-icon.png in Resources */,
 				1195259C14BF7B940015F78D /* arrows.png in Resources */,
@@ -475,6 +478,7 @@
 				FC7D32F016DC847300689DC8 /* minimize-inactive-disabled-color.tiff in Resources */,
 				FC7D32F116DC847300689DC8 /* minimize-pd-color.tiff in Resources */,
 				FC7D32F216DC847300689DC8 /* minimize-rollover-color.tiff in Resources */,
+				FC4B888C18C452050020E657 /* MainMenu.xib in Resources */,
 				FC7D32F316DC847300689DC8 /* zoom-active-color.tiff in Resources */,
 				FC7D32F416DC847300689DC8 /* zoom-activenokey-color.tiff in Resources */,
 				FC7D32F516DC847300689DC8 /* zoom-inactive-disabled-color.tiff in Resources */,
@@ -490,10 +494,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4B888A18C44D460020E657 /* OpenFeedback.framework in Resources */,
 				FCC944CA182FC33900C52379 /* Sparkle.framework in Resources */,
 				FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */,
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
-				FC0C0867181D1A7E00E34270 /* MainMenu.xib in Resources */,
 				FC0C0869181D1A7E00E34270 /* jquery-1.7.1.min.js in Resources */,
 				FC0C086A181D1A7E00E34270 /* cat-icon.png in Resources */,
 				FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */,
@@ -584,14 +588,6 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		112709B614BBA19D00673DF8 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				112709B714BBA19D00673DF8 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		FCDAAFF6181DB14A000128E1 /* MainMenuWeb.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -669,8 +665,8 @@
 			buildSettings = {
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CODE_SIGN_ENTITLEMENTS = "Animal Age/Animal Age.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jonathan Brown (2D4Z7WQ7RS)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Jonathan Brown (2D4Z7WQ7RS)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
@@ -678,7 +674,7 @@
 				INFOPLIST_FILE = "Dog Age/Dog Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
+				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -688,8 +684,8 @@
 			buildSettings = {
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CODE_SIGN_ENTITLEMENTS = "Animal Age/Animal Age.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Jonathan Brown (2D4Z7WQ7RS)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application: Jonathan Brown (2D4Z7WQ7RS)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
@@ -697,8 +693,8 @@
 				INFOPLIST_FILE = "Dog Age/Dog Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
-				"PROVISIONING_PROFILE[sdk=macosx*]" = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
+				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
+				"PROVISIONING_PROFILE[sdk=macosx*]" = "AD05D771-874A-4592-8E62-6EA881A55870";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -714,6 +710,7 @@
 					"$(inherited)",
 					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/Dog\\ Age\\ 1/DogAge",
 					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/Dog\\ Age\\ 1/DogAge",
+					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit\\ 3.4",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
@@ -730,7 +727,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Animal Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Animal Age";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -746,6 +743,7 @@
 					"$(inherited)",
 					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/Dog\\ Age\\ 1/DogAge",
 					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/Dog\\ Age\\ 1/DogAge",
+					"/Volumes/Storage/Client\\ Files/Cocoa\\ Projects/Complete\\ Projects/BeFit\\ 3.4",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
@@ -754,8 +752,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Animal Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Animal Age";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=macosx*]" = "999A25ED-E76F-40BB-A0B9-4FDF2E777D65";
+				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
+				"PROVISIONING_PROFILE[sdk=macosx*]" = "AD05D771-874A-4592-8E62-6EA881A55870";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
