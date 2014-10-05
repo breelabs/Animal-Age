@@ -10,29 +10,29 @@
 	<string>Dog Age</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>577C22EB-B969-456F-95F1-8B77B1E06633</key>
+		<key>4F9896148691482E8E839112F6EFAA34B358DCF6</key>
 		<string>https://github.com/jonbrown21/DogAge.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Dog Age.xcodeproj/project.xcworkspace</string>
+	<string>Dog Age.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>577C22EB-B969-456F-95F1-8B77B1E06633</key>
+		<key>4F9896148691482E8E839112F6EFAA34B358DCF6</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jonbrown21/DogAge.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>577C22EB-B969-456F-95F1-8B77B1E06633</string>
+	<string>4F9896148691482E8E839112F6EFAA34B358DCF6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>577C22EB-B969-456F-95F1-8B77B1E06633</string>
+			<string>4F9896148691482E8E839112F6EFAA34B358DCF6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DogAge</string>
 		</dict>

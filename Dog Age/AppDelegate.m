@@ -44,37 +44,23 @@
 {
     // Insert code here to initialize your application
     
-    self.window.showsTitle = YES;
-    self.window.titleTextColor = [NSColor whiteColor];
-    self.window.showsBaselineSeparator = NO;
+
+    self.window.title = @"Animal Age";
+    self.window.showsTitle = NO;
+    self.window.titleTextColor = [NSColor clearColor];
+    self.window.showsBaselineSeparator = YES;
     self.window.titleBarHeight = 25.0;
     self.window.trafficLightButtonsLeftMargin = 7.0;
     self.window.trafficLightButtonsTopMargin = 0;
-    self.window.titleTextShadow = NO;
+    self.window.titleTextShadow = false;
     
-    self.window.titleBarDrawingBlock = ^(BOOL drawsAsMainWindow, CGRect drawingRect, CGPathRef clippingPath) {
-        CGContextRef ctx = [[NSGraphicsContext currentContext] graphicsPort];
-        CGContextAddPath(ctx, clippingPath);
-        CGContextClip(ctx);
-        
-        NSGradient *gradient = nil;
-        if (drawsAsMainWindow) {
-            gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedRed:0 green:0 blue:0 alpha:1]
-                                                     endingColor:[NSColor colorWithCalibratedRed:.3 green:.3 blue:.3 alpha:.7]];
-            [[NSColor darkGrayColor] setFill];
-        } else {
-            // set the default non-main window gradient colors
-            gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.851f alpha:1]
-                                                     endingColor:[NSColor colorWithCalibratedWhite:0.929f alpha:1]];
-            [[NSColor colorWithCalibratedWhite:0.6f alpha:1] setFill];
-        }
-        [gradient drawInRect:drawingRect angle:90];
-        NSRectFill(NSMakeRect(NSMinX(drawingRect), NSMinY(drawingRect), NSWidth(drawingRect), 1));
-    };
+
     
-    [self setupCloseButton];
-    [self setupMinimizeButton];
-    [self setupZoomButton];
+//    [self setupCloseButton];
+//    [self setupMinimizeButton];
+//    [self setupZoomButton];
+    
+    [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
     
     #ifdef WEBSITE
     

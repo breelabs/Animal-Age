@@ -27,20 +27,10 @@
     return self;
 }
 
-- (void)drawRect:(NSRect)rect {
-    if (endingColor == nil || [startingColor isEqual:endingColor]) {
-        // Fill view with a standard background color
-        [startingColor set];
-        NSRectFill(rect);
-    }
-    else {
-        // Fill view with a top-down gradient
-        // from startingColor to endingColor
-        NSGradient* aGradient = [[NSGradient alloc]
-                                 initWithStartingColor:startingColor
-                                 endingColor:endingColor];
-        [aGradient drawInRect:[self bounds] angle:angle];
-    }
+- (void)drawRect:(NSRect)aRect
+{
+    [[NSColor colorWithDeviceRed:0.679 green:0.679 blue:0.679 alpha:1.0]  set];
+    NSRectFill([self bounds]);
 }
 
 
