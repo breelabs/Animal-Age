@@ -41,9 +41,10 @@
     [self.view setWantsLayer:YES]; // Turn on backing layer
     [self.view setAnimations:[NSDictionary dictionaryWithObject:animation forKey:@"subviews"]];
     
-    
     [[_view animator] replaceSubview:_topView with:_secondView];
     
+    [_secondView setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
+    [_secondView setNeedsDisplay:YES];
     
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
     [defaults setBool:YES forKey:@"flipPref"];
@@ -126,17 +127,17 @@
         if (num1 <= 0) {
             
             answer = 0;
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             
             [NSApp beginSheet:errorSheet modalForWindow:window
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
             
-        } else if (num1 > 200) {
+        } else if (num1 > 9999) {
             
             answer = 4;
             [numberField setStringValue:@"30"];
             [numberField2 setStringValue:@"30"];
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             [NSApp beginSheet:errorSheet modalForWindow:window
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
     
@@ -197,16 +198,16 @@
         if (num1 <= 0) {
             
             answer = 0;
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             [NSApp beginSheet:errorSheet modalForWindow:window 
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
             
-        } else if (num1 > 200) {
+        } else if (num1 > 9999) {
             
             answer = 4;
             [numberField setStringValue:@"30"];
             [numberField2 setStringValue:@"30"];
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             [NSApp beginSheet:errorSheet modalForWindow:window 
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
             
@@ -291,15 +292,15 @@
         if (num1 <= 0) {
             
             answer = 0;
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             [NSApp beginSheet:errorSheet modalForWindow:window 
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
             
-        } else if (num1 > 200) {
+        } else if (num1 > 9999) {
             
             answer = 4;
             [numberField setStringValue:@"30"];
-            [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+            [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
             [NSApp beginSheet:errorSheet modalForWindow:window 
                 modalDelegate:self didEndSelector:NULL contextInfo:nil];
             
@@ -349,15 +350,15 @@
     if (num1 <= 0) {
 
     answer = 0;
-    [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+    [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
     [NSApp beginSheet:errorSheet modalForWindow:window
     modalDelegate:self didEndSelector:NULL contextInfo:nil];
 
-    } else if (num1 > 200) {
+    } else if (num1 > 9999) {
 
     answer = 4;
     [numberField setStringValue:@"30"];
-    [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+    [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
     [NSApp beginSheet:errorSheet modalForWindow:window
     modalDelegate:self didEndSelector:NULL contextInfo:nil];
 
@@ -407,15 +408,15 @@
     if (num1 <= 0) {
         
         answer = 0;
-        [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+        [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
         [NSApp beginSheet:errorSheet modalForWindow:window
             modalDelegate:self didEndSelector:NULL contextInfo:nil];
         
-    } else if (num1 > 200) {
+    } else if (num1 > 9999) {
         
         answer = 4;
         [numberField setStringValue:@"30"];
-        [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+        [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
         [NSApp beginSheet:errorSheet modalForWindow:window
             modalDelegate:self didEndSelector:NULL contextInfo:nil];
         
@@ -465,15 +466,15 @@
     if (num1 <= 0) {
         
         answer = 0;
-        [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+        [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
         [NSApp beginSheet:errorSheet modalForWindow:window
             modalDelegate:self didEndSelector:NULL contextInfo:nil];
         
-    } else if (num1 > 200) {
+    } else if (num1 > 9999) {
         
         answer = 4;
         [numberField setStringValue:@"30"];
-        [alertField setStringValue:@"Please enter a value between 0 and 200 years."];
+        [alertField setStringValue:@"Please enter a value between 0 and 9999 years."];
         [NSApp beginSheet:errorSheet modalForWindow:window
             modalDelegate:self didEndSelector:NULL contextInfo:nil];
         
@@ -565,11 +566,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *dogIcon = [NSImage imageNamed:@"dog-icon.png"];
-            [aButton setImage: dogIcon] ;
-            [aButton setAlternateImage: dogIcon] ;
-            [aButton2 setImage: dogIcon] ;
-            [aButton2 setAlternateImage: dogIcon] ;
+            //NSImage *dogIcon = [NSImage imageNamed:@"doggie.png"];
+            [aButton setTitle: @"Dog"];
+            //[aButton setAlternateImage: dogIcon] ;
+            [aButton2 setTitle: @"Dog"];
+            //[aButton2 setAlternateImage: dogIcon] ;
             break;
         case 1:
             if (flipValue == 0 ) {
@@ -577,11 +578,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *catIcon = [NSImage imageNamed:@"cat-icon.png"];
-            [aButton setImage: catIcon] ;
-            [aButton setAlternateImage: catIcon] ;
-            [aButton2 setImage: catIcon] ;
-            [aButton2 setAlternateImage: catIcon] ;
+            //NSImage *catIcon = [NSImage imageNamed:@"cat-icon.png"];
+            [aButton setTitle: @"Cat"] ;
+            //[aButton setAlternateImage: catIcon] ;
+            [aButton2 setTitle: @"Cat"] ;
+            //[aButton2 setAlternateImage: catIcon] ;
             break;
         case 2:
             if (flipValue == 0 ) {
@@ -589,11 +590,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *cowIcon = [NSImage imageNamed:@"cow-icon.png"];
-            [aButton setImage: cowIcon] ;
-            [aButton setAlternateImage: cowIcon] ;
-            [aButton2 setImage: cowIcon] ;
-            [aButton2 setAlternateImage: cowIcon] ;
+            //NSImage *cowIcon = [NSImage imageNamed:@"cow-icon.png"];
+            [aButton setTitle: @"Cow"] ;
+            //[aButton setAlternateImage: cowIcon] ;
+            [aButton2 setTitle: @"Cow"] ;
+            //[aButton2 setAlternateImage: cowIcon] ;
             break;
         case 3:
             if (flipValue == 0 ) {
@@ -601,11 +602,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *rabbitIcon = [NSImage imageNamed:@"rabbit-icon.png"];
-            [aButton setImage: rabbitIcon] ;
-            [aButton setAlternateImage: rabbitIcon] ;
-            [aButton2 setImage: rabbitIcon] ;
-            [aButton2 setAlternateImage: rabbitIcon] ;
+            //NSImage *rabbitIcon = [NSImage imageNamed:@"rabbit-icon.png"];
+            [aButton setTitle: @"Rabbit"] ;
+           // [aButton setAlternateImage: rabbitIcon] ;
+            [aButton2 setTitle: @"Rabbit"] ;
+            //[aButton2 setAlternateImage: rabbitIcon] ;
             break;
         case 4:
             if (flipValue == 0 ) {
@@ -613,11 +614,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *duckIcon = [NSImage imageNamed:@"duck-icon.png"];
-            [aButton setImage: duckIcon] ;
-            [aButton setAlternateImage: duckIcon] ;
-            [aButton2 setImage: duckIcon] ;
-            [aButton2 setAlternateImage: duckIcon] ;
+            //NSImage *duckIcon = [NSImage imageNamed:@"duck-icon.png"];
+             [aButton setTitle: @"Duck"] ;
+            //[aButton setAlternateImage: duckIcon] ;
+             [aButton2 setTitle: @"Duck"] ;
+            //[aButton2 setAlternateImage: duckIcon] ;
             break;
         case 5:
             if (flipValue == 0 ) {
@@ -625,11 +626,11 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             } else {
                 [CalcText setStringValue:@"Human Age"];
             }
-            NSImage *chickenIcon = [NSImage imageNamed:@"chicken-icon.png"];
-            [aButton setImage: chickenIcon] ;
-            [aButton setAlternateImage: chickenIcon] ;
-            [aButton2 setImage: chickenIcon] ;
-            [aButton2 setAlternateImage: chickenIcon] ;
+            //NSImage *chickenIcon = [NSImage imageNamed:@"chicken-icon.png"];
+            [aButton setTitle: @"Chicken"] ;
+            //[aButton setAlternateImage: chickenIcon] ;
+            [aButton2 setTitle: @"Chicken"] ;
+            //[aButton2 setAlternateImage: chickenIcon] ;
             break;
     }
     [myProgress startAnimation:self];

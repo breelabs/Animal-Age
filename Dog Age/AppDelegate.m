@@ -45,14 +45,14 @@
     // Insert code here to initialize your application
     
 
-    self.window.title = @"Animal Age";
-    self.window.showsTitle = NO;
-    self.window.titleTextColor = [NSColor clearColor];
-    self.window.showsBaselineSeparator = YES;
-    self.window.titleBarHeight = 25.0;
-    self.window.trafficLightButtonsLeftMargin = 7.0;
-    self.window.trafficLightButtonsTopMargin = 0;
-    self.window.titleTextShadow = false;
+//    self.window.title = @"Animal Age";
+//    self.window.showsTitle = YES;
+//    self.window.titleTextColor = [NSColor blackColor];
+//    self.window.showsBaselineSeparator = YES;
+//    self.window.titleBarHeight = 25.0;
+//    self.window.trafficLightButtonsLeftMargin = 7.0;
+//    self.window.trafficLightButtonsTopMargin = 0;
+//    self.window.titleTextShadow = false;
     
 
     
@@ -60,7 +60,7 @@
 //    [self setupMinimizeButton];
 //    [self setupZoomButton];
     
-    [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
+     [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
     
     #ifdef WEBSITE
     
@@ -134,18 +134,18 @@ NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringE
 [window setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
 [graphView setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
     
-NSImage *arrows = [NSImage imageNamed:@"arrows.png"];
+NSImage *arrows = [NSImage imageNamed:@"Opposite_Arrows@2x.png"];
 
     [arrowImage setImage: arrows];
     [arrowImage setAlternateImage: arrows] ;
     [arrowImage2 setImage: arrows];
     [arrowImage2 setAlternateImage: arrows] ;
     
-NSImage *dogIcon = [NSImage imageNamed:@"dog-icon.png"];
-    [aButton setImage: dogIcon] ;
-    [aButton setAlternateImage: dogIcon] ;
-    [aButton2 setImage: dogIcon] ;
-    [aButton2 setAlternateImage: dogIcon] ;
+//NSImage *dogIcon = [NSImage imageNamed:@"doggie.png"];
+    [aButton setTitle: @"Dog"] ;
+    //[aButton setAlternateImage: dogIcon] ;
+    [aButton2 setTitle:@"Dog"] ;
+    //[aButton2 setAlternateImage: dogIcon] ;
     
 [[TxtShddow cell] setBackgroundStyle:NSBackgroundStyleRaised];
 [[TxtShddow2 cell] setBackgroundStyle:NSBackgroundStyleRaised];

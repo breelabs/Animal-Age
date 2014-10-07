@@ -31,9 +31,9 @@
     IBOutlet NSProgressIndicator *myProgress2;
 }
 
-@property (assign) IBOutlet NSView *topView;
-@property (assign) IBOutlet NSView *view;
-@property (assign) IBOutlet NSView *secondView;
+@property (retain) IBOutlet NSView *topView;
+@property (retain) IBOutlet NSView *view;
+@property (retain) IBOutlet NSView *secondView;
 
 
 - (IBAction)calculateAnswer:(id)sender;

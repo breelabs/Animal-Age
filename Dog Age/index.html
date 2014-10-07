@@ -21,56 +21,23 @@
 	<style>
         html { min-height: 100%; }
         body {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #4B525F),
-            color-stop(1, #838C9E)
-            );
-            background-image: -o-linear-gradient(bottom, #4B525F 0%, #838C9E 100%);
-            background-image: -moz-linear-gradient(bottom, #4B525F 0%, #838C9E 100%);
-            background-image: -webkit-linear-gradient(bottom, #4B525F 0%, #838C9E 100%);
-            background-image: -ms-linear-gradient(bottom, #4B525F 0%, #838C9E 100%);
-            background-image: linear-gradient(to bottom, #4B525F 0%, #838C9E 100%);
+            background-color: #838C9E;
             cursor: default;
             -webkit-user-select: none;
             user-select: none;
         }
         #graphback {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #DEDEDE),
-            color-stop(1, #8D8D8D)
-            );
-            background-image: -o-linear-gradient(bottom, #DEDEDE 0%, #8D8D8D 100%);
-            background-image: -moz-linear-gradient(bottom, #DEDEDE 0%, #8D8D8D 100%);
-            background-image: -webkit-linear-gradient(bottom, #DEDEDE 0%, #8D8D8D 100%);
-            background-image: -ms-linear-gradient(bottom, #DEDEDE 0%, #8D8D8D 100%);
-            background-image: linear-gradient(to bottom, #DEDEDE 0%, #8D8D8D 100%);
+            background-color: #8D8D8D;
             height: 41px;
-            width: 237px;
-            position: absolute;
-            left: 13px;
-            top: 20px;
+            width: 99%;
+            position: relative;
+            top: 10px;
+            left: 3px;
             -webkit-border-radius: 4px;
             border-radius: 4px;
         }
         #one {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #FC8989),
-            color-stop(1, #B73131)
-            );
-            background-image: -o-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -moz-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -webkit-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -ms-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: linear-gradient(to bottom, #FC8989 0%, #B73131 100%);
+            background-color: #c0392b;
             height: 41px;
             border-radius: 3px 0px 0px 3px;            
             -webkit-border-radius: 3px 0px 0px 3px; 
@@ -78,52 +45,19 @@
             -webkit-transition: all 1s ease-in-out;
         }
         #two {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #D8C177),
-            color-stop(1, #B48423)
-            );
-            background-image: -o-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -moz-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -webkit-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -ms-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: linear-gradient(to bottom, #D8C177 0%, #B48423 100%);
+            background-color: #f39c12;
             height: 41px;
             float: left;
             -webkit-transition: all 1s ease-in-out;
         }
         #three {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #77D884),
-            color-stop(1, #409554)
-            );
-            background-image: -o-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -moz-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -webkit-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -ms-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: linear-gradient(to bottom, #77D884 0%, #409554 100%);
+            background-color: #27ae60;
             height: 41px;
             float: left;
             -webkit-transition: all 1s ease-in-out;
         }
         #four {
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #77A2D8),
-            color-stop(1, #3E5795)
-            );
-            background-image: -o-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -moz-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -webkit-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -ms-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: linear-gradient(to bottom, #77A2D8 0%, #3E5795 100%);
+            background-color: #2980b9;
             height: 41px;
             float: left;
             border-radius: 0px 3px 3px 0px;            
@@ -131,11 +65,11 @@
             -webkit-transition: all 1s ease-in-out;
         }
         #label {
-            height: 51px;
-            width: 247px;
-            position: absolute;
+            height: 8px;
+            width: 95%;
+            position: relative;
             left: 13px;
-            top: 5px;
+            top: 0px;
             font-family: arial;
             font-size: 10px;
             color: #fff;
@@ -143,37 +77,27 @@
             -webkit-user-select: none;
             user-select: none;
             cursor: default;
+            margin-bottom: 5px;
         }
         #legend {
             height: 51px;
-            width: 247px;
-            position: absolute;
-            left: 13px;
-            top: 70px;
+            width: 89%;
+            position: relative;
+            left: 5px;
+            top: 20px;
             font-family: arial;
             font-size: 10px;
             color: #fff;
-            text-align: center;
             opacity: 0;
              -webkit-transition: all 1s ease-in-out;
              cursor: default;
              user-select: none;
              -webkit-user-select: none;
+             margin-left: auto;
+             margin-right: auto;
         }
         #people {
-            
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #77A2D8),
-            color-stop(1, #3E5795)
-            );
-            background-image: -o-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -moz-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -webkit-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: -ms-linear-gradient(bottom, #77A2D8 0%, #3E5795 100%);
-            background-image: linear-gradient(to bottom, #77A2D8 0%, #3E5795 100%);
+            background-color: #2980b9;
             height: 10px;
             width: 10px;
             position: relative;
@@ -190,19 +114,7 @@
             border-radius: 50px;
         }
         #one-leg {
-            
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #FC8989),
-            color-stop(1, #B73131)
-            );
-            background-image: -o-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -moz-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -webkit-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: -ms-linear-gradient(bottom, #FC8989 0%, #B73131 100%);
-            background-image: linear-gradient(to bottom, #FC8989 0%, #B73131 100%);
+            background-color: #c0392b;
             height: 10px;
             width: 10px;
             position: relative;
@@ -219,19 +131,7 @@
             border-radius: 50px;
         }
         #two-leg {
-            
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #D8C177),
-            color-stop(1, #B48423)
-            );
-            background-image: -o-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -moz-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -webkit-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: -ms-linear-gradient(bottom, #D8C177 0%, #B48423 100%);
-            background-image: linear-gradient(to bottom, #D8C177 0%, #B48423 100%);
+            background-color: #f39c12;
             height: 10px;
             width: 10px;
             position: relative;
@@ -248,19 +148,7 @@
             border-radius: 50px;
         }
         #three-leg {
-            
-            background-image: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #77D884),
-            color-stop(1, #409554)
-            );
-            background-image: -o-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -moz-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -webkit-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: -ms-linear-gradient(bottom, #77D884 0%, #409554 100%);
-            background-image: linear-gradient(to bottom, #77D884 0%, #409554 100%);
+            background-color: #27ae60;
             height: 10px;
             width: 10px;
             position: relative;
@@ -286,18 +174,19 @@
         }
         #cont1 {
             
+            width: 25%;
             float: left;
         }
         #cont2 {
-            
+            width: 25%;
             float: left;
         }
         #cont3 {
-            
+            width: 25%;
             float: left;
         }
         #cont4 {
-            
+            width: 25%;
             float: left;
         }
         #cont5 {
@@ -339,7 +228,7 @@
         }
     
     function init() {
-        disableDraggingFor(document.getElementById("container"));
+        disableDraggingFor(document.getElementById("body"));
     }
     
     function disableDraggingFor(element) {
@@ -720,6 +609,7 @@
 
 <body onload="welcome(),init();">
 <div id="container">
+    
 <div id="label">Life Expectancy</div>
     
 <div id="graphback"><div id="one"></div> <div id="two"></div> <div id="three"></div> <div id="four"></div> </div>
@@ -739,6 +629,7 @@
     <div id="declare"></div>
 
 </div>
+
 </div>
 </body>
 <script type="text/javascript">

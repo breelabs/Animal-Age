@@ -71,6 +71,10 @@
 		FC4B888A18C44D460020E657 /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC4B888818C44D350020E657 /* OpenFeedback.framework */; };
 		FC4B888C18C452050020E657 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B888B18C452050020E657 /* MainMenu.xib */; };
 		FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC7422AE19E1EB3900C9A2D6 /* Reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422AD19E1EB3900C9A2D6 /* Reset@2x.png */; };
+		FC7422B019E1EC3000C9A2D6 /* Opposite_Arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422AF19E1EC3000C9A2D6 /* Opposite_Arrows@2x.png */; };
+		FC7422B219E1ECCD00C9A2D6 /* Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422B119E1ECCD00C9A2D6 /* Contact@2x.png */; };
+		FC7422B419E1F57200C9A2D6 /* doggie.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422B319E1F57200C9A2D6 /* doggie.png */; };
 		FC7D32D116DC704500689DC8 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CC16DC704500689DC8 /* INAppStoreWindow.m */; };
 		FC7D32D216DC704500689DC8 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32CE16DC704500689DC8 /* INWindowButton.m */; };
 		FC7D32D316DC704500689DC8 /* NSColor+INAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D32D016DC704500689DC8 /* NSColor+INAdditions.m */; };
@@ -90,6 +94,7 @@
 		FC7D32F516DC847300689DC8 /* zoom-inactive-disabled-color.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC7D32E616DC847300689DC8 /* zoom-inactive-disabled-color.tiff */; };
 		FC7D32F616DC847300689DC8 /* zoom-pd-color.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC7D32E716DC847300689DC8 /* zoom-pd-color.tiff */; };
 		FC7D32F716DC847300689DC8 /* zoom-rollover-color.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC7D32E816DC847300689DC8 /* zoom-rollover-color.tiff */; };
+		FC85597319E25BEF00F18EAD /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85597219E25BEF00F18EAD /* AMDarkButtonCell.m */; };
 		FCB87A7717F75F2400095753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB87A7617F75F2400095753 /* Images.xcassets */; };
 		FCC944C9182FC32000C52379 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC944C8182FC31F00C52379 /* Sparkle.framework */; };
 		FCC944CA182FC33900C52379 /* Sparkle.framework in Resources */ = {isa = PBXBuildFile; fileRef = FCC944C8182FC31F00C52379 /* Sparkle.framework */; };
@@ -143,6 +148,10 @@
 		FC4B888B18C452050020E657 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
 		FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC71CF90181A5C5000A33BC3 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Animal Age.entitlements"; path = "Animal Age/Animal Age.entitlements"; sourceTree = "<group>"; };
+		FC7422AD19E1EB3900C9A2D6 /* Reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reset@2x.png"; sourceTree = "<group>"; };
+		FC7422AF19E1EC3000C9A2D6 /* Opposite_Arrows@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Opposite_Arrows@2x.png"; sourceTree = "<group>"; };
+		FC7422B119E1ECCD00C9A2D6 /* Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact@2x.png"; sourceTree = "<group>"; };
+		FC7422B319E1F57200C9A2D6 /* doggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doggie.png; sourceTree = "<group>"; };
 		FC7D32CB16DC704500689DC8 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
 		FC7D32CC16DC704500689DC8 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
 		FC7D32CD16DC704500689DC8 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
@@ -166,6 +175,8 @@
 		FC7D32E616DC847300689DC8 /* zoom-inactive-disabled-color.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "zoom-inactive-disabled-color.tiff"; sourceTree = "<group>"; };
 		FC7D32E716DC847300689DC8 /* zoom-pd-color.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "zoom-pd-color.tiff"; sourceTree = "<group>"; };
 		FC7D32E816DC847300689DC8 /* zoom-rollover-color.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "zoom-rollover-color.tiff"; sourceTree = "<group>"; };
+		FC85597119E25BEF00F18EAD /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
+		FC85597219E25BEF00F18EAD /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
 		FCB87A7617F75F2400095753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Animal Age/Images.xcassets"; sourceTree = "<group>"; };
 		FCC944C8182FC31F00C52379 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -314,9 +325,13 @@
 				FC4B888B18C452050020E657 /* MainMenu.xib */,
 				FCDAAFF6181DB14A000128E1 /* MainMenuWeb.xib */,
 				FCFC922218A8408E0089176C /* rabbit-icon.png */,
+				FC7422AF19E1EC3000C9A2D6 /* Opposite_Arrows@2x.png */,
+				FC7422B319E1F57200C9A2D6 /* doggie.png */,
 				FCFC922318A8408E0089176C /* duck-icon.png */,
 				FCFC922418A8408E0089176C /* chicken-icon.png */,
 				111AECB414BF7F4D00653A12 /* winback.png */,
+				FC7422B119E1ECCD00C9A2D6 /* Contact@2x.png */,
+				FC7422AD19E1EB3900C9A2D6 /* Reset@2x.png */,
 				111AECB114BF7D2000653A12 /* refresh.png */,
 				1195259614BF7B940015F78D /* cat-icon.png */,
 				1195259714BF7B940015F78D /* arrows.png */,
@@ -342,9 +357,19 @@
 			name = resources;
 			sourceTree = "<group>";
 		};
+		FC85597419E25BF400F18EAD /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				FC85597119E25BEF00F18EAD /* AMDarkButtonCell.h */,
+				FC85597219E25BEF00F18EAD /* AMDarkButtonCell.m */,
+			);
+			name = "Custom Button";
+			sourceTree = "<group>";
+		};
 		FCEFEABB18B16F75008B33B8 /* Premade Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC85597419E25BF400F18EAD /* Custom Button */,
 				FC0C0899181D1BDC00E34270 /* Lets Move */,
 				FC7D32CA16DC6F9400689DC8 /* InAppStore */,
 			);
@@ -455,6 +480,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7422B419E1F57200C9A2D6 /* doggie.png in Resources */,
 				112709AC14BBA19C00673DF8 /* InfoPlist.strings in Resources */,
 				112709B214BBA19C00673DF8 /* Credits.rtf in Resources */,
 				1142291614BFEE8400B001E3 /* jquery-1.7.1.min.js in Resources */,
@@ -464,11 +490,13 @@
 				111AECAB14BF7BF300653A12 /* dog-icon.png in Resources */,
 				111AECAF14BF7C9500653A12 /* cow-icon.png in Resources */,
 				111AECB214BF7D2000653A12 /* refresh.png in Resources */,
+				FC7422AE19E1EB3900C9A2D6 /* Reset@2x.png in Resources */,
 				111AECB514BF7F4D00653A12 /* winback.png in Resources */,
 				11C3EE8314BF8754003C96AE /* index.html in Resources */,
 				FCB87A7717F75F2400095753 /* Images.xcassets in Resources */,
 				FCFC922518A8408E0089176C /* rabbit-icon.png in Resources */,
 				FC7D32E916DC847300689DC8 /* close-active-color.tiff in Resources */,
+				FC7422B019E1EC3000C9A2D6 /* Opposite_Arrows@2x.png in Resources */,
 				FC7D32EA16DC847300689DC8 /* close-activenokey-color.tiff in Resources */,
 				FC7D32EB16DC847300689DC8 /* close-inactive-disabled-color.tiff in Resources */,
 				FC7D32EC16DC847300689DC8 /* close-pd-color.tiff in Resources */,
@@ -477,6 +505,7 @@
 				FC7D32EF16DC847300689DC8 /* minimize-activenokey-color.tiff in Resources */,
 				FC7D32F016DC847300689DC8 /* minimize-inactive-disabled-color.tiff in Resources */,
 				FC7D32F116DC847300689DC8 /* minimize-pd-color.tiff in Resources */,
+				FC7422B219E1ECCD00C9A2D6 /* Contact@2x.png in Resources */,
 				FC7D32F216DC847300689DC8 /* minimize-rollover-color.tiff in Resources */,
 				FC4B888C18C452050020E657 /* MainMenu.xib in Resources */,
 				FC7D32F316DC847300689DC8 /* zoom-active-color.tiff in Resources */,
@@ -546,6 +575,7 @@
 				FC0C0895181D1BD600E34270 /* NSString+SymlinksAndAliases.m in Sources */,
 				FC7D32D116DC704500689DC8 /* INAppStoreWindow.m in Sources */,
 				FC7D32D216DC704500689DC8 /* INWindowButton.m in Sources */,
+				FC85597319E25BEF00F18EAD /* AMDarkButtonCell.m in Sources */,
 				FC0C0897181D1BD600E34270 /* PFMoveApplication.m in Sources */,
 				FC7D32D316DC704500689DC8 /* NSColor+INAdditions.m in Sources */,
 				FC7D32D916DC767C00689DC8 /* WindowController.m in Sources */,
