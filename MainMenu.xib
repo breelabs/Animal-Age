@@ -431,8 +431,6 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="897" y="429" width="364" height="296"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <value key="minSize" type="size" width="264" height="286"/>
-            <value key="maxSize" type="size" width="464" height="286"/>
             <view key="contentView" wantsLayer="YES" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="364" height="296"/>
                 <autoresizingMask key="autoresizingMask"/>
