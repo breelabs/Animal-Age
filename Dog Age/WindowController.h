@@ -10,6 +10,7 @@
 
 @interface WindowController : NSWindowController{
     
+
     IBOutlet id errorSheet;
     IBOutlet id window;
     

@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
-#import "INAppStoreWindow.h"
 #import "Dog.h"
 
 #ifdef WEBSITE
@@ -26,14 +25,14 @@
     IBOutlet id aButton;
     IBOutlet id aButton2;
     IBOutlet id graphView;
-
+    IBOutlet id prefSheet; 
 
     IBOutlet id view;
     IBOutlet id topView;
     IBOutlet id secondView;
 }
 
-@property (assign) IBOutlet INAppStoreWindow *window;
+// @property (assign) IBOutlet INAppStoreWindow *window;
 @property (assign) IBOutlet NSPopover *popover;
 @property (assign) IBOutlet NSPopover *popcalc;
 @property (assign) IBOutlet NSPopover *poprevcalc;
@@ -44,6 +43,5 @@
 - (IBAction)showPopup:(id)sender;
 - (IBAction)showCalc:(id)sender;
 - (IBAction)showrevCalc:(id)sender;
-
 
 @end

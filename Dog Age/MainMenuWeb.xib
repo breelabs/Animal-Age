@@ -32,10 +32,25 @@
                             <menuItem isSeparatorItem="YES" id="236">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Preferences…" keyEquivalent="," id="129"/>
+                            <menuItem title="Preferences..." keyEquivalent="u" id="faC-Wv-TuJ">
+                                <connections>
+                                    <action selector="isPref:" target="494" id="Y0U-ge-ml2"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Aex-j7-VOS">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
                             <menuItem title="Check for Updates..." keyEquivalent="u" id="Iqo-76-SNk">
                                 <connections>
                                     <action selector="checkForUpdates:" target="nde-L3-gVf" id="jkV-MG-ACo"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="yhi-oY-9f1">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Rate Animal Age on the App Store" keyEquivalent="r" id="L00-Mh-fbU">
+                                <connections>
+                                    <action selector="presentStandardPrompt:" target="494" id="C36-E8-Oqk"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
@@ -427,6 +442,24 @@
                                     <action selector="showHelp:" target="-1" id="493"/>
                                 </connections>
                             </menuItem>
+                            <menuItem isSeparatorItem="YES" id="Z52-2G-gBa">
+                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                            </menuItem>
+                            <menuItem title="Submit a support request..." id="EaG-BB-bGW">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForSupport:" target="odq-Cw-Eh0" id="S3L-2q-08b"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Submit a feature request..." id="aX0-CZ-anx">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForFeature:" target="odq-Cw-Eh0" id="byG-ux-w4u"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Submit a bug report..." id="gh4-6S-pW7">
+                                <connections>
+                                    <action selector="presentFeedbackPanelForBug:" target="odq-Cw-Eh0" id="cDT-DP-bWu"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                 </menuItem>
@@ -626,6 +659,7 @@ DQ
                 <outlet property="popcalc" destination="657" id="659"/>
                 <outlet property="popover" destination="601" id="609"/>
                 <outlet property="poprevcalc" destination="nAd-pS-Y0h" id="cdd-ZD-Ohl"/>
+                <outlet property="prefSheet" destination="Kcr-Nf-szr" id="ZpJ-L6-A4g"/>
                 <outlet property="secondView" destination="e94-5W-4Ob" id="C6e-Wk-1R3"/>
                 <outlet property="topView" destination="646" id="rK1-Pb-9mb"/>
                 <outlet property="view" destination="rcz-YL-Arx" id="y2G-sA-KtL"/>
@@ -643,6 +677,7 @@ DQ
             </connections>
         </popover>
         <customObject id="420" customClass="NSFontManager"/>
+        <customObject id="odq-Cw-Eh0" customClass="OpenFeedback"/>
         <customObject id="536" customClass="Dog">
             <connections>
                 <outlet property="aButton" destination="664" id="673"/>
@@ -884,6 +919,108 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
             </subviews>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="J9q-eT-6A6"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="Kcr-Nf-szr">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="207" width="280" height="237"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <view key="contentView" id="rSw-f5-hcu">
+                <rect key="frame" x="0.0" y="-1" width="280" height="237"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button id="EG6-uv-iDH">
+                        <rect key="frame" x="13" y="133" width="21" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Automatically check for updates" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="GkK-cj-BwN">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="nde-L3-gVf" name="value" keyPath="automaticallyChecksForUpdates" id="JHt-32-avs"/>
+                        </connections>
+                    </button>
+                    <button id="dgC-25-D4f">
+                        <rect key="frame" x="13" y="164" width="21" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Automatically download update" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="W6c-7o-lhU">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="nde-L3-gVf" name="value" keyPath="automaticallyDownloadsUpdates" id="xp2-i6-9Ae"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="6h3-26-FME">
+                        <rect key="frame" x="36" y="135" width="220" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Automatically check for updates" id="Keu-tE-ZBi">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="EJj-6q-ZIL">
+                        <rect key="frame" x="36" y="166" width="220" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Automatically download updates" id="k7n-C1-osv">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <popUpButton verticalHuggingPriority="750" id="nWt-Gj-EOb">
+                        <rect key="frame" x="11" y="54" width="258" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Monthly" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="2629800" imageScaling="proportionallyDown" inset="2" selectedItem="iUl-KD-aRL" id="c9x-xG-mgF">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" title="OtherViews" id="NTG-HB-5Dj">
+                                <items>
+                                    <menuItem title="Hourly" tag="3600" id="bht-w2-0aM"/>
+                                    <menuItem title="Daily" tag="86400" id="b25-Id-hj9"/>
+                                    <menuItem title="Weekly" tag="604800" id="YW3-wy-TZh"/>
+                                    <menuItem title="Monthly" state="on" tag="2629800" id="iUl-KD-aRL"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                        <connections>
+                            <binding destination="nde-L3-gVf" name="enabled" keyPath="automaticallyChecksForUpdates" id="hwu-i6-zCc"/>
+                            <binding destination="nde-L3-gVf" name="selectedTag" keyPath="updateCheckInterval" id="BQ5-ig-0Ow"/>
+                        </connections>
+                    </popUpButton>
+                    <textField verticalHuggingPriority="750" id="Mms-Jy-Gri">
+                        <rect key="frame" x="11" y="76" width="183" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Frequency" id="gze-gS-2rl">
+                            <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" id="avE-5g-GNL">
+                        <rect key="frame" x="11" y="194" width="183" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Update Prefrences" id="Zsj-Ho-o5O">
+                            <font key="font" size="22" name="HelveticaNeue-Thin"/>
+                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" id="CuT-x3-6ne">
+                        <rect key="frame" x="172" y="13" width="94" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="roundTextured" title="Done" bezelStyle="texturedRounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="13F-AH-Lug">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="donePref:" target="494" id="qg7-AY-ba6"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-110" y="-130.5"/>
+        </window>
     </objects>
     <resources>
         <image name="Contact" width="25" height="25"/>

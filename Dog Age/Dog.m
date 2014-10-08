@@ -161,7 +161,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Dog Age"];
+                [window setTitle:@"Dog Age"];
                 
             } else {
                 
@@ -177,7 +177,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
                 
             }
  
@@ -241,7 +241,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Cat Age"];
+                [window setTitle:@"Cat Age"];
                 
             
             } else {
@@ -271,7 +271,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
                
                 
             }
@@ -318,7 +318,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Cow Age"];
+                [window setTitle:@"Cow Age"];
                 
             } else  {
                 
@@ -331,7 +331,7 @@
                 
                 // Change Label
                 
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             
         }
@@ -376,7 +376,7 @@
 
     // Change Label
 
-    [CalcText setStringValue:@"Rabbit Age"];
+    [window setTitle:@"Rabbit Age"];
      
      } else  {
          
@@ -389,7 +389,7 @@
          
          // Change Label
          
-         [CalcText setStringValue:@"Human Age"];
+         [window setTitle:@"Human Age"];
      }
      
      }
@@ -434,7 +434,7 @@
             
             // Change Label
             
-            [CalcText setStringValue:@"Duck Age"];
+            [window setTitle:@"Duck Age"];
              
              } else  {
                  
@@ -447,7 +447,7 @@
                  
                  // Change Label
                  
-                 [CalcText setStringValue:@"Human Age"];
+                 [window setTitle:@"Human Age"];
              }
              
              }
@@ -492,7 +492,7 @@
             
             // Change Label
             
-            [CalcText setStringValue:@"Chicken Age"];
+            [window setTitle:@"Chicken Age"];
              
              } else  {
                  
@@ -505,7 +505,7 @@
                  
                  // Change Label
                  
-                 [CalcText setStringValue:@"Human Age"];
+                 [window setTitle:@"Human Age"];
              }
              
              }
@@ -565,7 +565,7 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             if (flipValue == 0 ) {
                 
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *dogIcon = [NSImage imageNamed:@"doggie.png"];
             [aButton setTitle: @"Dog"];
@@ -575,9 +575,9 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             break;
         case 1:
             if (flipValue == 0 ) {
-                [CalcText setStringValue:@"Cat Age"];
+                [window setTitle:@"Cat Age"];
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *catIcon = [NSImage imageNamed:@"cat-icon.png"];
             [aButton setTitle: @"Cat"] ;
@@ -587,9 +587,9 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             break;
         case 2:
             if (flipValue == 0 ) {
-                [CalcText setStringValue:@"Cow Age"];
+                [window setTitle:@"Cow Age"];
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *cowIcon = [NSImage imageNamed:@"cow-icon.png"];
             [aButton setTitle: @"Cow"] ;
@@ -599,9 +599,9 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             break;
         case 3:
             if (flipValue == 0 ) {
-                [CalcText setStringValue:@"Rabbit Age"];
+                [window setTitle:@"Rabbit Age"];
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *rabbitIcon = [NSImage imageNamed:@"rabbit-icon.png"];
             [aButton setTitle: @"Rabbit"] ;
@@ -611,9 +611,9 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             break;
         case 4:
             if (flipValue == 0 ) {
-                [CalcText setStringValue:@"Duck Age"];
+                [window setTitle:@"Duck Age"];
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *duckIcon = [NSImage imageNamed:@"duck-icon.png"];
              [aButton setTitle: @"Duck"] ;
@@ -623,9 +623,9 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
             break;
         case 5:
             if (flipValue == 0 ) {
-                [CalcText setStringValue:@"Chicken Age"];
+                [window setTitle:@"Chicken Age"];
             } else {
-                [CalcText setStringValue:@"Human Age"];
+                [window setTitle:@"Human Age"];
             }
             //NSImage *chickenIcon = [NSImage imageNamed:@"chicken-icon.png"];
             [aButton setTitle: @"Chicken"] ;

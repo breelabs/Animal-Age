@@ -8,13 +8,58 @@
 
 #import "AppDelegate.h"
 #import "WindowController.h"
-#import "INWindowButton.h"
 #import "PFMoveApplication.h"
 #import "topBar.h"
+#import "UAAppReviewManager.h"
 
 @implementation AppDelegate
-@synthesize popover, popcalc, topView, view, poprevcalc, window;
+@synthesize popover, popcalc, topView, view, poprevcalc;
 
+
+// Setup the UA App Review Manager
+
++ (void)initialize {
+    [AppDelegate setupUAAppReviewManager];
+}
+
++ (void)setupUAAppReviewManager {
+    // Normally, all the setup would be here.
+    // But, because we are presenting a few different setups in the example,
+    // The config will be in the view controllers
+    //	 [UAAppReviewManager setAppID:@"364709193"]; // iBooks
+    //
+    // It is always best to load UAAppReviewManager as early as possible
+    // because it needs to receive application life-cycle notifications,
+    // so we will call a simple method on it here to load it up now.
+    [UAAppReviewManager setDebug:NO];
+}
+
+
+// Trigger the UA App Review Manager
+
+- (void)applicationWillBecomeActive:(NSNotification *)notification {
+    [UAAppReviewManager showPromptWithShouldPromptBlock:^(NSDictionary *trackingInfo) {
+        // This is the block syntx for showing prompts.
+        // It lets you decide if it should be shown now or not based on
+        // the UAAppReviewManager trackingInfo or any other factor.
+        NSLog(@"UAAppReviewManager trackingInfo: %@", trackingInfo);
+        // Don't show the prompt now, but do it from the buttons in the example app.
+        return NO;
+    }];
+}
+
+
+- (IBAction)presentStandardPrompt:(id)sender {
+    
+    // The AppID is the only required setup
+    [UAAppReviewManager setAppID:@"717666889"]; // Pages
+    
+    // Debug means that it will popup on the next available change
+    [UAAppReviewManager setDebug:YES];
+    
+    // YES here means it is ok to show, it is the only override to Debug == YES.
+    [UAAppReviewManager userDidSignificantEvent:YES];
+}
 
 
 - (IBAction)showPopup:(id)sender {
@@ -44,54 +89,19 @@
 {
     // Insert code here to initialize your application
     
-
-//    self.window.title = @"Animal Age";
-//    self.window.showsTitle = YES;
-//    self.window.titleTextColor = [NSColor blackColor];
-//    self.window.showsBaselineSeparator = YES;
-//    self.window.titleBarHeight = 25.0;
-//    self.window.trafficLightButtonsLeftMargin = 7.0;
-//    self.window.trafficLightButtonsTopMargin = 0;
-//    self.window.titleTextShadow = false;
+     [[self->window standardWindowButton:NSWindowZoomButton] setHidden:YES];
     
+    [UAAppReviewManager setAppID:@"717666889"];
+    [UAAppReviewManager showPromptIfNecessary];
 
     
-//    [self setupCloseButton];
-//    [self setupMinimizeButton];
-//    [self setupZoomButton];
+    #if WEBSITE
     
-     [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
-    
-    #ifdef WEBSITE
+   
     
     PFMoveToApplicationsFolderIfNecessary();
     
     #endif
-}
-
-- (void)setupCloseButton {
-    INWindowButton *closeButton = [INWindowButton windowButtonWithSize:NSMakeSize(14, 16) groupIdentifier:nil];
-    closeButton.activeImage = [NSImage imageNamed:@"close-active-color.tiff"];
-    closeButton.activeNotKeyWindowImage = [NSImage imageNamed:@"close-activenokey-color.tiff"];
-    closeButton.inactiveImage = [NSImage imageNamed:@"close-inactive-disabled-color.tiff"];
-    closeButton.pressedImage = [NSImage imageNamed:@"close-pd-color.tiff"];
-    closeButton.rolloverImage = [NSImage imageNamed:@"close-rollover-color.tiff"];
-    self.window.closeButton = closeButton;
-}
-
-- (void)setupMinimizeButton {
-    INWindowButton *button = [INWindowButton windowButtonWithSize:NSMakeSize(14, 16) groupIdentifier:nil];
-    button.activeImage = [NSImage imageNamed:@"minimize-active-color.tiff"];
-    button.activeNotKeyWindowImage = [NSImage imageNamed:@"minimize-activenokey-color.tiff"];
-    button.inactiveImage = [NSImage imageNamed:@"minimize-inactive-disabled-color.tiff"];
-    button.pressedImage = [NSImage imageNamed:@"minimize-pd-color.tiff"];
-    button.rolloverImage = [NSImage imageNamed:@"minimize-rollover-color.tiff"];
-    self.window.minimizeButton = button;
-}
-
-- (void)setupZoomButton {
-    INWindowButton *button = [INWindowButton windowButtonWithSize:NSMakeSize(14, 16) groupIdentifier:nil];
-    self.window.zoomButton = button;
 }
 
 
@@ -159,6 +169,18 @@ NSImage *arrows = [NSImage imageNamed:@"Opposite_Arrows@2x.png"];
     
 }
 
+- (IBAction)isPref:(id)sender
+{
+    [NSApp beginSheet:prefSheet modalForWindow:window modalDelegate:self didEndSelector:NULL contextInfo:nil];
+    
+}
+
+- (IBAction)donePref:(id)sender
+{
+    [prefSheet orderOut:nil];
+    [NSApp endSheet:prefSheet];
+    
+}
 
 
 

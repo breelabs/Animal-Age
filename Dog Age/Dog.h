@@ -24,7 +24,7 @@
     IBOutlet id window;
     IBOutlet id aButton;
     IBOutlet id aButton2;
-    
+   
     IBOutlet id webView;
     IBOutlet NSProgressIndicator *myProgress;
     IBOutlet NSProgressIndicator *myProgress2;
