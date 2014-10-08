@@ -33,6 +33,11 @@
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
                             <menuItem title="Preferences…" keyEquivalent="," id="129"/>
+                            <menuItem title="Check for Updates..." keyEquivalent="u" id="Iqo-76-SNk">
+                                <connections>
+                                    <action selector="checkForUpdates:" target="nde-L3-gVf" id="jkV-MG-ACo"/>
+                                </connections>
+                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
@@ -454,22 +459,13 @@ EQAaACMALQAyADcAQQBHAFAAVwBcAGQAeQB7AH0AfwCBAIkAkACVAKAAowClAKcAqQCxALYAwQDKANIA
                     </customView>
                     <customView id="ytw-Qq-FlN">
                         <rect key="frame" x="0.0" y="0.0" width="364" height="238"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="542">
-                                <rect key="frame" x="9" y="212" width="73" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="543">
-                                    <font key="font" metaFont="system" size="10"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="546">
-                                <rect key="frame" x="-2" y="110" width="368" height="134"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="-2" y="118" width="368" height="134"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="4" id="547">
-                                    <font key="font" size="111" name="Helvetica"/>
+                                    <font key="font" size="121" name="Helvetica"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -501,7 +497,7 @@ GgAjAC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAI4AkwCeAKEAowClAKcArwC0AL8AyADQANMA
             <connections>
                 <outlet property="delegate" destination="-2" id="uyM-eB-ovs"/>
             </connections>
-            <point key="canvasLocation" x="206" y="-40"/>
+            <point key="canvasLocation" x="49" y="12"/>
         </window>
         <window title="Error" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="589">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
@@ -621,7 +617,6 @@ DQ
         </customView>
         <customObject id="494" customClass="AppDelegate">
             <connections>
-                <outlet property="CalcText" destination="542" id="634"/>
                 <outlet property="TxtShddow" destination="540" id="586"/>
                 <outlet property="aButton" destination="664" id="674"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0Rm-Bj-Gh2"/>
@@ -650,7 +645,6 @@ DQ
         <customObject id="420" customClass="NSFontManager"/>
         <customObject id="536" customClass="Dog">
             <connections>
-                <outlet property="CalcText" destination="542" id="632"/>
                 <outlet property="aButton" destination="664" id="673"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0LJ-XQ-cHV"/>
                 <outlet property="alertField" destination="641" id="643"/>
@@ -684,6 +678,7 @@ DQ
                 <outlet property="view" destination="651" id="660"/>
             </connections>
         </viewController>
+        <customObject id="nde-L3-gVf" customClass="SUUpdater"/>
         <popover behavior="t" id="657">
             <connections>
                 <outlet property="contentViewController" destination="656" id="658"/>
@@ -888,6 +883,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                 </textField>
             </subviews>
         </customView>
+        <userDefaultsController representsSharedInstance="YES" id="J9q-eT-6A6"/>
     </objects>
     <resources>
         <image name="Contact" width="25" height="25"/>

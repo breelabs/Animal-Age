@@ -21,7 +21,6 @@
     IBOutlet id TxtShddow2; 
     IBOutlet id TxtShddow3;
     IBOutlet id window;
-    IBOutlet id CalcText;
     IBOutlet id arrowImage;
     IBOutlet id arrowImage2;
     IBOutlet id aButton;

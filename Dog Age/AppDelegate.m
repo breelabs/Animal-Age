@@ -150,7 +150,7 @@ NSImage *arrows = [NSImage imageNamed:@"Opposite_Arrows@2x.png"];
 [[TxtShddow cell] setBackgroundStyle:NSBackgroundStyleRaised];
 [[TxtShddow2 cell] setBackgroundStyle:NSBackgroundStyleRaised];
 [[TxtShddow3 cell] setBackgroundStyle:NSBackgroundStyleRaised];
-[CalcText setStringValue:@"Dog Age"];
+[window setTitle:@"Dog Age"];
 
 }
 

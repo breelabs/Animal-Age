@@ -22,7 +22,6 @@
     IBOutlet id errorSheet;
     
     IBOutlet id window;
-    IBOutlet id CalcText;
     IBOutlet id aButton;
     IBOutlet id aButton2;
     
@@ -44,6 +43,8 @@
 
 - (IBAction)showflip:(id)sender;
 - (IBAction)hideflip:(id)sender;
+
+
 
 
 @end

@@ -12,6 +12,7 @@
 
 @implementation Dog
 
+
 - (void)awakeFromNib {
     [myProgress setDisplayedWhenStopped:NO];
     [myProgress2 setDisplayedWhenStopped:NO];
@@ -647,5 +648,7 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
     [self calculateAnswer:sender];
     
 }
+
+
 
 @end
