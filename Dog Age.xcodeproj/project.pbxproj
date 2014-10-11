@@ -49,9 +49,7 @@
 		FC8225B119E4D8A700557F22 /* Contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422B119E1ECCD00C9A2D6 /* Contact@2x.png */; };
 		FC8225B219E4D8AA00557F22 /* Reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7422AD19E1EB3900C9A2D6 /* Reset@2x.png */; };
 		FC8225B719E4E32200557F22 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8225B419E4E29C00557F22 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		FC8225B919E4E45900557F22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225B819E4E45900557F22 /* StoreKit.framework */; };
 		FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
-		FC8225BC19E4E62900557F22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225B819E4E45900557F22 /* StoreKit.framework */; };
 		FC8225BD19E4E63000557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
 		FC8225BE19E4E67100557F22 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8225B419E4E29C00557F22 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		FC85597319E25BEF00F18EAD /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85597219E25BEF00F18EAD /* AMDarkButtonCell.m */; };
@@ -120,7 +118,6 @@
 		FC7D32E816DC847300689DC8 /* zoom-rollover-color.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "zoom-rollover-color.tiff"; sourceTree = "<group>"; };
 		FC8225B319E4E29C00557F22 /* UAAppReviewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAppReviewManager.h; sourceTree = "<group>"; };
 		FC8225B419E4E29C00557F22 /* UAAppReviewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAAppReviewManager.m; sourceTree = "<group>"; };
-		FC8225B819E4E45900557F22 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC85597119E25BEF00F18EAD /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDarkButtonCell.h; sourceTree = "<group>"; };
 		FC85597219E25BEF00F18EAD /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDarkButtonCell.m; sourceTree = "<group>"; };
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8225BD19E4E63000557F22 /* SystemConfiguration.framework in Frameworks */,
-				FC8225BC19E4E62900557F22 /* StoreKit.framework in Frameworks */,
 				FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */,
 				111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */,
@@ -151,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */,
-				FC8225B919E4E45900557F22 /* StoreKit.framework in Frameworks */,
 				FC8225AD19E4D6E100557F22 /* Sparkle.framework in Frameworks */,
 				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
@@ -188,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */,
-				FC8225B819E4E45900557F22 /* StoreKit.framework */,
 				FC1D217319E4D104003B3FEB /* Sparkle.framework */,
 				FC1D217519E4D12A003B3FEB /* OpenFeedback.framework */,
 				FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */,
@@ -397,6 +391,9 @@
 					FC0C0857181D1A7E00E34270 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
 						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
 							com.apple.Sandbox = {
 								enabled = 0;
 							};
@@ -655,7 +652,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/Animal Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Animal Age";
-				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -678,7 +675,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/Animal Age-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "Animal Age";
-				PROVISIONING_PROFILE = "AD05D771-874A-4592-8E62-6EA881A55870";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=macosx*]" = "AD05D771-874A-4592-8E62-6EA881A55870";
 				WRAPPER_EXTENSION = app;
 			};
