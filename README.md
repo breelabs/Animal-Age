@@ -1,4 +1,4 @@
-Animal Age (Formerly Dog Age) 
+Animal Age
 ======
 
 Convert the ages of various animals against human lifespans. See life expectancies based on different breeds of animals.
