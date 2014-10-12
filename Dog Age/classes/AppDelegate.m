@@ -144,7 +144,7 @@ NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringE
 [window setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
 [graphView setBackgroundColor:[NSColor colorWithDeviceRed:0.74 green:0.74 blue:0.74 alpha:1.0]];
     
-NSImage *arrows = [NSImage imageNamed:@"Opposite_Arrows@2x.png"];
+NSImage *arrows = [NSImage imageNamed:@"OppositeArrows"];
 
     [arrowImage setImage: arrows];
     [arrowImage setAlternateImage: arrows] ;

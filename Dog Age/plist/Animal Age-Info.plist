@@ -6,12 +6,8 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleGetInfoString</key>
-	<string></string>
-	<key>CFBundleIconFile</key>
-	<string>iTunesArtwork@2x</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.jonbrown.org.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.jonbrown.org.Animal-Age</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -31,8 +27,14 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014 JBD. All rights reserved.</string>
 	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
+	<string>MainMenuWeb</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>OFSubmitFeedbackURL</key>
+	<string>http://shine.jonbrown.org/of.php</string>
+	<key>SUFeedURL</key>
+	<string>http://shine.jonbrown.org/appcast.php?id=2</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
 </dict>
 </plist>

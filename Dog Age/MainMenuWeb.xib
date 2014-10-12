@@ -789,13 +789,6 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button focusRingType="none" id="OJc-3f-bZW">
-                    <rect key="frame" x="129" y="13" width="39" height="32"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Contact" imagePosition="overlaps" alignment="center" alternateImage="Contact" focusRingType="none" inset="2" id="tMy-am-dNM">
-                        <behavior key="behavior" lightByContents="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                </button>
                 <button focusRingType="none" id="pRF-qq-quu">
                     <rect key="frame" x="98" y="17" width="25" height="25"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="overlaps" alignment="center" focusRingType="none" inset="2" id="9dY-ia-4r7">
@@ -832,6 +825,13 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                     <rect key="frame" x="328" y="23" width="16" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </progressIndicator>
+                <button focusRingType="none" id="OJc-3f-bZW">
+                    <rect key="frame" x="131" y="13" width="39" height="32"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Contact" imagePosition="overlaps" alignment="center" alternateImage="Contact" focusRingType="none" inset="2" id="tMy-am-dNM">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
             </subviews>
             <animations>
                 <caTransition key="subviews">
