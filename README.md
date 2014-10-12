@@ -4,7 +4,7 @@ Animal Age (Formerly Dog Age)
 Convert the ages of various animals against human lifespans. See life expectancies based on different breeds of animals.
 
 
-![ScreenShot](https://raw.github.com/jonbrown21/DogAge/master/Screenshots/dog1.png)
+![ScreenShot](https://raw.github.com/jonbrown21/DogAge/master/Screenshots/dog2.png)
 
 Open Source
 ===================
