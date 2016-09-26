@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="7706"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="WindowController">
@@ -449,13 +449,13 @@
                         <animations>
                             <caTransition key="subviews">
                                 <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-ExkKGiBVJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEV2Zyb21Ub3BWbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB1dzdWJ0eXBl0hsc
-HR5aJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0FycmF5oh0fWE5TT2JqZWN00hscISJcQ0FUcmFuc2l0aW9u
-oyMkH1xDQVRyYW5zaXRpb25bQ0FBbmltYXRpb25fEA9OU0tleWVkQXJjaGl2ZXLRJyhUcm9vdIABAAgA
-EQAaACMALQAyADcAQQBHAFAAVwBcAGQAeQB7AH0AfwCBAIkAkACVAKAAowClAKcAqQCxALYAwQDKANIA
-1QDeAOMA8AD0AQEBDQEfASIBJwAAAAAAAAIBAAAAAAAAACkAAAAAAAAAAAAAAAAAAAEpA
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEV2Zyb21Ub3BWbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB9IaGxwdWiRjbGFz
+c25hbWVYJGNsYXNzZXNXTlNBcnJheaIcHlhOU09iamVjdNIaGyAhXENBVHJhbnNpdGlvbqMiIx5cQ0FU
+cmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0A
+MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
++QEFARcBGgEfAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASE
 </mutableData>
                             </caTransition>
                         </animations>
@@ -486,13 +486,13 @@ EQAaACMALQAyADcAQQBHAFAAVwBcAGQAeQB7AH0AfwCBAIkAkACVAKAAowClAKcAqQCxALYAwQDKANIA
                 <animations>
                     <caTransition key="subviews">
                         <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-ExkKGiBVJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEV2Zyb21Ub3BUcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAdXc3VidHlwZdIbHB0e
-WiRjbGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIdH1hOU09iamVjdNIbHCEiXENBVHJhbnNpdGlvbqMj
-JB9cQ0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0ScoVHJvb3SAAQAIABEA
-GgAjAC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAI4AkwCeAKEAowClAKcArwC0AL8AyADQANMA
-3ADhAO4A8gD/AQsBHQEgASUAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABJw
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEV2Zyb21Ub3BUcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xhc3Nu
+YW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENBVHJh
+bnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAtADIA
+NwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAiQCOAJMAngChAKMApQCnAKwAtwDAAMgAywDUANkA5gDqAPcB
+AwEVARgBHQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
 </mutableData>
                     </caTransition>
                 </animations>
@@ -500,7 +500,7 @@ GgAjAC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAI4AkwCeAKEAowClAKcArwC0AL8AyADQANMA
             <connections>
                 <outlet property="delegate" destination="-2" id="uyM-eB-ovs"/>
             </connections>
-            <point key="canvasLocation" x="49" y="12"/>
+            <point key="canvasLocation" x="151" y="-61"/>
         </window>
         <window title="Error" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="589">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
@@ -549,7 +549,7 @@ DQ
                 <popUpButton identifier="types2" verticalHuggingPriority="750" id="556">
                     <rect key="frame" x="13" y="10" width="137" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <popUpButtonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" borderStyle="border" inset="2" id="557">
+                    <popUpButtonCell key="cell" type="roundTextured" title="Cat Years" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" tag="1" inset="2" selectedItem="560" id="557">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
                         <menu key="menu" title="OtherViews" id="558">
@@ -559,7 +559,7 @@ DQ
                                         <action selector="changeOperation:" target="536" id="638"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Cat Years" tag="1" id="560">
+                                <menuItem title="Cat Years" state="on" tag="1" id="560">
                                     <connections>
                                         <action selector="changeOperation:" target="536" id="639"/>
                                     </connections>
@@ -740,13 +740,13 @@ DQ
             <animations>
                 <caTransition key="subviews">
                     <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-ExkKGiBVJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAdXc3VidHlwZdIb
-HB0eWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIdH1hOU09iamVjdNIbHCEiXENBVHJhbnNpdGlv
-bqMjJB9cQ0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0ScoVHJvb3SAAQAI
-ABEAGgAjAC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCMAJEAlgChAKQApgCoAKoAsgC3AMIAywDT
-ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
+c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
+VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
+ADIANwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAjACRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
+APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
 </mutableData>
                 </caTransition>
             </animations>
@@ -803,17 +803,17 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
             <animations>
                 <caTransition key="subviews">
                     <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJSZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-ExkKGiBVJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAdXc3VidHlwZdIb
-HB0eWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIdH1hOU09iamVjdNIbHCEiXENBVHJhbnNpdGlv
-bqMjJB9cQ0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0ScoVHJvb3SAAQAI
-ABEAGgAjAC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCMAJEAlgChAKQApgCoAKoAsgC3AMIAywDT
-ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
+c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
+VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
+ADIANwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAjACRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
+APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
 </mutableData>
                 </caTransition>
             </animations>
-            <point key="canvasLocation" x="-81" y="50.5"/>
+            <point key="canvasLocation" x="-81" y="-69.5"/>
         </customView>
         <customView id="wOI-iz-hAN" userLabel="ReverseCalc">
             <rect key="frame" x="0.0" y="0.0" width="161" height="79"/>
@@ -822,7 +822,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                 <popUpButton identifier="types" verticalHuggingPriority="750" id="ckl-uv-Z3t">
                     <rect key="frame" x="13" y="43" width="137" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <popUpButtonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" borderStyle="border" inset="2" id="KWk-Uf-zGL">
+                    <popUpButtonCell key="cell" type="roundTextured" title="Cat Years" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" tag="1" inset="2" selectedItem="HXu-sA-Keo" id="KWk-Uf-zGL">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
                         <menu key="menu" title="OtherViews" id="glU-f4-SyU">
@@ -832,7 +832,7 @@ ANYA3wDkAPEA9QECAQ4BIAEjASgAAAAAAAACAQAAAAAAAAApAAAAAAAAAAAAAAAAAAABKg
                                         <action selector="changeOperation:" target="536" id="FyM-VX-IBH"/>
                                     </connections>
                                 </menuItem>
-                                <menuItem title="Cat Years" tag="1" id="HXu-sA-Keo">
+                                <menuItem title="Cat Years" state="on" tag="1" id="HXu-sA-Keo">
                                     <connections>
                                         <action selector="changeOperation:" target="536" id="aa6-Nz-REe"/>
                                     </connections>

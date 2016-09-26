@@ -562,6 +562,7 @@ NSNumberFormatter *answerFormatter = [[[NSNumberFormatter alloc] init] autorelea
     
     switch (operation) {
         case 0:
+            
             if (flipValue == 0 ) {
                 
             } else {

@@ -111,20 +111,7 @@ return YES;
 }
 
 - (void)awakeFromNib {
-
-    [topView setStartingColor:
-     [NSColor colorWithDeviceRed:0.84 green:0.82 blue:0.82 alpha:1.0]];
-    [topView setEndingColor:
-     [NSColor colorWithDeviceRed:0.47 green:0.47 blue:0.47 alpha:1.0]];
-    [topView setAngle:270];
-    
-    
-    [secondView setStartingColor:
-     [NSColor colorWithDeviceRed:0.84 green:0.82 blue:0.82 alpha:1.0]];
-    [secondView setEndingColor:
-     [NSColor colorWithDeviceRed:0.47 green:0.47 blue:0.47 alpha:1.0]];
-    [secondView setAngle:270];
-    
+   
     [view addSubview:topView];
 
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
