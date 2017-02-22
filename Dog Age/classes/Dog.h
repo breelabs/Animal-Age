@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
+#import <Quartz/Quartz.h>
 
-
-@interface Dog : NSObject <NSApplicationDelegate>
+@interface Dog : NSObject <NSApplicationDelegate, CAAnimationDelegate>
 {
     IBOutlet id answerField;
     IBOutlet id numberField;

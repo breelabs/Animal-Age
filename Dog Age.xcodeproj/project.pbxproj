@@ -56,6 +56,19 @@
 		FCEA8B0619EB2C7500D00340 /* Animal Age.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FC58C41719EB2AD700547C23 /* Animal Age.entitlements */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FCE527191E5D43B200BA0687 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		111AECBD14BF842F00653A12 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		1127099D14BBA19C00673DF8 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +113,7 @@
 		FCAE348B1B841F5400956348 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dog.swift; path = classes/Dog.swift; sourceTree = "<group>"; };
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +176,7 @@
 				FCDAAFF3181D1D11000128E1 /* Security.framework */,
 				111AECBD14BF842F00653A12 /* WebKit.framework */,
 				112709A114BBA19C00673DF8 /* Cocoa.framework */,
+				FCE527041E5D43B100BA0687 /* NotificationCenter.framework */,
 				112709A314BBA19C00673DF8 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -295,6 +310,7 @@
 				1127099914BBA19C00673DF8 /* Sources */,
 				1127099A14BBA19C00673DF8 /* Frameworks */,
 				1127099B14BBA19C00673DF8 /* Resources */,
+				FCE527191E5D43B200BA0687 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -361,6 +377,7 @@
 			knownRegions = (
 				en,
 				ja,
+				Base,
 			);
 			mainGroup = 1127099214BBA19C00673DF8;
 			productRefGroup = 1127099E14BBA19C00673DF8 /* Products */;
