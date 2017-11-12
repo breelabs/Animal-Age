@@ -15,11 +15,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.0</string>
+	<string>7.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>3.0</string>
+	<string>7.0.1</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.reference</string>
 	<key>LSMinimumSystemVersion</key>
@@ -47,9 +47,9 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OFSubmitFeedbackURL</key>
-	<string>http://shine.jonbrown.org/of.php</string>
+	<string>https://shine.jonbrown.org/of.php</string>
 	<key>SUFeedURL</key>
-	<string>http://shine.jonbrown.org/appcast.php?id=2</string>
+	<string>https://shine.jonbrown.org/appcast.php?id=2</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>

@@ -15,8 +15,12 @@
 		FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112709A114BBA19C00673DF8 /* Cocoa.framework */; };
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
-		FC1D217819E4D1A6003B3FEB /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D217519E4D12A003B3FEB /* OpenFeedback.framework */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC4A6E6F1E5D50BA00658CEE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE527041E5D43B100BA0687 /* NotificationCenter.framework */; };
+		FC4A6E751E5D50BA00658CEE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A6E741E5D50BA00658CEE /* TodayViewController.m */; };
+		FC4A6E781E5D50BB00658CEE /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A6E761E5D50BB00658CEE /* TodayViewController.xib */; };
+		FC4A6E7C1E5D50BB00658CEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4A6E7A1E5D50BB00658CEE /* InfoPlist.strings */; };
+		FC4A6E7F1E5D50BB00658CEE /* Animal Age Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FC58C41319EB26F200547C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8CFF19E4D059007A1781 /* Images.xcassets */; };
 		FC58C41C19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */; };
 		FC58C41D19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */; };
@@ -41,9 +45,6 @@
 		FC58C44719EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */; };
 		FC58C44819EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */; };
 		FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
-		FC8225A819E4D3BB00557F22 /* Sparkle.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC1D217319E4D104003B3FEB /* Sparkle.framework */; };
-		FC8225AA19E4D57800557F22 /* OpenFeedback.framework in Resources */ = {isa = PBXBuildFile; fileRef = FC1D217519E4D12A003B3FEB /* OpenFeedback.framework */; };
-		FC8225AD19E4D6E100557F22 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D217319E4D104003B3FEB /* Sparkle.framework */; };
 		FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8D0519E4D0AB007A1781 /* MainMenuWeb.xib */; };
 		FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
 		FC8225BD19E4E63000557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
@@ -54,7 +55,20 @@
 		FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
 		FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FCDAAFFC181DB207000128E1 /* dsa_pub.pem */; };
 		FCEA8B0619EB2C7500D00340 /* Animal Age.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FC58C41719EB2AD700547C23 /* Animal Age.entitlements */; };
+		FCF3D7281E77A789004A8525 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D7271E77A789004A8525 /* Sparkle.framework */; };
+		FCF3D7291E77A78E004A8525 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCF3D7271E77A789004A8525 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FCF3D72C1E77A946004A8525 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72B1E77A946004A8525 /* OpenFeedback.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4A6E7D1E5D50BB00658CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1127099414BBA19C00673DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4A6E6D1E5D50BA00658CEE;
+			remoteInfo = "Animal Age Widget";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FCE527191E5D43B200BA0687 /* Embed App Extensions */ = {
@@ -63,8 +77,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				FC4A6E7F1E5D50BB00658CEE /* Animal Age Widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF3D7261E77A764004A8525 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCF3D7291E77A78E004A8525 /* Sparkle.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -79,8 +104,13 @@
 		112709AB14BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		112709B114BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC0C088F181D1A7E00E34270 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1D217319E4D104003B3FEB /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "Dog Age/Sparkle.framework"; sourceTree = "<group>"; };
-		FC1D217519E4D12A003B3FEB /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenFeedback.framework; path = "Dog Age/OpenFeedback.framework"; sourceTree = "<group>"; };
+		FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Animal Age Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A6E721E5D50BA00658CEE /* Animal_Age_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Animal_Age_Widget.entitlements; sourceTree = "<group>"; };
+		FC4A6E731E5D50BA00658CEE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		FC4A6E741E5D50BA00658CEE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		FC4A6E771E5D50BB00658CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		FC4A6E791E5D50BB00658CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A6E7B1E5D50BB00658CEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC58C41719EB2AD700547C23 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Animal Age.entitlements"; sourceTree = "<group>"; };
 		FC58C41819EB2B4400547C23 /* NSString+SymlinksAndAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SymlinksAndAliases.h"; path = "classes/LetsMove/NSString+SymlinksAndAliases.h"; sourceTree = "<group>"; };
 		FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SymlinksAndAliases.m"; path = "classes/LetsMove/NSString+SymlinksAndAliases.m"; sourceTree = "<group>"; };
@@ -114,6 +144,8 @@
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FCF3D7271E77A789004A8525 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		FCF3D72B1E77A946004A8525 /* OpenFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenFeedback.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,12 +166,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */,
-				FC8225AD19E4D6E100557F22 /* Sparkle.framework in Frameworks */,
 				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
+				FCF3D7281E77A789004A8525 /* Sparkle.framework in Frameworks */,
+				FCF3D72C1E77A946004A8525 /* OpenFeedback.framework in Frameworks */,
 				FC0C0862181D1A7E00E34270 /* WebKit.framework in Frameworks */,
 				FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */,
-				FC1D217819E4D1A6003B3FEB /* OpenFeedback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A6E6B1E5D50BA00658CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A6E6F1E5D50BA00658CEE /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +189,12 @@
 		1127099214BBA19C00673DF8 = {
 			isa = PBXGroup;
 			children = (
+				FCF3D72B1E77A946004A8525 /* OpenFeedback.framework */,
+				FCF3D7271E77A789004A8525 /* Sparkle.framework */,
 				FC58C41719EB2AD700547C23 /* Animal Age.entitlements */,
 				FC9D8CFF19E4D059007A1781 /* Images.xcassets */,
 				112709A714BBA19C00673DF8 /* Dog Age */,
+				FC4A6E701E5D50BA00658CEE /* Animal Age Widget */,
 				112709A014BBA19C00673DF8 /* Frameworks */,
 				1127099E14BBA19C00673DF8 /* Products */,
 			);
@@ -162,6 +205,7 @@
 			children = (
 				1127099D14BBA19C00673DF8 /* Animal Age.app */,
 				FC0C088F181D1A7E00E34270 /* Animal Age.app */,
+				FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,8 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */,
-				FC1D217319E4D104003B3FEB /* Sparkle.framework */,
-				FC1D217519E4D12A003B3FEB /* OpenFeedback.framework */,
 				FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */,
 				FCDAAFF3181D1D11000128E1 /* Security.framework */,
 				111AECBD14BF842F00653A12 /* WebKit.framework */,
@@ -233,6 +275,27 @@
 				FC58C41B19EB2B4400547C23 /* PFMoveApplication.m */,
 			);
 			name = "Lets Move";
+			sourceTree = "<group>";
+		};
+		FC4A6E701E5D50BA00658CEE /* Animal Age Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A6E731E5D50BA00658CEE /* TodayViewController.h */,
+				FC4A6E741E5D50BA00658CEE /* TodayViewController.m */,
+				FC4A6E761E5D50BB00658CEE /* TodayViewController.xib */,
+				FC4A6E791E5D50BB00658CEE /* Info.plist */,
+				FC4A6E7A1E5D50BB00658CEE /* InfoPlist.strings */,
+				FC4A6E711E5D50BA00658CEE /* Supporting Files */,
+			);
+			path = "Animal Age Widget";
+			sourceTree = "<group>";
+		};
+		FC4A6E711E5D50BA00658CEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A6E721E5D50BA00658CEE /* Animal_Age_Widget.entitlements */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FC58C43E19EB2BCE00547C23 /* PLIST */ = {
@@ -315,6 +378,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FC4A6E7E1E5D50BB00658CEE /* PBXTargetDependency */,
 			);
 			name = "Animal Age";
 			productName = "Dog Age";
@@ -328,6 +392,7 @@
 				FC0C0858181D1A7E00E34270 /* Sources */,
 				FC0C0861181D1A7E00E34270 /* Frameworks */,
 				FC0C0864181D1A7E00E34270 /* Resources */,
+				FCF3D7261E77A764004A8525 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -338,6 +403,23 @@
 			productReference = FC0C088F181D1A7E00E34270 /* Animal Age.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A6E821E5D50BB00658CEE /* Build configuration list for PBXNativeTarget "Animal Age Widget" */;
+			buildPhases = (
+				FC4A6E6A1E5D50BA00658CEE /* Sources */,
+				FC4A6E6B1E5D50BA00658CEE /* Frameworks */,
+				FC4A6E6C1E5D50BA00658CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Age Widget";
+			productName = "Animal Age Widget";
+			productReference = FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,12 +427,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = JBD;
 				TargetAttributes = {
 					1127099C14BBA19C00673DF8 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0910;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -359,6 +441,7 @@
 					};
 					FC0C0857181D1A7E00E34270 = {
 						DevelopmentTeam = 2D4Z7WQ7RS;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -367,6 +450,11 @@
 								enabled = 0;
 							};
 						};
+					};
+					FC4A6E6D1E5D50BA00658CEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2D4Z7WQ7RS;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -386,6 +474,7 @@
 			targets = (
 				1127099C14BBA19C00673DF8 /* Animal Age */,
 				FC0C0857181D1A7E00E34270 /* Animal Age Website */,
+				FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -409,8 +498,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC8225AA19E4D57800557F22 /* OpenFeedback.framework in Resources */,
-				FC8225A819E4D3BB00557F22 /* Sparkle.framework in Resources */,
 				FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */,
 				FC58C44819EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
@@ -418,6 +505,15 @@
 				FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */,
 				FC58C41319EB26F200547C23 /* Images.xcassets in Resources */,
 				FC58C44619EB2C1900547C23 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A6E6C1E5D50BA00658CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A6E781E5D50BB00658CEE /* TodayViewController.xib in Resources */,
+				FC4A6E7C1E5D50BB00658CEE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +553,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC4A6E6A1E5D50BA00658CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A6E751E5D50BA00658CEE /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4A6E7E1E5D50BB00658CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */;
+			targetProxy = FC4A6E7D1E5D50BB00658CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		112709AA14BBA19C00673DF8 /* InfoPlist.strings */ = {
@@ -476,6 +588,22 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
+		FC4A6E761E5D50BB00658CEE /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4A6E771E5D50BB00658CEE /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC4A6E7A1E5D50BB00658CEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4A6E7B1E5D50BB00658CEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -484,12 +612,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -514,7 +648,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -525,12 +659,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -548,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
@@ -567,19 +707,26 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog\\ Age",
+					"smb://192.168.0.26/Files/Client",
+					Files/Cocoa,
+					Projects/Complete,
+					Projects/Animal,
+					Age/DogAge/Dog,
+					Age/,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "Dog Age/plist/Dog Age-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dog Age/Animal Age-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -597,19 +744,26 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog\\ Age",
+					"smb://192.168.0.26/Files/Client",
+					Files/Cocoa,
+					Projects/Complete,
+					Projects/Animal,
+					Age/DogAge/Dog,
+					Age/,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "Dog Age/plist/Dog Age-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dog Age/Animal Age-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -621,11 +775,12 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
@@ -640,10 +795,12 @@
 				);
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -655,23 +812,83 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=macosx*]" = "AD05D771-874A-4592-8E62-6EA881A55870";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC4A6E801E5D50BB00658CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age Widget/Animal_Age_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Animal Age Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age.Animal-Age-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC4A6E811E5D50BB00658CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age Widget/Animal_Age_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Animal Age Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age.Animal-Age-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -701,6 +918,15 @@
 			buildConfigurations = (
 				FC0C088D181D1A7E00E34270 /* Debug */,
 				FC0C088E181D1A7E00E34270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A6E821E5D50BB00658CEE /* Build configuration list for PBXNativeTarget "Animal Age Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A6E801E5D50BB00658CEE /* Debug */,
+				FC4A6E811E5D50BB00658CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

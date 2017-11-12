@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Animal Age Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Animal Age.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>FC0C0857181D1A7E00E34270</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC4A6E6D1E5D50BA00658CEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
