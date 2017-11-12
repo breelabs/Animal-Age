@@ -16,6 +16,8 @@
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
+		FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
 		FC4A6E6F1E5D50BA00658CEE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE527041E5D43B100BA0687 /* NotificationCenter.framework */; };
 		FC4A6E751E5D50BA00658CEE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A6E741E5D50BA00658CEE /* TodayViewController.m */; };
 		FC4A6E781E5D50BB00658CEE /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A6E761E5D50BB00658CEE /* TodayViewController.xib */; };
@@ -104,6 +106,7 @@
 		112709AB14BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		112709B114BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC0C088F181D1A7E00E34270 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4949711FB8FE0200E9B1BB /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = "Dog Age/Images.xcassets/icon.icns"; sourceTree = "<group>"; };
 		FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Animal Age Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A6E721E5D50BA00658CEE /* Animal_Age_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Animal_Age_Widget.entitlements; sourceTree = "<group>"; };
 		FC4A6E731E5D50BA00658CEE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -189,6 +192,7 @@
 		1127099214BBA19C00673DF8 = {
 			isa = PBXGroup;
 			children = (
+				FC4949711FB8FE0200E9B1BB /* icon.icns */,
 				FCF3D72B1E77A946004A8525 /* OpenFeedback.framework */,
 				FCF3D7271E77A789004A8525 /* Sparkle.framework */,
 				FC58C41719EB2AD700547C23 /* Animal Age.entitlements */,
@@ -489,6 +493,7 @@
 				FCEA8B0619EB2C7500D00340 /* Animal Age.entitlements in Resources */,
 				FC58C44519EB2C1900547C23 /* index.html in Resources */,
 				FC58C44719EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
+				FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */,
 				FC9D8D0019E4D059007A1781 /* Images.xcassets in Resources */,
 				FC9D8D0419E4D076007A1781 /* MainMenu.xib in Resources */,
 			);
@@ -503,6 +508,7 @@
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
 				FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */,
 				FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */,
+				FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */,
 				FC58C41319EB26F200547C23 /* Images.xcassets in Resources */,
 				FC58C44619EB2C1900547C23 /* index.html in Resources */,
 			);
