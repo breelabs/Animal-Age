@@ -16,18 +16,11 @@
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
+		FC24B118204C96FA00E4D1E8 /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC24B116204C96FA00E4D1E8 /* LetsMove.framework */; };
+		FC24B119204C96FA00E4D1E8 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24B117204C96FA00E4D1E8 /* PFMoveApplication.m */; };
 		FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
 		FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
-		FC4A6E6F1E5D50BA00658CEE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE527041E5D43B100BA0687 /* NotificationCenter.framework */; };
-		FC4A6E751E5D50BA00658CEE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4A6E741E5D50BA00658CEE /* TodayViewController.m */; };
-		FC4A6E781E5D50BB00658CEE /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A6E761E5D50BB00658CEE /* TodayViewController.xib */; };
-		FC4A6E7C1E5D50BB00658CEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC4A6E7A1E5D50BB00658CEE /* InfoPlist.strings */; };
-		FC4A6E7F1E5D50BB00658CEE /* Animal Age Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FC58C41319EB26F200547C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8CFF19E4D059007A1781 /* Images.xcassets */; };
-		FC58C41C19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */; };
-		FC58C41D19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */; };
-		FC58C41E19EB2B4400547C23 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41B19EB2B4400547C23 /* PFMoveApplication.m */; };
-		FC58C41F19EB2B4400547C23 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C41B19EB2B4400547C23 /* PFMoveApplication.m */; };
 		FC58C42219EB2B4B00547C23 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C42119EB2B4B00547C23 /* AMDarkButtonCell.m */; };
 		FC58C42319EB2B4B00547C23 /* AMDarkButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C42119EB2B4B00547C23 /* AMDarkButtonCell.m */; };
 		FC58C42619EB2B5100547C23 /* UAAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C42519EB2B5100547C23 /* UAAppReviewManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -62,16 +55,6 @@
 		FCF3D72C1E77A946004A8525 /* OpenFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3D72B1E77A946004A8525 /* OpenFeedback.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FC4A6E7D1E5D50BB00658CEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1127099414BBA19C00673DF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FC4A6E6D1E5D50BA00658CEE;
-			remoteInfo = "Animal Age Widget";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		FCE527191E5D43B200BA0687 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -79,7 +62,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FC4A6E7F1E5D50BB00658CEE /* Animal Age Widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,8 +88,10 @@
 		112709AB14BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		112709B114BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC0C088F181D1A7E00E34270 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC24B115204C96F900E4D1E8 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
+		FC24B116204C96FA00E4D1E8 /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LetsMove.framework; sourceTree = "<group>"; };
+		FC24B117204C96FA00E4D1E8 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
 		FC4949711FB8FE0200E9B1BB /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = "Dog Age/Images.xcassets/icon.icns"; sourceTree = "<group>"; };
-		FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Animal Age Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A6E721E5D50BA00658CEE /* Animal_Age_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Animal_Age_Widget.entitlements; sourceTree = "<group>"; };
 		FC4A6E731E5D50BA00658CEE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		FC4A6E741E5D50BA00658CEE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
@@ -115,10 +99,6 @@
 		FC4A6E791E5D50BB00658CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4A6E7B1E5D50BB00658CEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC58C41719EB2AD700547C23 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Animal Age.entitlements"; sourceTree = "<group>"; };
-		FC58C41819EB2B4400547C23 /* NSString+SymlinksAndAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SymlinksAndAliases.h"; path = "classes/LetsMove/NSString+SymlinksAndAliases.h"; sourceTree = "<group>"; };
-		FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SymlinksAndAliases.m"; path = "classes/LetsMove/NSString+SymlinksAndAliases.m"; sourceTree = "<group>"; };
-		FC58C41A19EB2B4400547C23 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFMoveApplication.h; path = classes/LetsMove/PFMoveApplication.h; sourceTree = "<group>"; };
-		FC58C41B19EB2B4400547C23 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PFMoveApplication.m; path = classes/LetsMove/PFMoveApplication.m; sourceTree = "<group>"; };
 		FC58C42019EB2B4B00547C23 /* AMDarkButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMDarkButtonCell.h; path = classes/CustomButton/AMDarkButtonCell.h; sourceTree = "<group>"; };
 		FC58C42119EB2B4B00547C23 /* AMDarkButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMDarkButtonCell.m; path = classes/CustomButton/AMDarkButtonCell.m; sourceTree = "<group>"; };
 		FC58C42419EB2B5100547C23 /* UAAppReviewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UAAppReviewManager.h; path = classes/UAAppReview/UAAppReviewManager.h; sourceTree = "<group>"; };
@@ -161,6 +141,7 @@
 				FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */,
 				111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */,
 				112709A214BBA19C00673DF8 /* Cocoa.framework in Frameworks */,
+				FC24B118204C96FA00E4D1E8 /* LetsMove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +156,6 @@
 				FCF3D72C1E77A946004A8525 /* OpenFeedback.framework in Frameworks */,
 				FC0C0862181D1A7E00E34270 /* WebKit.framework in Frameworks */,
 				FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC4A6E6B1E5D50BA00658CEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC4A6E6F1E5D50BA00658CEE /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +182,6 @@
 			children = (
 				1127099D14BBA19C00673DF8 /* Animal Age.app */,
 				FC0C088F181D1A7E00E34270 /* Animal Age.app */,
-				FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,10 +245,9 @@
 		FC0C0899181D1BDC00E34270 /* Lets Move */ = {
 			isa = PBXGroup;
 			children = (
-				FC58C41819EB2B4400547C23 /* NSString+SymlinksAndAliases.h */,
-				FC58C41919EB2B4400547C23 /* NSString+SymlinksAndAliases.m */,
-				FC58C41A19EB2B4400547C23 /* PFMoveApplication.h */,
-				FC58C41B19EB2B4400547C23 /* PFMoveApplication.m */,
+				FC24B116204C96FA00E4D1E8 /* LetsMove.framework */,
+				FC24B115204C96F900E4D1E8 /* PFMoveApplication.h */,
+				FC24B117204C96FA00E4D1E8 /* PFMoveApplication.m */,
 			);
 			name = "Lets Move";
 			sourceTree = "<group>";
@@ -382,7 +353,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FC4A6E7E1E5D50BB00658CEE /* PBXTargetDependency */,
 			);
 			name = "Animal Age";
 			productName = "Dog Age";
@@ -406,23 +376,6 @@
 			productName = "Dog Age";
 			productReference = FC0C088F181D1A7E00E34270 /* Animal Age.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC4A6E821E5D50BB00658CEE /* Build configuration list for PBXNativeTarget "Animal Age Widget" */;
-			buildPhases = (
-				FC4A6E6A1E5D50BA00658CEE /* Sources */,
-				FC4A6E6B1E5D50BA00658CEE /* Frameworks */,
-				FC4A6E6C1E5D50BA00658CEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Animal Age Widget";
-			productName = "Animal Age Widget";
-			productReference = FC4A6E6E1E5D50BA00658CEE /* Animal Age Widget.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -455,11 +408,6 @@
 							};
 						};
 					};
-					FC4A6E6D1E5D50BA00658CEE = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2D4Z7WQ7RS;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 1127099714BBA19C00673DF8 /* Build configuration list for PBXProject "Dog Age" */;
@@ -478,7 +426,6 @@
 			targets = (
 				1127099C14BBA19C00673DF8 /* Animal Age */,
 				FC0C0857181D1A7E00E34270 /* Animal Age Website */,
-				FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -514,15 +461,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC4A6E6C1E5D50BA00658CEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC4A6E781E5D50BB00658CEE /* TodayViewController.xib in Resources */,
-				FC4A6E7C1E5D50BB00658CEE /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -532,12 +470,11 @@
 			files = (
 				FC58C44119EB2BF500547C23 /* main.m in Sources */,
 				FC58C43219EB2B7800547C23 /* AppDelegate.m in Sources */,
-				FC58C41C19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */,
+				FC24B119204C96FA00E4D1E8 /* PFMoveApplication.m in Sources */,
 				FC58C42619EB2B5100547C23 /* UAAppReviewManager.m in Sources */,
 				FC58C43619EB2B7800547C23 /* WindowController.m in Sources */,
 				FC58C43019EB2B7800547C23 /* Dog.m in Sources */,
 				FC58C42219EB2B4B00547C23 /* AMDarkButtonCell.m in Sources */,
-				FC58C41E19EB2B4400547C23 /* PFMoveApplication.m in Sources */,
 				FCAE348C1B841F5400956348 /* Dog.swift in Sources */,
 				FC58C43419EB2B7800547C23 /* topBar.m in Sources */,
 			);
@@ -549,33 +486,15 @@
 			files = (
 				FC58C44219EB2BF500547C23 /* main.m in Sources */,
 				FC58C43319EB2B7800547C23 /* AppDelegate.m in Sources */,
-				FC58C41D19EB2B4400547C23 /* NSString+SymlinksAndAliases.m in Sources */,
 				FC58C42719EB2B5100547C23 /* UAAppReviewManager.m in Sources */,
 				FC58C43719EB2B7800547C23 /* WindowController.m in Sources */,
 				FC58C43119EB2B7800547C23 /* Dog.m in Sources */,
 				FC58C42319EB2B4B00547C23 /* AMDarkButtonCell.m in Sources */,
-				FC58C41F19EB2B4400547C23 /* PFMoveApplication.m in Sources */,
 				FC58C43519EB2B7800547C23 /* topBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC4A6E6A1E5D50BA00658CEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC4A6E751E5D50BA00658CEE /* TodayViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FC4A6E7E1E5D50BB00658CEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FC4A6E6D1E5D50BA00658CEE /* Animal Age Widget */;
-			targetProxy = FC4A6E7D1E5D50BB00658CEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		112709AA14BBA19C00673DF8 /* InfoPlist.strings */ = {
@@ -719,6 +638,7 @@
 					Projects/Animal,
 					Age/DogAge/Dog,
 					Age/,
+					"$(PROJECT_DIR)/Dog\\ Age",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
@@ -756,6 +676,7 @@
 					Projects/Animal,
 					Age/DogAge/Dog,
 					Age/,
+					"$(PROJECT_DIR)/Dog\\ Age",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/classes/Dog Age-Prefix.pch";
@@ -841,63 +762,6 @@
 			};
 			name = Release;
 		};
-		FC4A6E801E5D50BB00658CEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = "Animal Age Widget/Animal_Age_Widget.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Animal Age Widget/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age.Animal-Age-Widget";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FC4A6E811E5D50BB00658CEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = "Animal Age Widget/Animal_Age_Widget.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Animal Age Widget/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age.Animal-Age-Widget";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -924,15 +788,6 @@
 			buildConfigurations = (
 				FC0C088D181D1A7E00E34270 /* Debug */,
 				FC0C088E181D1A7E00E34270 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC4A6E821E5D50BB00658CEE /* Build configuration list for PBXNativeTarget "Animal Age Widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC4A6E801E5D50BB00658CEE /* Debug */,
-				FC4A6E811E5D50BB00658CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
