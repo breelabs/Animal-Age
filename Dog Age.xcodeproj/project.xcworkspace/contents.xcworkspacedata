@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Dog Age.xcodeproj">
+      location = "group:/Users/jon/GIT/OBJ-C/Animal Age/DogAge/Dog Age/Dog Age-Prefix.pch">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

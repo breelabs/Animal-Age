@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="7706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14490.70"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="WindowController">
+        <customObject id="-2" userLabel="File's Owner" customClass="WindowController" customModule="Animal_Age" customModuleProvider="target">
             <connections>
-                <outlet property="errorSheet" destination="589" id="nWI-an-cNu"/>
-                <outlet property="window" destination="371" id="691"/>
+                <outlet property="errorSheet" destination="589" id="j8O-8F-QCV"/>
+                <outlet property="window" destination="371" id="wLZ-Hi-4Yd"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
@@ -33,14 +33,6 @@
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
                             <menuItem title="Preferences…" keyEquivalent="," id="129"/>
-                            <menuItem isSeparatorItem="YES" id="5R9-1s-auc">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
-                            <menuItem title="Rate Animal Age on the App Store" keyEquivalent="r" id="fqn-Rx-abn">
-                                <connections>
-                                    <action selector="presentStandardPrompt:" target="494" id="bFM-gT-IbN"/>
-                                </connections>
-                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
@@ -434,6 +426,7 @@
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="-186" y="270"/>
         </menu>
         <window title="Animal Age" allowsToolTipsWhenApplicationIsInactive="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
@@ -473,13 +466,14 @@ MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
                                     <color key="backgroundColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <webView id="679">
+                            <wkWebView wantsLayer="YES" id="rqB-Je-WC2">
                                 <rect key="frame" x="0.0" y="0.0" width="364" height="116"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
-                                    <nil key="identifier"/>
-                                </webPreferences>
-                            </webView>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                     </customView>
                 </subviews>
@@ -502,7 +496,7 @@ AwEVARgBHQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
             </connections>
             <point key="canvasLocation" x="151" y="-61"/>
         </window>
-        <window title="Error" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="589">
+        <window title="Error" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" animationBehavior="default" id="589">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="207" width="285" height="106"/>
@@ -609,7 +603,7 @@ DQ
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="551">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="552"/>
                         <font key="font" metaFont="system"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <action selector="changeAge:" target="536" id="683"/>
@@ -617,15 +611,16 @@ DQ
                     </textFieldCell>
                 </textField>
             </subviews>
+            <point key="canvasLocation" x="-115" y="480"/>
         </customView>
-        <customObject id="494" customClass="AppDelegate">
+        <customObject id="494" customClass="AppDelegate" customModule="Animal_Age" customModuleProvider="target">
             <connections>
                 <outlet property="TxtShddow" destination="540" id="586"/>
                 <outlet property="aButton" destination="664" id="674"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0Rm-Bj-Gh2"/>
                 <outlet property="arrowImage" destination="w3T-wH-pdI" id="rjq-O0-60w"/>
                 <outlet property="arrowImage2" destination="pRF-qq-quu" id="0Xz-F4-c6r"/>
-                <outlet property="graphView" destination="679" id="681"/>
+                <outlet property="graphView" destination="rqB-Je-WC2" id="GEV-fV-FjQ"/>
                 <outlet property="popcalc" destination="657" id="659"/>
                 <outlet property="popover" destination="601" id="609"/>
                 <outlet property="poprevcalc" destination="nAd-pS-Y0h" id="cdd-ZD-Ohl"/>
@@ -646,7 +641,7 @@ DQ
             </connections>
         </popover>
         <customObject id="420" customClass="NSFontManager"/>
-        <customObject id="536" customClass="Dog">
+        <customObject id="536" customClass="Dog" customModule="Animal_Age" customModuleProvider="target">
             <connections>
                 <outlet property="aButton" destination="664" id="673"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0LJ-XQ-cHV"/>
@@ -662,7 +657,7 @@ DQ
                 <outlet property="typeField" destination="556" id="564"/>
                 <outlet property="typeField2" destination="ckl-uv-Z3t" id="lRN-tK-QGb"/>
                 <outlet property="view" destination="rcz-YL-Arx" id="viH-BD-UhC"/>
-                <outlet property="webView" destination="679" id="682"/>
+                <outlet property="webView" destination="rqB-Je-WC2" id="w1H-jB-OJV"/>
                 <outlet property="window" destination="371" id="kGG-YV-Wca"/>
             </connections>
         </customObject>
@@ -686,7 +681,7 @@ DQ
                 <outlet property="contentViewController" destination="656" id="658"/>
             </connections>
         </popover>
-        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="646" customClass="topBar">
+        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="646" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -724,7 +719,7 @@ DQ
                 </button>
                 <button focusRingType="none" verticalHuggingPriority="750" id="664">
                     <rect key="frame" x="85" y="14" width="78" height="32"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" borderStyle="border" focusRingType="none" imageScaling="axesIndependently" inset="2" id="665" customClass="AMDarkButtonCell">
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="665">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
@@ -787,7 +782,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                 <button focusRingType="none" verticalHuggingPriority="750" id="5Ex-xr-AYL">
                     <rect key="frame" x="9" y="14" width="78" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="l8k-tW-E6n" customClass="AMDarkButtonCell">
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="l8k-tW-E6n">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
@@ -876,7 +871,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="8rp-P5-28G">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0" negativeFormat="#,##0" numberStyle="decimal" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="309" maximumFractionDigits="3" decimalSeparator="." groupingSeparator="," currencyDecimalSeparator="." plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="Pb5-vY-Gam"/>
                         <font key="font" metaFont="system"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <connections>
                             <action selector="changeAge:" target="536" id="naA-zE-Gvh"/>
@@ -891,5 +886,6 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
         <image name="Contact" width="25" height="25"/>
         <image name="NSCaution" width="32" height="32"/>
         <image name="Reset" width="28" height="24"/>
+        <image name="button" width="78" height="34"/>
     </resources>
 </document>
