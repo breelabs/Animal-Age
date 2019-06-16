@@ -289,6 +289,7 @@
 				1127099B14BBA19C00673DF8 /* Resources */,
 				FCE527191E5D43B200BA0687 /* Embed App Extensions */,
 				1170472521705D54003AB11D /* Embed Frameworks */,
+				5E4DE22BEA51DF7B6589171D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,6 +309,7 @@
 				FC0C0861181D1A7E00E34270 /* Frameworks */,
 				FC0C0864181D1A7E00E34270 /* Resources */,
 				FCF3D7261E77A764004A8525 /* CopyFiles */,
+				2AC478FADF7207D95284C910 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -405,6 +407,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2AC478FADF7207D95284C910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56E8D7B8CA8DF0C9006D21B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +445,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4DE22BEA51DF7B6589171D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age/Pods-Animal Age-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A410027703C80B7C42970C7A /* [CP] Check Pods Manifest.lock */ = {
@@ -689,10 +727,7 @@
 					"$(inherited)",
 					WEBSITE,
 				);
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DEBUG=1 $(inherited)";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";

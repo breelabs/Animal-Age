@@ -28,11 +28,14 @@ class AppDelegate : NSObject, NSApplicationDelegate {
     @IBOutlet var view: NSView!
     
     
-    // Setup the UA App Review Manager
-    
     override init() {
+        AppDelegate.setupArmchair()
         
     }
+    
+    
+    // Setup the UA App Review Manager
+    
     
     @IBAction func showPopup(sender:AnyObject!) {
 
@@ -54,12 +57,6 @@ class AppDelegate : NSObject, NSApplicationDelegate {
         self.poprevcalc.show(relativeTo: sender.bounds,
                           of: sender as! NSView,
                           preferredEdge: .minY)
-    }
-    
-    
-    func applicationDidFinishLaunching(aNotification:NSNotification!) {
-       
-        
     }
     
     
@@ -107,5 +104,27 @@ class AppDelegate : NSObject, NSApplicationDelegate {
     @IBAction func donePref(sender:AnyObject!) {
         prefSheet.orderOut(nil)
         view.window?.endSheet(prefSheet)
+    }
+    
+}
+
+let appID = "717666889" // Our App!
+
+import Armchair
+
+extension AppDelegate {
+    
+    class func setupArmchair() {
+        // Normally, all the setup would be here.
+        // But, because we are presenting a few different setups in the example,
+        // The config will be in the view controllers
+        //     Armchair.appID("408981381") // Pages
+        //
+        // It is always best to load Armchair as early as possible
+        // because it needs to receive application life-cycle notifications
+        //
+        // NOTE: The appID call always has to go before any other Armchair calls
+        Armchair.appID(appID)
+        Armchair.debugEnabled(true)
     }
 }
