@@ -474,8 +474,14 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             } else {
                 window.title = "Human Age"
             }
-            aButton.title = "Dog"
-            aButton2.title = "Dog"
+            let pstyle = NSMutableParagraphStyle()
+            pstyle.alignment = .center
+            
+            aButton.attributedTitle = NSAttributedString(string: "Dog", attributes: [ NSAttributedString.Key.foregroundColor : NSColor(red: 0.459, green: 0.459, blue: 0.459, alpha: 1.0), NSAttributedString.Key.paragraphStyle : pstyle ])
+
+            
+            aButton2.attributedTitle = NSAttributedString(string: "Dog", attributes: [ NSAttributedString.Key.foregroundColor : NSColor(red: 0.459, green: 0.459, blue: 0.459, alpha: 1.0), NSAttributedString.Key.paragraphStyle : pstyle ])
+            
         case 1:
             if flipValue == 0 {
                 window.title = "Cat Age"

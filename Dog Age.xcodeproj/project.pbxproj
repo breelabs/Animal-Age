@@ -117,6 +117,7 @@
 		FCB1B20C22B60AEB00762AFD /* Dog Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Dog Age-Prefix.pch"; path = "/Users/jon/GIT/OBJ-C/Animal Age/DogAge/Dog Age/Dog Age-Prefix.pch"; sourceTree = "<absolute>"; };
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FCE2DC6922B621C500886755 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; name = dsa_pub.pem; path = ../dsa_pub.pem; sourceTree = "<group>"; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		FCF3D7271E77A789004A8525 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		FD8925E021E6F567B6E20C30 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
@@ -268,6 +269,7 @@
 		FCEFEABC18B16F93008B33B8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCE2DC6922B621C500886755 /* dsa_pub.pem */,
 				FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */,
 				FC071D2C22B5BF4800212CF3 /* Dog.swift */,
 				FC071D2822B5BA5300212CF3 /* TopBar.swift */,
@@ -310,6 +312,7 @@
 				FC0C0864181D1A7E00E34270 /* Resources */,
 				FCF3D7261E77A764004A8525 /* CopyFiles */,
 				2AC478FADF7207D95284C910 /* [CP] Embed Pods Frameworks */,
+				FC2108E022B6232F00118262 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -343,6 +346,9 @@
 						DevelopmentTeam = 2D4Z7WQ7RS;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
 							com.apple.InAppPurchase = {
 								enabled = 0;
 							};
@@ -415,10 +421,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,6 +496,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FC2108E022B6232F00118262 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"Mac Developer: Jonathan Brown (E9WTB27D9J)\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n# If a code signing identity is not specified, use ad hoc signing\nIDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -642,6 +669,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog\\ Age",
@@ -679,6 +707,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Dog\\ Age",
@@ -710,11 +739,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -727,7 +758,10 @@
 					"$(inherited)",
 					WEBSITE,
 				);
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DEBUG=1 $(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
@@ -748,11 +782,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

@@ -747,7 +747,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
             </animations>
             <point key="canvasLocation" x="-81" y="168.5"/>
         </customView>
-        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e94-5W-4Ob" userLabel="Bottom Bar" customClass="topBar">
+        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e94-5W-4Ob" userLabel="Bottom Bar" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>

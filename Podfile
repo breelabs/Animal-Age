@@ -29,6 +29,7 @@ target 'Animal Age Website' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Armchair'
+  pod 'Sparkle'
 
   # Pods for Animal Age Website
 

@@ -46,8 +46,6 @@
 	<string>MainMenuWeb</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>OFSubmitFeedbackURL</key>
-	<string>https://shine.jonbrown.org/of.php</string>
 	<key>SUFeedURL</key>
 	<string>https://shine.jonbrown.org/appcast.php?id=2</string>
 	<key>SUPublicDSAKeyFile</key>
