@@ -596,6 +596,7 @@ DQ
                     </popUpButtonCell>
                 </popUpButton>
             </subviews>
+            <point key="canvasLocation" x="270" y="-73"/>
         </customView>
         <customView id="651" userLabel="Human Age">
             <rect key="frame" x="0.0" y="0.0" width="158" height="57"/>
@@ -736,7 +737,7 @@ DQ
                     <rect key="frame" x="85" y="14" width="78" height="32"/>
                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="665">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
+                        <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
                     <connections>
                         <action selector="showPopupWithSender:" target="494" id="Ifv-LQ-usZ"/>
@@ -760,7 +761,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
 </mutableData>
                 </caTransition>
             </animations>
-            <point key="canvasLocation" x="-81" y="168.5"/>
+            <point key="canvasLocation" x="-73" y="176"/>
         </customView>
         <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e94-5W-4Ob" userLabel="Bottom Bar" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
@@ -790,12 +791,12 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                 <button focusRingType="none" verticalHuggingPriority="750" id="5Ex-xr-AYL">
                     <rect key="frame" x="9" y="15" width="78" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="l8k-tW-E6n">
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="l8k-tW-E6n">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
                     <connections>
-                        <action selector="showCalcWithSender:" target="494" id="uE8-31-Fel"/>
+                        <action selector="showrevCalcWithSender:" target="494" id="p1O-At-2hw"/>
                     </connections>
                 </button>
                 <progressIndicator identifier="myProgress2" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Tgr-Hy-7Lt">
@@ -894,6 +895,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                     </connections>
                 </textField>
             </subviews>
+            <point key="canvasLocation" x="354" y="123"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="J9q-eT-6A6"/>
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="Kcr-Nf-szr">

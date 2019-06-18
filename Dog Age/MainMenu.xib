@@ -782,7 +782,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                 <button focusRingType="none" verticalHuggingPriority="750" id="5Ex-xr-AYL">
                     <rect key="frame" x="9" y="14" width="78" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="l8k-tW-E6n">
+                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="l8k-tW-E6n">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>

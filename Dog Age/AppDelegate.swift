@@ -41,14 +41,14 @@ class AppDelegate : NSObject, NSApplicationDelegate {
 
         self.popover.show(relativeTo: sender.bounds,
                           of: sender as! NSView,
-                          preferredEdge: .minY)
+                          preferredEdge: .maxY)
     }
     
     @IBAction func showCalc(sender:AnyObject!) {
         
         self.popcalc.show(relativeTo: sender.bounds,
                           of: sender as! NSView,
-                          preferredEdge: .minY)
+                          preferredEdge: .maxY)
         
     }
     
@@ -56,7 +56,7 @@ class AppDelegate : NSObject, NSApplicationDelegate {
         
         self.poprevcalc.show(relativeTo: sender.bounds,
                           of: sender as! NSView,
-                          preferredEdge: .minY)
+                          preferredEdge: .maxY)
     }
     
     

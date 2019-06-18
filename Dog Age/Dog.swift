@@ -49,8 +49,8 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
         let indexInteger = typeField.indexOfSelectedItem
         
         let defaults = UserDefaults.standard
-        let flipin = defaults.object(forKey: "flipPref") as? String
-        let flipValue = Int(Double(flipin ?? "") ?? 0.0)
+        let flipin = defaults.object(forKey: "flipPref") as! Int
+        let flipValue = flipin
         
         if flipValue == 1 {
             
@@ -459,14 +459,19 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
     @IBAction func changeOperation(_ sender: Any) {
         
         let defaults = UserDefaults.standard
-        let flipin = defaults.object(forKey: "flipPref") as? String
-        let flipValue = Int(Double(flipin ?? "") ?? 0.0)
+        let flipin = defaults.object(forKey: "flipPref") as! Int
+        let flipValue = flipin
+        
         
         //typeField.selectItem(at: (sender as AnyObject).tag())
         
         var operation: Int
         
-        operation = typeField.selectedTag()
+        if flipValue == 0 {
+            operation = typeField.selectedTag()
+        } else {
+            operation = typeField2.selectedTag()
+        }
         
         switch operation {
         case 0:
@@ -474,14 +479,10 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             } else {
                 window.title = "Human Age"
             }
-            let pstyle = NSMutableParagraphStyle()
-            pstyle.alignment = .center
-            
-            aButton.attributedTitle = NSAttributedString(string: "Dog", attributes: [ NSAttributedString.Key.foregroundColor : NSColor(red: 0.459, green: 0.459, blue: 0.459, alpha: 1.0), NSAttributedString.Key.paragraphStyle : pstyle ])
-
-            
-            aButton2.attributedTitle = NSAttributedString(string: "Dog", attributes: [ NSAttributedString.Key.foregroundColor : NSColor(red: 0.459, green: 0.459, blue: 0.459, alpha: 1.0), NSAttributedString.Key.paragraphStyle : pstyle ])
-            
+            aButton.title = "Dog"
+            aButton2.title = "Dog"
+            typeField.selectItem(withTag: 0)
+            typeField2.selectItem(withTag: 0)
         case 1:
             if flipValue == 0 {
                 window.title = "Cat Age"
@@ -490,6 +491,8 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             }
             aButton.title = "Cat"
             aButton2.title = "Cat"
+            typeField.selectItem(withTag: 1)
+            typeField2.selectItem(withTag: 1)
         case 2:
             if flipValue == 0 {
                 window.title = "Cow Age"
@@ -498,39 +501,38 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             }
             aButton.title = "Cow"
             aButton2.title = "Cow"
+            typeField.selectItem(withTag: 2)
+            typeField2.selectItem(withTag: 2)
         case 3:
             if flipValue == 0 {
                 window.title = "Rabbit Age"
             } else {
                 window.title = "Human Age"
             }
-            //NSImage *rabbitIcon = [NSImage imageNamed:@"rabbit-icon.png"];
             aButton.title = "Rabbit"
-            // [aButton setAlternateImage: rabbitIcon] ;
             aButton2.title = "Rabbit"
-        //[aButton2 setAlternateImage: rabbitIcon] ;
+            typeField.selectItem(withTag: 3)
+            typeField2.selectItem(withTag: 3)
         case 4:
             if flipValue == 0 {
                 window.title = "Duck Age"
             } else {
                 window.title = "Human Age"
             }
-            //NSImage *duckIcon = [NSImage imageNamed:@"duck-icon.png"];
             aButton.title = "Duck"
-            //[aButton setAlternateImage: duckIcon] ;
             aButton2.title = "Duck"
-        //[aButton2 setAlternateImage: duckIcon] ;
+            typeField.selectItem(withTag: 4)
+            typeField2.selectItem(withTag: 4)
         case 5:
             if flipValue == 0 {
                 window.title = "Chicken Age"
             } else {
                 window.title = "Human Age"
             }
-            //NSImage *chickenIcon = [NSImage imageNamed:@"chicken-icon.png"];
             aButton.title = "Chicken"
-            //[aButton setAlternateImage: chickenIcon] ;
             aButton2.title = "Chicken"
-        //[aButton2 setAlternateImage: chickenIcon] ;
+            typeField.selectItem(withTag: 5)
+            typeField2.selectItem(withTag: 5)
         default:
             break
         }
@@ -568,8 +570,8 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
         
         let defaults = UserDefaults.standard
         defaults.set(true, forKey: "flipPref")
-        let flipin = defaults.object(forKey: "flipPref") as? String
-        let flipValue = Int(Double(flipin ?? "") ?? 0.0)
+        let flipin = defaults.object(forKey: "flipPref") as! Int
+        let flipValue = flipin
         
         print("Flip Status: \(flipValue)")
         
@@ -597,8 +599,8 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
         
         let defaults = UserDefaults.standard
         defaults.set(false, forKey: "flipPref")
-        let flipin = defaults.object(forKey: "flipPref") as? String
-        let flipValue = Int(Double(flipin ?? "") ?? 0.0)
+        let flipin = defaults.object(forKey: "flipPref") as! Int
+        let flipValue = flipin
         
         print("Flip Status: \(flipValue)")
         
