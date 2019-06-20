@@ -64,6 +64,11 @@ class AppDelegate : NSObject, NSApplicationDelegate {
         return true
     }
     
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        NSApplication.shared.terminate(self)
+        return true
+    }
+    
     override func awakeFromNib() {
         
         view.addSubview(topView)

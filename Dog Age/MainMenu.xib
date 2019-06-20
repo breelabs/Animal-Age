@@ -210,11 +210,7 @@
                                                 <action selector="performFindPanelAction:" target="-1" id="489"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Jump to Selection" keyEquivalent="j" id="210">
-                                            <connections>
-                                                <action selector="centerSelectionInVisibleArea:" target="-1" id="245"/>
-                                            </connections>
-                                        </menuItem>
+                                        <menuItem title="Jump to Selection" keyEquivalent="j" id="210"/>
                                     </items>
                                 </menu>
                             </menuItem>
@@ -310,9 +306,6 @@
                                         </menuItem>
                                         <menuItem title="Capitalize" id="466">
                                             <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="capitalizeWord:" target="-1" id="467"/>
-                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -417,11 +410,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="491">
                         <items>
-                            <menuItem title="Dog Age Help" keyEquivalent="?" id="492">
-                                <connections>
-                                    <action selector="showHelp:" target="-1" id="493"/>
-                                </connections>
-                            </menuItem>
+                            <menuItem title="Dog Age Help" keyEquivalent="?" id="492"/>
                         </items>
                     </menu>
                 </menuItem>
@@ -693,7 +682,7 @@ DQ
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="showCalc:" target="494" id="653"/>
+                        <action selector="showCalcWithSender:" target="494" id="s5o-dQ-1nD"/>
                     </connections>
                 </button>
                 <button focusRingType="none" id="w3T-wH-pdI">
@@ -724,7 +713,7 @@ DQ
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
                     <connections>
-                        <action selector="showPopup:" target="494" id="667"/>
+                        <action selector="showPopupWithSender:" target="494" id="HNk-Rw-WzU"/>
                     </connections>
                 </button>
                 <progressIndicator identifier="myProgress" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="PdV-Co-0e4">
@@ -787,7 +776,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         <font key="font" metaFont="system" size="14"/>
                     </buttonCell>
                     <connections>
-                        <action selector="showrevCalc:" target="494" id="CCw-GC-52e"/>
+                        <action selector="showrevCalcWithSender:" target="494" id="26o-3T-i98"/>
                     </connections>
                 </button>
                 <progressIndicator identifier="myProgress2" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Tgr-Hy-7Lt">
