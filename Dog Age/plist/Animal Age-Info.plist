@@ -41,13 +41,13 @@
 		<string>TLSv1.1</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 JBD. All rights reserved.</string>
+	<string>Copyright © 2020 Grove Designs. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenuWeb</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>https://shine.jonbrown.org/appcast.php?id=2</string>
+	<string>https://shine.grovedesigns.co/appcast.php?id=2</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>
