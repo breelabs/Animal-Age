@@ -108,7 +108,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Dog Age"
+                    window.title = "Animal Age"
                 } else {
                     
                     // Animal Age to People
@@ -123,7 +123,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
                 
                 webView.evaluateJavaScript("loadDogData()", completionHandler: nil)
@@ -178,7 +178,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Cat Age"
+                    window.title = "Animal Age"
                     
                 } else {
                     
@@ -202,7 +202,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
                 
                 webView.evaluateJavaScript("loadCatData()", completionHandler: nil)
@@ -245,7 +245,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Cow Age"
+                    window.title = "Animal Age"
                 } else {
                     
                     answer = num1 / 6
@@ -257,7 +257,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
             }
             webView.evaluateJavaScript("loadCowData()", completionHandler: nil)
@@ -299,7 +299,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Rabbit Age"
+                    window.title = "Animal Age"
                 } else {
                     
                     answer = num1 / 9.25
@@ -311,7 +311,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
             }
             webView.evaluateJavaScript("loadRabbitData()", completionHandler: nil)
@@ -353,7 +353,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Duck Age"
+                    window.title = "Animal Age"
                 } else {
                     
                     answer = num1 / 6.25
@@ -365,7 +365,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
             }
             webView.evaluateJavaScript("loadDuckData()", completionHandler: nil)
@@ -408,7 +408,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Chicken Age"
+                    window.title = "Animal Age"
                 } else {
                     
                     answer = num1 / 8.12
@@ -420,7 +420,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     
                     // Change Label
                     
-                    window.title = "Human Age"
+                    window.title = "Animal Age"
                 }
             }
             webView.evaluateJavaScript("loadChickenData()", completionHandler: nil)
@@ -477,7 +477,7 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
         case 0:
             if flipValue == 0 {
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Dog"
             aButton2.title = "Dog"
@@ -485,9 +485,9 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             typeField2.selectItem(withTag: 0)
         case 1:
             if flipValue == 0 {
-                window.title = "Cat Age"
+                window.title = "Animal Age"
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Cat"
             aButton2.title = "Cat"
@@ -495,9 +495,9 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             typeField2.selectItem(withTag: 1)
         case 2:
             if flipValue == 0 {
-                window.title = "Cow Age"
+                window.title = "Animal Age"
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Cow"
             aButton2.title = "Cow"
@@ -505,9 +505,9 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             typeField2.selectItem(withTag: 2)
         case 3:
             if flipValue == 0 {
-                window.title = "Rabbit Age"
+                window.title = "Animal Age"
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Rabbit"
             aButton2.title = "Rabbit"
@@ -515,9 +515,9 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             typeField2.selectItem(withTag: 3)
         case 4:
             if flipValue == 0 {
-                window.title = "Duck Age"
+                window.title = "Animal Age"
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Duck"
             aButton2.title = "Duck"
@@ -525,9 +525,9 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
             typeField2.selectItem(withTag: 4)
         case 5:
             if flipValue == 0 {
-                window.title = "Chicken Age"
+                window.title = "Animal Age"
             } else {
-                window.title = "Human Age"
+                window.title = "Animal Age"
             }
             aButton.title = "Chicken"
             aButton2.title = "Chicken"

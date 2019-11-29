@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14490.70"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -61,7 +62,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit Dog Age" keyEquivalent="q" id="136">
+                            <menuItem title="Quit Animal Age" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
@@ -415,17 +416,17 @@
                     </menu>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="-186" y="270"/>
+            <point key="canvasLocation" x="182" y="132"/>
         </menu>
         <window title="Animal Age" allowsToolTipsWhenApplicationIsInactive="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="897" y="429" width="364" height="296"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" wantsLayer="YES" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="364" height="296"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView wantsLayer="YES" canDrawConcurrently="YES" id="rcz-YL-Arx">
+                    <customView wantsLayer="YES" canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcz-YL-Arx">
                         <rect key="frame" x="0.0" y="236" width="364" height="61"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <animations>
@@ -442,11 +443,11 @@ MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
                             </caTransition>
                         </animations>
                     </customView>
-                    <customView id="ytw-Qq-FlN">
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ytw-Qq-FlN">
                         <rect key="frame" x="0.0" y="0.0" width="364" height="238"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="546">
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="546">
                                 <rect key="frame" x="-2" y="118" width="368" height="134"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="4" id="547">
@@ -455,7 +456,7 @@ MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
                                     <color key="backgroundColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <wkWebView wantsLayer="YES" id="rqB-Je-WC2">
+                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rqB-Je-WC2">
                                 <rect key="frame" x="0.0" y="0.0" width="364" height="116"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -489,12 +490,12 @@ AwEVARgBHQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="207" width="285" height="106"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" id="590">
                 <rect key="frame" x="0.0" y="0.0" width="285" height="106"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="591">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="591">
                         <rect key="frame" x="202" y="3" width="80" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="594">
@@ -508,7 +509,7 @@ DQ
                             <action selector="doneError:" target="536" id="596"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" id="641">
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="641">
                         <rect key="frame" x="64" y="39" width="214" height="47"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Multiline Label" id="642">
@@ -517,7 +518,7 @@ DQ
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="vbS-PE-oow">
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-PE-oow">
                         <rect key="frame" x="16" y="44" width="42" height="42"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSCaution" id="ipM-d5-Wmu"/>
@@ -529,7 +530,7 @@ DQ
             <rect key="frame" x="0.0" y="0.0" width="161" height="47"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <popUpButton identifier="types2" verticalHuggingPriority="750" id="556">
+                <popUpButton identifier="types2" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="556">
                     <rect key="frame" x="13" y="10" width="137" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <popUpButtonCell key="cell" type="roundTextured" title="Cat Years" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" tag="1" inset="2" selectedItem="560" id="557">
@@ -577,7 +578,7 @@ DQ
             <rect key="frame" x="0.0" y="0.0" width="158" height="57"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" id="540">
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="540">
                     <rect key="frame" x="12" y="20" width="78" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Human Age" id="541">
@@ -586,7 +587,7 @@ DQ
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" id="550">
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="550">
                     <rect key="frame" x="100" y="17" width="43" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="551">
@@ -670,11 +671,11 @@ DQ
                 <outlet property="contentViewController" destination="656" id="658"/>
             </connections>
         </popover>
-        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="646" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
+        <customView wantsLayer="YES" id="646" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button focusRingType="none" id="648">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="648">
                     <rect key="frame" x="4" y="13" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Contact" imagePosition="overlaps" alignment="center" alternateImage="Contact" focusRingType="none" inset="2" id="649">
@@ -685,8 +686,9 @@ DQ
                         <action selector="showCalcWithSender:" target="494" id="s5o-dQ-1nD"/>
                     </connections>
                 </button>
-                <button focusRingType="none" id="w3T-wH-pdI">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3T-wH-pdI">
                     <rect key="frame" x="47" y="17" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="overlaps" alignment="center" focusRingType="none" inset="2" id="D4O-Xq-S6I">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -695,7 +697,7 @@ DQ
                         <action selector="showflip:" target="536" id="PJs-6E-98L"/>
                     </connections>
                 </button>
-                <button focusRingType="none" id="675">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="675">
                     <rect key="frame" x="314" y="14" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Reset" imagePosition="overlaps" alignment="center" alternateImage="Reset" focusRingType="none" inset="2" id="676">
@@ -706,8 +708,9 @@ DQ
                         <action selector="changeAge:" target="536" id="6VY-IW-acc"/>
                     </connections>
                 </button>
-                <button focusRingType="none" verticalHuggingPriority="750" id="664">
+                <button focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="664">
                     <rect key="frame" x="85" y="14" width="78" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="overlaps" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="665">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system" size="14"/>
@@ -716,7 +719,7 @@ DQ
                         <action selector="showPopupWithSender:" target="494" id="HNk-Rw-WzU"/>
                     </connections>
                 </button>
-                <progressIndicator identifier="myProgress" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="PdV-Co-0e4">
+                <progressIndicator identifier="myProgress" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="PdV-Co-0e4">
                     <rect key="frame" x="328" y="23" width="16" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </progressIndicator>
@@ -736,19 +739,21 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
             </animations>
             <point key="canvasLocation" x="-81" y="168.5"/>
         </customView>
-        <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e94-5W-4Ob" userLabel="Bottom Bar" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
+        <customView wantsLayer="YES" id="e94-5W-4Ob" userLabel="Bottom Bar" customClass="topBar" customModule="Animal_Age" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="364" height="61"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button focusRingType="none" id="OJc-3f-bZW">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJc-3f-bZW">
                     <rect key="frame" x="129" y="13" width="39" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Contact" imagePosition="overlaps" alignment="center" alternateImage="Contact" focusRingType="none" inset="2" id="tMy-am-dNM">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                 </button>
-                <button focusRingType="none" id="pRF-qq-quu">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-qq-quu">
                     <rect key="frame" x="98" y="17" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="overlaps" alignment="center" focusRingType="none" inset="2" id="9dY-ia-4r7">
                         <behavior key="behavior" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -757,7 +762,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         <action selector="hideflip:" target="536" id="veR-tG-HlU"/>
                     </connections>
                 </button>
-                <button focusRingType="none" id="3NI-bv-lR9">
+                <button focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3NI-bv-lR9">
                     <rect key="frame" x="314" y="14" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Reset" imagePosition="overlaps" alignment="center" alternateImage="Reset" focusRingType="none" inset="2" id="U06-8c-dOp">
@@ -768,7 +773,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         <action selector="changeAge:" target="536" id="41T-Dw-mSO"/>
                     </connections>
                 </button>
-                <button focusRingType="none" verticalHuggingPriority="750" id="5Ex-xr-AYL">
+                <button focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ex-xr-AYL">
                     <rect key="frame" x="9" y="14" width="78" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="button" imagePosition="only" alignment="center" focusRingType="none" imageScaling="axesIndependently" inset="2" id="l8k-tW-E6n">
@@ -779,7 +784,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         <action selector="showrevCalcWithSender:" target="494" id="26o-3T-i98"/>
                     </connections>
                 </button>
-                <progressIndicator identifier="myProgress2" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Tgr-Hy-7Lt">
+                <progressIndicator identifier="myProgress2" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="Tgr-Hy-7Lt">
                     <rect key="frame" x="328" y="23" width="16" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </progressIndicator>
@@ -803,7 +808,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
             <rect key="frame" x="0.0" y="0.0" width="161" height="79"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <popUpButton identifier="types" verticalHuggingPriority="750" id="ckl-uv-Z3t">
+                <popUpButton identifier="types" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ckl-uv-Z3t">
                     <rect key="frame" x="13" y="43" width="137" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <popUpButtonCell key="cell" type="roundTextured" title="Cat Years" bezelStyle="texturedRounded" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" tag="1" inset="2" selectedItem="HXu-sA-Keo" id="KWk-Uf-zGL">
@@ -845,7 +850,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         </menu>
                     </popUpButtonCell>
                 </popUpButton>
-                <textField verticalHuggingPriority="750" id="Oq4-hK-nEi">
+                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oq4-hK-nEi">
                     <rect key="frame" x="16" y="13" width="77" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Animal Age" id="c1a-Y8-LB6">
@@ -854,7 +859,7 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" id="v50-5Y-iK8">
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v50-5Y-iK8">
                     <rect key="frame" x="104" y="10" width="43" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" refusesFirstResponder="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="center" title="30" placeholderString="30" drawsBackground="YES" id="8rp-P5-28G">

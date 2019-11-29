@@ -92,7 +92,7 @@ class AppDelegate : NSObject, NSApplicationDelegate {
         
         aButton.title = "Dog"
         aButton2.title = "Dog"
-        window.title = "Dog Age"
+        window.title = "Animal Age"
         
     }
     
