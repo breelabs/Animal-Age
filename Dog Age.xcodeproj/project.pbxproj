@@ -43,8 +43,6 @@
 		FC9D8D0419E4D076007A1781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8D0319E4D076007A1781 /* MainMenu.xib */; };
 		FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
 		FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
-		FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FCDAAFFC181DB207000128E1 /* dsa_pub.pem */; };
-		FCEA8B0619EB2C7500D00340 /* Animal Age.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FC58C41719EB2AD700547C23 /* Animal Age.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,8 +111,6 @@
 		FCAE348A1B841F5300956348 /* Animal Age-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Age-Bridging-Header.h"; sourceTree = "<group>"; };
 		FCB1B20C22B60AEB00762AFD /* Dog Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Dog Age-Prefix.pch"; path = "/Users/jon/GIT/OBJ-C/Animal Age/DogAge/Dog Age/Dog Age-Prefix.pch"; sourceTree = "<absolute>"; };
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FCDAAFFC181DB207000128E1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
-		FCE2DC6922B621C500886755 /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; name = dsa_pub.pem; path = ../dsa_pub.pem; sourceTree = "<group>"; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		FD8925E021E6F567B6E20C30 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -253,7 +249,6 @@
 		FC7D32F816DC847A00689DC8 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				FCDAAFFC181DB207000128E1 /* dsa_pub.pem */,
 				FC9D8D0319E4D076007A1781 /* MainMenu.xib */,
 				FC9D8D0519E4D0AB007A1781 /* MainMenuWeb.xib */,
 			);
@@ -263,7 +258,6 @@
 		FCEFEABC18B16F93008B33B8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FCE2DC6922B621C500886755 /* dsa_pub.pem */,
 				FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */,
 				FC071D2C22B5BF4800212CF3 /* Dog.swift */,
 				FC071D2822B5BA5300212CF3 /* TopBar.swift */,
@@ -324,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = JBD;
 				TargetAttributes = {
 					1127099C14BBA19C00673DF8 = {
@@ -380,7 +374,6 @@
 			files = (
 				112709AC14BBA19C00673DF8 /* InfoPlist.strings in Resources */,
 				112709B214BBA19C00673DF8 /* Credits.rtf in Resources */,
-				FCEA8B0619EB2C7500D00340 /* Animal Age.entitlements in Resources */,
 				FC58C44519EB2C1900547C23 /* index.html in Resources */,
 				FC58C44719EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
 				FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */,
@@ -396,7 +389,6 @@
 				FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */,
 				FC58C44819EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
-				FCDAAFFD181DB207000128E1 /* dsa_pub.pem in Resources */,
 				FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */,
 				FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */,
 				FC58C41319EB26F200547C23 /* Images.xcassets in Resources */,
@@ -416,13 +408,11 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -574,6 +564,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -624,6 +615,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

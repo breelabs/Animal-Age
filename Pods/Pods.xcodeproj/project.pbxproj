@@ -9,185 +9,189 @@
 /* Begin PBXAggregateTarget section */
 		ED77B4B88587C894E85C361023D67C53 /* Sparkle */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2C8D06A2289713323892B3638F08AC0B /* Build configuration list for PBXAggregateTarget "Sparkle" */;
+			buildConfigurationList = 6347E178A154C832C62FFEFD8D07C44A /* Build configuration list for PBXAggregateTarget "Sparkle" */;
 			buildPhases = (
+				A19A62E98EFD5224E676AA13D01CEF3A /* [CP] Copy dSYMs */,
 			);
 			dependencies = (
 			);
 			name = Sparkle;
+			productName = Sparkle;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0554B298BCBF497B22F9C8E58798686E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 51EA41DD0C1B50A6DF2CA33CB0AAE779 /* en.lproj */; };
-		09293DF8097E0CA797FD54EA1C141891 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 34427B84188647F8A74E35D1326A3A33 /* hu.lproj */; };
-		14F6E286DA418EACBF244C218DB4DE62 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A0108C5E5D3DC336F177CF37CE408F02 /* ro.lproj */; };
-		2082940AC06B9F7E12BB40F596F1E57D /* Pods-Animal Age Website-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB104FFC7A0F344BCD47D94EE8FD3D8 /* Pods-Animal Age Website-dummy.m */; };
-		25DBD8971DCB2B73BCEB87A7DEE2CDDF /* Armchair.h in Headers */ = {isa = PBXBuildFile; fileRef = BA259B73748C04AF9BDFB60E5C589C84 /* Armchair.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2676D10CE79C5EFE1F223D2A23BCF62E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6DC9C4876686CB9C4E897143B7B27B4C /* ms.lproj */; };
-		27AF054CA86FE2C16E03C490CBC4BFE0 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DC6832D8DB7FAEB65B66A7283FD58 /* ko.lproj */; };
-		2AF64D49102A8D516E9219AD6A8A9D6D /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DB03764DB201AA50F5C7F1D12C91C676 /* ca.lproj */; };
-		3075D9DF35F32B545F837ED0D71AD1F2 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DD4E135C4655163BF8118472CD28860C /* th.lproj */; };
-		31B97C4381BDA2527FB9FB09FF28398C /* Pods-Animal Age Website-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8305C6F785BBC052F0C521F0625F859D /* Pods-Animal Age Website-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D9B78ED964772DB1918BB071C03A519 /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA24B6DAF612F6174F5AB61C217B1220 /* he.lproj */; };
-		434A0725264F941DC67594B304AD68DD /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F2FB23886F7F536F5950D58ECE984FC2 /* fr.lproj */; };
-		47D3233C8673E388599F8552CBF33EFC /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E0F569134DD72E3FD59D8F5629FA2939 /* id.lproj */; };
-		5AA8D64FE18BED6F8712A43435E61050 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 52B9DA272A951EC8A47F78D01F8606E9 /* cs.lproj */; };
-		5D2950D27781454DF8D746758F8FDEBA /* Pods-Animal Age-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A875240ED6F0B630660F486934FA96 /* Pods-Animal Age-dummy.m */; };
-		69D0B505025971457096E5EB87611A5A /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 053CAA62ED37EB84788DD029132FFCE4 /* zh-Hant.lproj */; };
-		7329B214B509E9743D6A21DDEE4617CF /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 17A50062A3576EE7B97BF48A450848E4 /* pl.lproj */; };
-		78CDA78FA0E1A9FA45B702881EEB06E0 /* Pods-Animal Age-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C002A7C8E9E661671AF2D7AB096DE984 /* Pods-Animal Age-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		806548C1C8704CF9F79B95501F6C1319 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BE0CDA9A7C13BD56B42B848BB7BBA707 /* nl.lproj */; };
-		8538B8556BFEB77B81A30EBC2F69B57F /* Armchair-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D76EFF8ED8033BE8EFF51496E7F858B /* Armchair-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		956AB21CE9C965FB9337486775A5D8BC /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EFC93DB86CB4A5346C4A823490D078A6 /* fi.lproj */; };
-		9B02E87ED2D434A1DBD38C66AA42E649 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E278073D2B924B6CD17E77AE252D718E /* de.lproj */; };
-		9B6C4883059A702B530864FDA050C328 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D77C5F3238BCDC810CF3A3020DA6D4B0 /* nb.lproj */; };
-		9D4F04B9CD024B7C4342F828BF41D1E6 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B5BEE8B434DE8A886972DF7A3319F8D2 /* pt.lproj */; };
-		9F8452327CD1F66AD3CADE6FB95EB043 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 917E0841DDC0B6C703CE9CD38773F664 /* sv.lproj */; };
-		A5A10AF329987D4951868604572A7019 /* Armchair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD151ACEEC67608114C8D27FB40ECE /* Armchair.swift */; };
-		AE37753E7A3E4A36BDFAA83491EF4E06 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FEFD629EF378B679FEC31B3E9D4C71AA /* ar.lproj */; };
-		B1D40C9075FDDB77A181F79F3A779D69 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B8436972737A85FE7B78602266DE76FC /* ja.lproj */; };
-		B7BCDB1F7CDA51CEA7D4587B593ABB17 /* arm.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C79A1F1AFB0798A94765C3CECC4BA95 /* arm.lproj */; };
-		B918E64E546F1B2BF89A4B661E94F114 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		BB15C8FFE48FBAC5F7CA1797E3F91995 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9407753488DB755D5917C4EBBDB826A3 /* da.lproj */; };
-		C5FBEE0548212350512B31F4B133F069 /* Armchair-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA337225A2000CFDEB1B6F99AB16DCC /* Armchair-dummy.m */; };
-		C673E2BE8F0F6EAE056DD9E3FDC9E380 /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AF5920476E30630A24358BA485CBF5A1 /* el.lproj */; };
-		C71F3D0C4ECCCBD0DD0F999373B7BE50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		D7E1FDDB4FF38CE71E05B05BE361C85C /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7BDCC5F260B5CDC149378888020FFFE5 /* it.lproj */; };
-		E0F2D42941F4A167F49A64533037C0FE /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C338AE45E76103566E4DEEAE201F2050 /* ru.lproj */; };
-		E5904AA4332F007CBCCDC5C1B1F53142 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		E7ECA98473B329B990750DBBAA1141FA /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 59CFF2C357E366CAA1697F63B8B32C56 /* es.lproj */; };
-		E916C19094DF81CA3AD9CC9DC7F944AE /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CF3E45EEC93AE6F94D359E88B1951BDF /* vi.lproj */; };
-		F3E3956F2DAA3560BD9227AA35DA6B9E /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D25C357C488748C96980C36BEEEEB006 /* pt-BR.lproj */; };
-		F7281360CEE2602B1B3D40FCCA15846E /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0EE843010F81D408AA2C6D13DFF755D8 /* tr.lproj */; };
-		F83505EAB484C6EF2772BCA68EBC08DD /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 552B9CB234A35D573626305C6E61B04E /* sk.lproj */; };
-		FA5DB63DC0AEECBED293C48EB639BE86 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1FF560071D3AEF912A53F2525AEE69C3 /* zh-Hans.lproj */; };
+		0554B298BCBF497B22F9C8E58798686E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC3F9163C91935F6BC51127C05F724 /* en.lproj */; };
+		09293DF8097E0CA797FD54EA1C141891 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 665DBAAA190186BC80D68D74F0ACB861 /* hu.lproj */; };
+		14F6E286DA418EACBF244C218DB4DE62 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EA3F5DFC73FD049CB587407E592E3388 /* ro.lproj */; };
+		25DBD8971DCB2B73BCEB87A7DEE2CDDF /* Armchair.h in Headers */ = {isa = PBXBuildFile; fileRef = 7504E1D8D642E9A417AD51EF15B6BD20 /* Armchair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2676D10CE79C5EFE1F223D2A23BCF62E /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2ED69AC04BBFA6D564804A855C5A0971 /* ms.lproj */; };
+		26F2C9AEFEA3D5F9F2E73C613B9E8766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		27AF054CA86FE2C16E03C490CBC4BFE0 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 61E565A2435DFA27434F61E2FEB6495C /* ko.lproj */; };
+		2AF64D49102A8D516E9219AD6A8A9D6D /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D603CABE50A14E087A1D3EE8C6F4919F /* ca.lproj */; };
+		3075D9DF35F32B545F837ED0D71AD1F2 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 89C7C0D83715FAB0FF7308510A34AD73 /* th.lproj */; };
+		35814B8430C769B568401646BB831E99 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		3D9B78ED964772DB1918BB071C03A519 /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3B99286018207370030B1A6DF4676CA7 /* he.lproj */; };
+		42EF120002B678D7236569C88A7F940A /* Pods-Animal Age-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C002A7C8E9E661671AF2D7AB096DE984 /* Pods-Animal Age-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434A0725264F941DC67594B304AD68DD /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2AC12A6F4EAB940EDA03B94E167D2917 /* fr.lproj */; };
+		47D3233C8673E388599F8552CBF33EFC /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C24374A1FCBD9E584C5E7EDF8558995 /* id.lproj */; };
+		5AA8D64FE18BED6F8712A43435E61050 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 04A9DD65864C4EC3A8A4C28581A023E7 /* cs.lproj */; };
+		63E31189CB3B967851A2298E5EB75DBE /* Pods-Animal Age Website-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB104FFC7A0F344BCD47D94EE8FD3D8 /* Pods-Animal Age Website-dummy.m */; };
+		69D0B505025971457096E5EB87611A5A /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 958FDDFB7E43315E6AF081E06681D9E9 /* zh-Hant.lproj */; };
+		7329B214B509E9743D6A21DDEE4617CF /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EB6AE9588AF9CB2596D54C02D34A844B /* pl.lproj */; };
+		806548C1C8704CF9F79B95501F6C1319 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E5864A3390F4D837D00017512EC66469 /* nl.lproj */; };
+		8538B8556BFEB77B81A30EBC2F69B57F /* Armchair-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF404B5BA4707F89D5CE49B95E8CEC /* Armchair-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956AB21CE9C965FB9337486775A5D8BC /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7651498985574334420BB275810432B4 /* fi.lproj */; };
+		99AF7F2F5CB11A126FAD47B151F1C609 /* Pods-Animal Age Website-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8305C6F785BBC052F0C521F0625F859D /* Pods-Animal Age Website-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B02E87ED2D434A1DBD38C66AA42E649 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A639DFE1425F29C17B4584A2F1A4D7A /* de.lproj */; };
+		9B6C4883059A702B530864FDA050C328 /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 26BB99B9F757CC3547F660694579E643 /* nb.lproj */; };
+		9D4F04B9CD024B7C4342F828BF41D1E6 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24BE8703822FE7283584BD59D1067395 /* pt.lproj */; };
+		9F8452327CD1F66AD3CADE6FB95EB043 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3F49D2B42FC7BA9EAF4B3903152E22EA /* sv.lproj */; };
+		A5A10AF329987D4951868604572A7019 /* Armchair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E5007F98F78444DAF18112ED7F121D /* Armchair.swift */; };
+		AE37753E7A3E4A36BDFAA83491EF4E06 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EBCA30D451C09E6E5A384468AE014C22 /* ar.lproj */; };
+		B1D40C9075FDDB77A181F79F3A779D69 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B278254CF5990234BE8416A98C6B475C /* ja.lproj */; };
+		B7BCDB1F7CDA51CEA7D4587B593ABB17 /* arm.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BD62930573AF6225679C1A45A6B77BA9 /* arm.lproj */; };
+		BB15C8FFE48FBAC5F7CA1797E3F91995 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 306D158070C877371EC30F4441BF3B4C /* da.lproj */; };
+		C5FBEE0548212350512B31F4B133F069 /* Armchair-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F563C483B3D2B8A4EA9D37D0495D5D9 /* Armchair-dummy.m */; };
+		C66375FD3D371D47ACF602EA93445EBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		C673E2BE8F0F6EAE056DD9E3FDC9E380 /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CC71D07500B800B663138B41AB30C7F /* el.lproj */; };
+		D0DAE17A98FB45438E0061EBB6E1E74A /* Pods-Animal Age-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A875240ED6F0B630660F486934FA96 /* Pods-Animal Age-dummy.m */; };
+		D7E1FDDB4FF38CE71E05B05BE361C85C /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0291DA7B1CD2EA4CA1235AA95377C /* it.lproj */; };
+		E0F2D42941F4A167F49A64533037C0FE /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C5AC98CA6AA2DF95309F69C81755F668 /* ru.lproj */; };
+		E7ECA98473B329B990750DBBAA1141FA /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE3ED2B3C4E0EDB460F373E713BD8FE4 /* es.lproj */; };
+		E916C19094DF81CA3AD9CC9DC7F944AE /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 653389B3623DCF9204F898D9F1AEB6BB /* vi.lproj */; };
+		F3E3956F2DAA3560BD9227AA35DA6B9E /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4366ED4DDD63B8E4A8BE8F2F07B12C83 /* pt-BR.lproj */; };
+		F7281360CEE2602B1B3D40FCCA15846E /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BAB6976CBF1396B864B9AB37EC3B56EB /* tr.lproj */; };
+		F83505EAB484C6EF2772BCA68EBC08DD /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F080554C6D914DF5A632F6A373EAE9A4 /* sk.lproj */; };
+		FA5DB63DC0AEECBED293C48EB639BE86 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FD1311ECD9E9D7021B4E660E106F5712 /* zh-Hans.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47ADCFC6E882DA63B473DE9E57809392 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28C67B1DAC307ADA6B99663A8D96A761;
-			remoteInfo = Armchair;
-		};
-		58AA507CACB9485B76D1C2C976020271 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28C67B1DAC307ADA6B99663A8D96A761;
-			remoteInfo = Armchair;
-		};
-		72BFD126EA53354847AFD5DA3A5D2D0E /* PBXContainerItemProxy */ = {
+		034CE947D293558EB0BA4A76BB7F0C28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ED77B4B88587C894E85C361023D67C53;
 			remoteInfo = Sparkle;
 		};
+		37EECEF3CF51E85C4B64B4976F632975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C67B1DAC307ADA6B99663A8D96A761;
+			remoteInfo = Armchair;
+		};
+		75FF63CB06632DE4A1B9660D0BF72F5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C67B1DAC307ADA6B99663A8D96A761;
+			remoteInfo = Armchair;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		053CAA62ED37EB84788DD029132FFCE4 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Localization/zh-Hant.lproj"; sourceTree = "<group>"; };
+		04A9DD65864C4EC3A8A4C28581A023E7 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Localization/cs.lproj; sourceTree = "<group>"; };
 		05691FCA46C251BE90E7482A2BC53AB0 /* Pods-Animal Age Website-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal Age Website-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07E176875D604E3F157F43E379D2ADB7 /* Armchair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Armchair.release.xcconfig; sourceTree = "<group>"; };
 		0D8F0C82653ABBFAF281F7A4EDFE9B76 /* Pods-Animal Age.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal Age.modulemap"; sourceTree = "<group>"; };
-		0EE843010F81D408AA2C6D13DFF755D8 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = Localization/tr.lproj; sourceTree = "<group>"; };
-		0F7617281A4DE53001713ADBDC05F549 /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
-		17A50062A3576EE7B97BF48A450848E4 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Localization/pl.lproj; sourceTree = "<group>"; };
-		18A4A61A29A1198A4AA214216C590B5E /* Armchair-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Armchair-prefix.pch"; sourceTree = "<group>"; };
-		19C700917BFCAA68089F21DC739E69C7 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
-		1DCD151ACEEC67608114C8D27FB40ECE /* Armchair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Armchair.swift; path = Source/Armchair.swift; sourceTree = "<group>"; };
-		1FF560071D3AEF912A53F2525AEE69C3 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Localization/zh-Hans.lproj"; sourceTree = "<group>"; };
-		214B9E79558E81AA55F8DC7C27B9DD51 /* Armchair.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Armchair.modulemap; sourceTree = "<group>"; };
+		1568254550AC295A66AA86E371876064 /* Sparkle-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Sparkle-copy-dsyms.sh"; sourceTree = "<group>"; };
+		1885429B64646503D512D151E6C30362 /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		1ACEE4C39AFA25767282396EDA1763CB /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
+		1D18AE7F3262D119C57ECAB615889AA6 /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
+		24BE8703822FE7283584BD59D1067395 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Localization/pt.lproj; sourceTree = "<group>"; };
 		261F32429BE3C56C08CD9F745CB8CB96 /* Pods-Animal Age Website.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age Website.debug.xcconfig"; sourceTree = "<group>"; };
-		28CBC85583176225C5909F97ABBCF4BB /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
-		29A39A8EB3E664C98B9BE6A0C21B05FD /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		26BB99B9F757CC3547F660694579E643 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nb.lproj; path = Localization/nb.lproj; sourceTree = "<group>"; };
+		27E9C9933C074AE117B3182E1112FEBB /* Armchair.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Armchair.modulemap; sourceTree = "<group>"; };
 		2A6F167AFE305A34C0A3A0E1AEC7A0A0 /* Pods-Animal Age Website.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal Age Website.modulemap"; sourceTree = "<group>"; };
-		3075CD2F21E4CA35337DFCE078E2C03D /* SPUDownloaderDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDeprecated.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDeprecated.h; sourceTree = "<group>"; };
-		34427B84188647F8A74E35D1326A3A33 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hu.lproj; path = Localization/hu.lproj; sourceTree = "<group>"; };
-		357DB510D5BF9A1C86E7D2751135F1AE /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
-		4687198DA6061B8676EC79F3414BAD89 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
-		51EA41DD0C1B50A6DF2CA33CB0AAE779 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Localization/en.lproj; sourceTree = "<group>"; };
-		52B9DA272A951EC8A47F78D01F8606E9 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = Localization/cs.lproj; sourceTree = "<group>"; };
+		2AC12A6F4EAB940EDA03B94E167D2917 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Localization/fr.lproj; sourceTree = "<group>"; };
+		2ED69AC04BBFA6D564804A855C5A0971 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = Localization/ms.lproj; sourceTree = "<group>"; };
+		306D158070C877371EC30F4441BF3B4C /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = Localization/da.lproj; sourceTree = "<group>"; };
+		327BA74CD043B183B711E7BE2A8AF803 /* Sparkle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sparkle.h; path = Sparkle.framework/Versions/A/Headers/Sparkle.h; sourceTree = "<group>"; };
+		3B99286018207370030B1A6DF4676CA7 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = he.lproj; path = Localization/he.lproj; sourceTree = "<group>"; };
+		3CC71D07500B800B663138B41AB30C7F /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = el.lproj; path = Localization/el.lproj; sourceTree = "<group>"; };
+		3F49D2B42FC7BA9EAF4B3903152E22EA /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Localization/sv.lproj; sourceTree = "<group>"; };
+		4366ED4DDD63B8E4A8BE8F2F07B12C83 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Localization/pt-BR.lproj"; sourceTree = "<group>"; };
 		5362E2CAB2D719FA56806B389293ECBB /* Pods-Animal Age-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Age-frameworks.sh"; sourceTree = "<group>"; };
-		552B9CB234A35D573626305C6E61B04E /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = Localization/sk.lproj; sourceTree = "<group>"; };
-		589742256116624DF2C39872D3615575 /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
-		59CFF2C357E366CAA1697F63B8B32C56 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Localization/es.lproj; sourceTree = "<group>"; };
+		5B7D99C2BAA85BB81571B6C97983AB50 /* Sparkle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.debug.xcconfig; sourceTree = "<group>"; };
+		5B9047552554394D75F86C05205C5500 /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
+		5BFE47E9408ADF39604297F7C0BB1CC2 /* Armchair-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Armchair-Info.plist"; sourceTree = "<group>"; };
+		5CEDB34C6945951A8EDC33F812E14DCA /* SUExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUExport.h; path = Sparkle.framework/Versions/A/Headers/SUExport.h; sourceTree = "<group>"; };
 		5D0239D4403026E4C46311985DBC057A /* Pods-Animal Age Website.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age Website.release.xcconfig"; sourceTree = "<group>"; };
-		6BA337225A2000CFDEB1B6F99AB16DCC /* Armchair-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Armchair-dummy.m"; sourceTree = "<group>"; };
-		6DC9C4876686CB9C4E897143B7B27B4C /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = Localization/ms.lproj; sourceTree = "<group>"; };
-		751BF819AED928109B6D44ACB227DCDA /* SPUDownloaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderDelegate.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderDelegate.h; sourceTree = "<group>"; };
-		7BDCC5F260B5CDC149378888020FFFE5 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Localization/it.lproj; sourceTree = "<group>"; };
+		5DC0291DA7B1CD2EA4CA1235AA95377C /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Localization/it.lproj; sourceTree = "<group>"; };
+		5DCC3F9163C91935F6BC51127C05F724 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Localization/en.lproj; sourceTree = "<group>"; };
+		5F563C483B3D2B8A4EA9D37D0495D5D9 /* Armchair-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Armchair-dummy.m"; sourceTree = "<group>"; };
+		61E565A2435DFA27434F61E2FEB6495C /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Localization/ko.lproj; sourceTree = "<group>"; };
+		653389B3623DCF9204F898D9F1AEB6BB /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Localization/vi.lproj; sourceTree = "<group>"; };
+		65FF404B5BA4707F89D5CE49B95E8CEC /* Armchair-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Armchair-umbrella.h"; sourceTree = "<group>"; };
+		665DBAAA190186BC80D68D74F0ACB861 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = Localization/hu.lproj; sourceTree = "<group>"; };
+		6A639DFE1425F29C17B4584A2F1A4D7A /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Localization/de.lproj; sourceTree = "<group>"; };
+		7504E1D8D642E9A417AD51EF15B6BD20 /* Armchair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Armchair.h; path = Source/Armchair.h; sourceTree = "<group>"; };
+		7651498985574334420BB275810432B4 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Localization/fi.lproj; sourceTree = "<group>"; };
+		7B903676538F8B51392C9897A5AD0724 /* SPUURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUURLRequest.h; path = Sparkle.framework/Versions/A/Headers/SPUURLRequest.h; sourceTree = "<group>"; };
+		7CDF4A63C8B80D97593531298677D05B /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
 		7F5908601A020A8E6FF17FFEC4BB5329 /* Pods-Animal Age-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal Age-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7FFB5F231E5A69AA616086D500C4DAAB /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
-		821C717ACF2D9F4955CB5D4D4F2A23C9 /* Sparkle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.xcconfig; sourceTree = "<group>"; };
 		8305C6F785BBC052F0C521F0625F859D /* Pods-Animal Age Website-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal Age Website-umbrella.h"; sourceTree = "<group>"; };
 		84617B47AA66DDB7287B2AFC438D2DEF /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
 		8684885681FC9D0783A8DD987B5714E6 /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
-		8D76EFF8ED8033BE8EFF51496E7F858B /* Armchair-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Armchair-umbrella.h"; sourceTree = "<group>"; };
-		8DCE4BADEA95B0BABBD355926E4B406A /* Armchair.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Armchair.xcconfig; sourceTree = "<group>"; };
-		8E0630A6E5EC0BA671DB6F6FBDC35CA4 /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
-		8F9DC6832D8DB7FAEB65B66A7283FD58 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Localization/ko.lproj; sourceTree = "<group>"; };
-		917E0841DDC0B6C703CE9CD38773F664 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Localization/sv.lproj; sourceTree = "<group>"; };
-		9407753488DB755D5917C4EBBDB826A3 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = Localization/da.lproj; sourceTree = "<group>"; };
+		87E5007F98F78444DAF18112ED7F121D /* Armchair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Armchair.swift; path = Source/Armchair.swift; sourceTree = "<group>"; };
+		882AD4045B7A62E4BC5EAFB25A193200 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		88A2E29C92C6959D806628085ADBA17D /* Sparkle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparkle.release.xcconfig; sourceTree = "<group>"; };
+		89C7C0D83715FAB0FF7308510A34AD73 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = th.lproj; path = Localization/th.lproj; sourceTree = "<group>"; };
+		93941F1AFA95EDCF7A35CD7C167C4F62 /* Armchair-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Armchair-prefix.pch"; sourceTree = "<group>"; };
+		958FDDFB7E43315E6AF081E06681D9E9 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Localization/zh-Hant.lproj"; sourceTree = "<group>"; };
+		9A3347EE3B0D18CAD41FEDA50E2382B9 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
 		9BB104FFC7A0F344BCD47D94EE8FD3D8 /* Pods-Animal Age Website-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal Age Website-dummy.m"; sourceTree = "<group>"; };
-		9BE19CE24F1A7761D68A9138B79B11AB /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
-		9C79A1F1AFB0798A94765C3CECC4BA95 /* arm.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = arm.lproj; path = Localization/arm.lproj; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E253B0D05482D368FF3609131457A6F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		A0108C5E5D3DC336F177CF37CE408F02 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = Localization/ro.lproj; sourceTree = "<group>"; };
-		A50A9452F8AEE0738F6919927B02AF6F /* Pods_Animal_Age_Website.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animal_Age_Website.framework; path = "Pods-Animal Age Website.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A8A2B7FD65C190081944B2A26E30CC /* Armchair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Armchair.framework; path = Armchair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA24B6DAF612F6174F5AB61C217B1220 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = he.lproj; path = Localization/he.lproj; sourceTree = "<group>"; };
+		9C24374A1FCBD9E584C5E7EDF8558995 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = Localization/id.lproj; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB7FCB0956D66E1C5685821AC02D374 /* SUErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUErrors.h; path = Sparkle.framework/Versions/A/Headers/SUErrors.h; sourceTree = "<group>"; };
+		9F4D80EF48E717DF212D0A2C1BCA878A /* SUAppcastItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcastItem.h; path = Sparkle.framework/Versions/A/Headers/SUAppcastItem.h; sourceTree = "<group>"; };
+		A50A9452F8AEE0738F6919927B02AF6F /* Pods_Animal_Age_Website.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age_Website.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A554DB44A0EC4252D94935572910CF /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
+		A6A8A2B7FD65C190081944B2A26E30CC /* Armchair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Armchair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE7311A9B4E00BA6E1D27BCA3CA7CCB /* Pods-Animal Age Website-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age Website-Info.plist"; sourceTree = "<group>"; };
-		AF5920476E30630A24358BA485CBF5A1 /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = el.lproj; path = Localization/el.lproj; sourceTree = "<group>"; };
-		B5BEE8B434DE8A886972DF7A3319F8D2 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = Localization/pt.lproj; sourceTree = "<group>"; };
-		B7B6842958394555D479EE5D8D416465 /* SPUDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloader.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloader.h; sourceTree = "<group>"; };
-		B8436972737A85FE7B78602266DE76FC /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Localization/ja.lproj; sourceTree = "<group>"; };
-		BA259B73748C04AF9BDFB60E5C589C84 /* Armchair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Armchair.h; path = Source/Armchair.h; sourceTree = "<group>"; };
+		B1057B4C0A8B596914A8B49708E7FD66 /* SUUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdater.h; path = Sparkle.framework/Versions/A/Headers/SUUpdater.h; sourceTree = "<group>"; };
+		B278254CF5990234BE8416A98C6B475C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Localization/ja.lproj; sourceTree = "<group>"; };
+		B9418F5F6914665123D6C0341E97BF96 /* SUStandardVersionComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUStandardVersionComparator.h; path = Sparkle.framework/Versions/A/Headers/SUStandardVersionComparator.h; sourceTree = "<group>"; };
 		BA3B2DFBC15B594C826F729CCB3F75DC /* Pods-Animal Age Website-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Age Website-frameworks.sh"; sourceTree = "<group>"; };
-		BE0CDA9A7C13BD56B42B848BB7BBA707 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Localization/nl.lproj; sourceTree = "<group>"; };
+		BAB6976CBF1396B864B9AB37EC3B56EB /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = Localization/tr.lproj; sourceTree = "<group>"; };
+		BD62930573AF6225679C1A45A6B77BA9 /* arm.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = arm.lproj; path = Localization/arm.lproj; sourceTree = "<group>"; };
 		BF2B249258835F311605CD2E1C30F869 /* Pods-Animal Age-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-Info.plist"; sourceTree = "<group>"; };
 		C002A7C8E9E661671AF2D7AB096DE984 /* Pods-Animal Age-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal Age-umbrella.h"; sourceTree = "<group>"; };
-		C338AE45E76103566E4DEEAE201F2050 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Localization/ru.lproj; sourceTree = "<group>"; };
-		CF3E45EEC93AE6F94D359E88B1951BDF /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = Localization/vi.lproj; sourceTree = "<group>"; };
-		D18B555E7F837C1361F985666F78BB9E /* SPUDownloaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderProtocol.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderProtocol.h; sourceTree = "<group>"; };
-		D25C357C488748C96980C36BEEEEB006 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Localization/pt-BR.lproj"; sourceTree = "<group>"; };
-		D77C5F3238BCDC810CF3A3020DA6D4B0 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Localization/nb.lproj; sourceTree = "<group>"; };
-		D921983E23A5E4F5C8ABD37C9B35F81A /* SUAppcast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUAppcast.h; path = Sparkle.framework/Versions/A/Headers/SUAppcast.h; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C20C6E071AC1ECE08428DA3665FD31D2 /* Armchair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Armchair.debug.xcconfig; sourceTree = "<group>"; };
+		C5AC98CA6AA2DF95309F69C81755F668 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Localization/ru.lproj; sourceTree = "<group>"; };
+		D1BA209B4AFA15D5D1B4B41F791F806D /* SUVersionDisplayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionDisplayProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionDisplayProtocol.h; sourceTree = "<group>"; };
+		D52CD89E173463F5DD81C9D7032315CB /* SUUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUUpdaterDelegate.h; path = Sparkle.framework/Versions/A/Headers/SUUpdaterDelegate.h; sourceTree = "<group>"; };
+		D603CABE50A14E087A1D3EE8C6F4919F /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = Localization/ca.lproj; sourceTree = "<group>"; };
 		D9DD4C3D30AC3B6B2DFDC5C836873758 /* Pods-Animal Age Website-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age Website-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA13836D7CFC78C5C09AD1FBD7C7599D /* Armchair-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Armchair-Info.plist"; sourceTree = "<group>"; };
-		DB03764DB201AA50F5C7F1D12C91C676 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ca.lproj; path = Localization/ca.lproj; sourceTree = "<group>"; };
 		DD41AA3101AC22B05D68701C128C1E0A /* Pods-Animal Age-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Age-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD4E135C4655163BF8118472CD28860C /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = Localization/th.lproj; sourceTree = "<group>"; };
-		E0F569134DD72E3FD59D8F5629FA2939 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = Localization/id.lproj; sourceTree = "<group>"; };
-		E278073D2B924B6CD17E77AE252D718E /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Localization/de.lproj; sourceTree = "<group>"; };
-		EBBBCDA22B650E4B616929697D0AF3E0 /* SUVersionComparisonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUVersionComparisonProtocol.h; path = Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h; sourceTree = "<group>"; };
-		EFC93DB86CB4A5346C4A823490D078A6 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = Localization/fi.lproj; sourceTree = "<group>"; };
-		F2FB23886F7F536F5950D58ECE984FC2 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Localization/fr.lproj; sourceTree = "<group>"; };
-		F6A8ED3DCFE06F5A57554FBF96CFD261 /* SPUDownloadData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloadData.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloadData.h; sourceTree = "<group>"; };
+		DE3ED2B3C4E0EDB460F373E713BD8FE4 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Localization/es.lproj; sourceTree = "<group>"; };
+		E5864A3390F4D837D00017512EC66469 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Localization/nl.lproj; sourceTree = "<group>"; };
+		EA3F5DFC73FD049CB587407E592E3388 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ro.lproj; path = Localization/ro.lproj; sourceTree = "<group>"; };
+		EB6AE9588AF9CB2596D54C02D34A844B /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Localization/pl.lproj; sourceTree = "<group>"; };
+		EBCA30D451C09E6E5A384468AE014C22 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = Localization/ar.lproj; sourceTree = "<group>"; };
+		F080554C6D914DF5A632F6A373EAE9A4 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Localization/sk.lproj; sourceTree = "<group>"; };
 		F7A875240ED6F0B630660F486934FA96 /* Pods-Animal Age-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal Age-dummy.m"; sourceTree = "<group>"; };
-		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		FAE3D7A7EFE787069FEEAFBD2532A560 /* SUCodeSigningVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SUCodeSigningVerifier.h; path = Sparkle.framework/Versions/A/Headers/SUCodeSigningVerifier.h; sourceTree = "<group>"; };
-		FC3E77DBA2113CF94076EA21B71BC32E /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animal_Age.framework; path = "Pods-Animal Age.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEFD629EF378B679FEC31B3E9D4C71AA /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = Localization/ar.lproj; sourceTree = "<group>"; };
+		FC3E77DBA2113CF94076EA21B71BC32E /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE9F2C75C832AB292551EAF87908AC1 /* SPUDownloaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPUDownloaderSession.h; path = Sparkle.framework/Versions/A/Headers/SPUDownloaderSession.h; sourceTree = "<group>"; };
+		FD1311ECD9E9D7021B4E660E106F5712 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Localization/zh-Hans.lproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		256722C7BA2EC5591B19991B8B80ABC4 /* Frameworks */ = {
+		4F4B99560B9737165A45D26E0A4CA105 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71F3D0C4ECCCBD0DD0F999373B7BE50 /* Cocoa.framework in Frameworks */,
+				35814B8430C769B568401646BB831E99 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44B5EE42C69717B1E2DB4EDE9FC12879 /* Frameworks */ = {
+		7AB819CD6A43B6D2C644106BF1F97528 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B918E64E546F1B2BF89A4B661E94F114 /* Cocoa.framework in Frameworks */,
+				26F2C9AEFEA3D5F9F2E73C613B9E8766 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5904AA4332F007CBCCDC5C1B1F53142 /* Cocoa.framework in Frameworks */,
+				C66375FD3D371D47ACF602EA93445EBF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,105 +223,97 @@
 			path = "Target Support Files/Pods-Animal Age Website";
 			sourceTree = "<group>";
 		};
-		136FC73A3294087AD7B058B52F3FF7D8 /* Resources */ = {
+		1757D7611DD63D21AE4990A0CF2DA3CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FEFD629EF378B679FEC31B3E9D4C71AA /* ar.lproj */,
-				9C79A1F1AFB0798A94765C3CECC4BA95 /* arm.lproj */,
-				DB03764DB201AA50F5C7F1D12C91C676 /* ca.lproj */,
-				52B9DA272A951EC8A47F78D01F8606E9 /* cs.lproj */,
-				9407753488DB755D5917C4EBBDB826A3 /* da.lproj */,
-				E278073D2B924B6CD17E77AE252D718E /* de.lproj */,
-				AF5920476E30630A24358BA485CBF5A1 /* el.lproj */,
-				51EA41DD0C1B50A6DF2CA33CB0AAE779 /* en.lproj */,
-				59CFF2C357E366CAA1697F63B8B32C56 /* es.lproj */,
-				EFC93DB86CB4A5346C4A823490D078A6 /* fi.lproj */,
-				F2FB23886F7F536F5950D58ECE984FC2 /* fr.lproj */,
-				AA24B6DAF612F6174F5AB61C217B1220 /* he.lproj */,
-				34427B84188647F8A74E35D1326A3A33 /* hu.lproj */,
-				E0F569134DD72E3FD59D8F5629FA2939 /* id.lproj */,
-				7BDCC5F260B5CDC149378888020FFFE5 /* it.lproj */,
-				B8436972737A85FE7B78602266DE76FC /* ja.lproj */,
-				8F9DC6832D8DB7FAEB65B66A7283FD58 /* ko.lproj */,
-				6DC9C4876686CB9C4E897143B7B27B4C /* ms.lproj */,
-				D77C5F3238BCDC810CF3A3020DA6D4B0 /* nb.lproj */,
-				BE0CDA9A7C13BD56B42B848BB7BBA707 /* nl.lproj */,
-				17A50062A3576EE7B97BF48A450848E4 /* pl.lproj */,
-				B5BEE8B434DE8A886972DF7A3319F8D2 /* pt.lproj */,
-				D25C357C488748C96980C36BEEEEB006 /* pt-BR.lproj */,
-				A0108C5E5D3DC336F177CF37CE408F02 /* ro.lproj */,
-				C338AE45E76103566E4DEEAE201F2050 /* ru.lproj */,
-				552B9CB234A35D573626305C6E61B04E /* sk.lproj */,
-				917E0841DDC0B6C703CE9CD38773F664 /* sv.lproj */,
-				DD4E135C4655163BF8118472CD28860C /* th.lproj */,
-				0EE843010F81D408AA2C6D13DFF755D8 /* tr.lproj */,
-				CF3E45EEC93AE6F94D359E88B1951BDF /* vi.lproj */,
-				1FF560071D3AEF912A53F2525AEE69C3 /* zh-Hans.lproj */,
-				053CAA62ED37EB84788DD029132FFCE4 /* zh-Hant.lproj */,
+				27D2495BACC3012506AD5101D5F062F3 /* Armchair */,
+				E610F6115913F3ED4B927CCD0D5DE3E2 /* Sparkle */,
 			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		15DFA9D4C37B249A7AAD8C8414016569 /* Armchair */ = {
+		27D2495BACC3012506AD5101D5F062F3 /* Armchair */ = {
 			isa = PBXGroup;
 			children = (
-				BA259B73748C04AF9BDFB60E5C589C84 /* Armchair.h */,
-				1DCD151ACEEC67608114C8D27FB40ECE /* Armchair.swift */,
-				136FC73A3294087AD7B058B52F3FF7D8 /* Resources */,
-				974D731B47D72F42CF12D1FA46F21D56 /* Support Files */,
+				7504E1D8D642E9A417AD51EF15B6BD20 /* Armchair.h */,
+				87E5007F98F78444DAF18112ED7F121D /* Armchair.swift */,
+				73771603155C1F239565667C06B0ED4E /* Resources */,
+				6598110FDC7871C89C7C92E6EB60F11B /* Support Files */,
 			);
-			name = Armchair;
 			path = Armchair;
 			sourceTree = "<group>";
 		};
-		286D416E7E085A0D33180B4D3976B3CC /* Frameworks */ = {
+		31FF5040753B4FA3C15F47CE9147CD9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E253B0D05482D368FF3609131457A6F /* Sparkle.framework */,
+				882AD4045B7A62E4BC5EAFB25A193200 /* Sparkle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55963D5E4A488DC35545D89E059BCE6C /* Sparkle */ = {
+		6598110FDC7871C89C7C92E6EB60F11B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				357DB510D5BF9A1C86E7D2751135F1AE /* Sparkle.h */,
-				F6A8ED3DCFE06F5A57554FBF96CFD261 /* SPUDownloadData.h */,
-				B7B6842958394555D479EE5D8D416465 /* SPUDownloader.h */,
-				751BF819AED928109B6D44ACB227DCDA /* SPUDownloaderDelegate.h */,
-				3075CD2F21E4CA35337DFCE078E2C03D /* SPUDownloaderDeprecated.h */,
-				D18B555E7F837C1361F985666F78BB9E /* SPUDownloaderProtocol.h */,
-				8E0630A6E5EC0BA671DB6F6FBDC35CA4 /* SPUDownloaderSession.h */,
-				4687198DA6061B8676EC79F3414BAD89 /* SPUURLRequest.h */,
-				D921983E23A5E4F5C8ABD37C9B35F81A /* SUAppcast.h */,
-				589742256116624DF2C39872D3615575 /* SUAppcastItem.h */,
-				FAE3D7A7EFE787069FEEAFBD2532A560 /* SUCodeSigningVerifier.h */,
-				19C700917BFCAA68089F21DC739E69C7 /* SUErrors.h */,
-				0F7617281A4DE53001713ADBDC05F549 /* SUExport.h */,
-				7FFB5F231E5A69AA616086D500C4DAAB /* SUStandardVersionComparator.h */,
-				9BE19CE24F1A7761D68A9138B79B11AB /* SUUpdater.h */,
-				28CBC85583176225C5909F97ABBCF4BB /* SUUpdaterDelegate.h */,
-				EBBBCDA22B650E4B616929697D0AF3E0 /* SUVersionComparisonProtocol.h */,
-				29A39A8EB3E664C98B9BE6A0C21B05FD /* SUVersionDisplayProtocol.h */,
-				286D416E7E085A0D33180B4D3976B3CC /* Frameworks */,
-				BD3497BA455E74E2D3F4C4D1072FFB49 /* Support Files */,
-			);
-			name = Sparkle;
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
-		974D731B47D72F42CF12D1FA46F21D56 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				214B9E79558E81AA55F8DC7C27B9DD51 /* Armchair.modulemap */,
-				8DCE4BADEA95B0BABBD355926E4B406A /* Armchair.xcconfig */,
-				6BA337225A2000CFDEB1B6F99AB16DCC /* Armchair-dummy.m */,
-				DA13836D7CFC78C5C09AD1FBD7C7599D /* Armchair-Info.plist */,
-				18A4A61A29A1198A4AA214216C590B5E /* Armchair-prefix.pch */,
-				8D76EFF8ED8033BE8EFF51496E7F858B /* Armchair-umbrella.h */,
+				27E9C9933C074AE117B3182E1112FEBB /* Armchair.modulemap */,
+				5F563C483B3D2B8A4EA9D37D0495D5D9 /* Armchair-dummy.m */,
+				5BFE47E9408ADF39604297F7C0BB1CC2 /* Armchair-Info.plist */,
+				93941F1AFA95EDCF7A35CD7C167C4F62 /* Armchair-prefix.pch */,
+				65FF404B5BA4707F89D5CE49B95E8CEC /* Armchair-umbrella.h */,
+				C20C6E071AC1ECE08428DA3665FD31D2 /* Armchair.debug.xcconfig */,
+				07E176875D604E3F157F43E379D2ADB7 /* Armchair.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Armchair";
+			sourceTree = "<group>";
+		};
+		73771603155C1F239565667C06B0ED4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA30D451C09E6E5A384468AE014C22 /* ar.lproj */,
+				BD62930573AF6225679C1A45A6B77BA9 /* arm.lproj */,
+				D603CABE50A14E087A1D3EE8C6F4919F /* ca.lproj */,
+				04A9DD65864C4EC3A8A4C28581A023E7 /* cs.lproj */,
+				306D158070C877371EC30F4441BF3B4C /* da.lproj */,
+				6A639DFE1425F29C17B4584A2F1A4D7A /* de.lproj */,
+				3CC71D07500B800B663138B41AB30C7F /* el.lproj */,
+				5DCC3F9163C91935F6BC51127C05F724 /* en.lproj */,
+				DE3ED2B3C4E0EDB460F373E713BD8FE4 /* es.lproj */,
+				7651498985574334420BB275810432B4 /* fi.lproj */,
+				2AC12A6F4EAB940EDA03B94E167D2917 /* fr.lproj */,
+				3B99286018207370030B1A6DF4676CA7 /* he.lproj */,
+				665DBAAA190186BC80D68D74F0ACB861 /* hu.lproj */,
+				9C24374A1FCBD9E584C5E7EDF8558995 /* id.lproj */,
+				5DC0291DA7B1CD2EA4CA1235AA95377C /* it.lproj */,
+				B278254CF5990234BE8416A98C6B475C /* ja.lproj */,
+				61E565A2435DFA27434F61E2FEB6495C /* ko.lproj */,
+				2ED69AC04BBFA6D564804A855C5A0971 /* ms.lproj */,
+				26BB99B9F757CC3547F660694579E643 /* nb.lproj */,
+				E5864A3390F4D837D00017512EC66469 /* nl.lproj */,
+				EB6AE9588AF9CB2596D54C02D34A844B /* pl.lproj */,
+				24BE8703822FE7283584BD59D1067395 /* pt.lproj */,
+				4366ED4DDD63B8E4A8BE8F2F07B12C83 /* pt-BR.lproj */,
+				EA3F5DFC73FD049CB587407E592E3388 /* ro.lproj */,
+				C5AC98CA6AA2DF95309F69C81755F668 /* ru.lproj */,
+				F080554C6D914DF5A632F6A373EAE9A4 /* sk.lproj */,
+				3F49D2B42FC7BA9EAF4B3903152E22EA /* sv.lproj */,
+				89C7C0D83715FAB0FF7308510A34AD73 /* th.lproj */,
+				BAB6976CBF1396B864B9AB37EC3B56EB /* tr.lproj */,
+				653389B3623DCF9204F898D9F1AEB6BB /* vi.lproj */,
+				FD1311ECD9E9D7021B4E660E106F5712 /* zh-Hans.lproj */,
+				958FDDFB7E43315E6AF081E06681D9E9 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D8114675EF5574A166837EC76937444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1568254550AC295A66AA86E371876064 /* Sparkle-copy-dsyms.sh */,
+				5B7D99C2BAA85BB81571B6C97983AB50 /* Sparkle.debug.xcconfig */,
+				88A2E29C92C6959D806628085ADBA17D /* Sparkle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sparkle";
 			sourceTree = "<group>";
 		};
 		9ECC4800D7EB2D7A794F435F1A45DF94 /* Targets Support Files */ = {
@@ -346,29 +342,12 @@
 			path = "Target Support Files/Pods-Animal Age";
 			sourceTree = "<group>";
 		};
-		BD3497BA455E74E2D3F4C4D1072FFB49 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				821C717ACF2D9F4955CB5D4D4F2A23C9 /* Sparkle.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Sparkle";
-			sourceTree = "<group>";
-		};
-		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
-				F16059BD8AAA02DDEFBD81A2108846D3 /* Pods */,
+				1757D7611DD63D21AE4990A0CF2DA3CD /* Pods */,
 				DC7E1E7C45DEF7724DDC0C43DC538FB1 /* Products */,
 				9ECC4800D7EB2D7A794F435F1A45DF94 /* Targets Support Files */,
 			);
@@ -387,36 +366,61 @@
 		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F16059BD8AAA02DDEFBD81A2108846D3 /* Pods */ = {
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				15DFA9D4C37B249A7AAD8C8414016569 /* Armchair */,
-				55963D5E4A488DC35545D89E059BCE6C /* Sparkle */,
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
 			);
-			name = Pods;
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E610F6115913F3ED4B927CCD0D5DE3E2 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				327BA74CD043B183B711E7BE2A8AF803 /* Sparkle.h */,
+				9A3347EE3B0D18CAD41FEDA50E2382B9 /* SPUDownloadData.h */,
+				5B9047552554394D75F86C05205C5500 /* SPUDownloader.h */,
+				1D18AE7F3262D119C57ECAB615889AA6 /* SPUDownloaderDelegate.h */,
+				7CDF4A63C8B80D97593531298677D05B /* SPUDownloaderProtocol.h */,
+				FCE9F2C75C832AB292551EAF87908AC1 /* SPUDownloaderSession.h */,
+				7B903676538F8B51392C9897A5AD0724 /* SPUURLRequest.h */,
+				1885429B64646503D512D151E6C30362 /* SUAppcast.h */,
+				9F4D80EF48E717DF212D0A2C1BCA878A /* SUAppcastItem.h */,
+				1ACEE4C39AFA25767282396EDA1763CB /* SUCodeSigningVerifier.h */,
+				9DB7FCB0956D66E1C5685821AC02D374 /* SUErrors.h */,
+				5CEDB34C6945951A8EDC33F812E14DCA /* SUExport.h */,
+				B9418F5F6914665123D6C0341E97BF96 /* SUStandardVersionComparator.h */,
+				B1057B4C0A8B596914A8B49708E7FD66 /* SUUpdater.h */,
+				D52CD89E173463F5DD81C9D7032315CB /* SUUpdaterDelegate.h */,
+				A5A554DB44A0EC4252D94935572910CF /* SUVersionComparisonProtocol.h */,
+				D1BA209B4AFA15D5D1B4B41F791F806D /* SUVersionDisplayProtocol.h */,
+				31FF5040753B4FA3C15F47CE9147CD9B /* Frameworks */,
+				8D8114675EF5574A166837EC76937444 /* Support Files */,
+			);
+			path = Sparkle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FF38FF4C221D8C99D8B12D910E66AE0 /* Headers */ = {
+		96E599F76E15396EA35C9DBA6948C268 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CDA78FA0E1A9FA45B702881EEB06E0 /* Pods-Animal Age-umbrella.h in Headers */,
+				99AF7F2F5CB11A126FAD47B151F1C609 /* Pods-Animal Age Website-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D5DC9F5D36269EB71786F755AC86A6 /* Headers */ = {
+		B2FD52633451D6373DDDBEB6B2F015EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B97C4381BDA2527FB9FB09FF28398C /* Pods-Animal Age Website-umbrella.h in Headers */,
+				42EF120002B678D7236569C88A7F940A /* Pods-Animal Age-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,17 +456,17 @@
 		};
 		97FFC99BBA231540E746F12CBC302B8B /* Pods-Animal Age */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9932D546A39A505294D6753369AD9617 /* Build configuration list for PBXNativeTarget "Pods-Animal Age" */;
+			buildConfigurationList = 0C4C5FBB7FBB4C1325B408B8B41B3053 /* Build configuration list for PBXNativeTarget "Pods-Animal Age" */;
 			buildPhases = (
-				4FF38FF4C221D8C99D8B12D910E66AE0 /* Headers */,
-				C8F8B9E98C1E894D34FFBCCCAEC23A7F /* Sources */,
-				44B5EE42C69717B1E2DB4EDE9FC12879 /* Frameworks */,
-				E9486962B9D11236D793DE52D76DAB8B /* Resources */,
+				B2FD52633451D6373DDDBEB6B2F015EE /* Headers */,
+				7776EC9C0A8C9946CCE32864C9728BF8 /* Sources */,
+				4F4B99560B9737165A45D26E0A4CA105 /* Frameworks */,
+				0C578546798B23DA7CF5B8AD6C14B3EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				21746EF418F54F497C2CC991027BDC57 /* PBXTargetDependency */,
+				EA76F367DA235287A7BFC0FDEADEF3FB /* PBXTargetDependency */,
 			);
 			name = "Pods-Animal Age";
 			productName = "Pods-Animal Age";
@@ -471,18 +475,18 @@
 		};
 		E80BF26307F75340E93A46973851B756 /* Pods-Animal Age Website */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C924C19DD254954778E2E73D5A48EC4 /* Build configuration list for PBXNativeTarget "Pods-Animal Age Website" */;
+			buildConfigurationList = 89154D507E2B42953C824D3625A69649 /* Build configuration list for PBXNativeTarget "Pods-Animal Age Website" */;
 			buildPhases = (
-				A9D5DC9F5D36269EB71786F755AC86A6 /* Headers */,
-				E57F3665B0154EED3E4EC5741E927D2E /* Sources */,
-				256722C7BA2EC5591B19991B8B80ABC4 /* Frameworks */,
-				EDE3B1E73032E72CBAD78E4728F3A44C /* Resources */,
+				96E599F76E15396EA35C9DBA6948C268 /* Headers */,
+				832EE89DB5C6D547E5646CBB1F8DD1BF /* Sources */,
+				7AB819CD6A43B6D2C644106BF1F97528 /* Frameworks */,
+				E46506F083D0FCA9B32E24596C2AA336 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FFDEF31207D8D97282D5197C67FEEF79 /* PBXTargetDependency */,
-				ADEED162E2F7E245D5CC34F8FAC26B8A /* PBXTargetDependency */,
+				41DEC492ABE218A3E5408B60358899D7 /* PBXTargetDependency */,
+				B16B69DD527DDFD57ED71BEBEB51C818 /* PBXTargetDependency */,
 			);
 			name = "Pods-Animal Age Website";
 			productName = "Pods-Animal Age Website";
@@ -496,7 +500,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -504,6 +508,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DC7E1E7C45DEF7724DDC0C43DC538FB1 /* Products */;
@@ -519,14 +524,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9486962B9D11236D793DE52D76DAB8B /* Resources */ = {
+		0C578546798B23DA7CF5B8AD6C14B3EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDE3B1E73032E72CBAD78E4728F3A44C /* Resources */ = {
+		E46506F083D0FCA9B32E24596C2AA336 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -574,7 +579,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A19A62E98EFD5224E676AA13D01CEF3A /* [CP] Copy dSYMs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Copy dSYMs";
+			outputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Sparkle/Sparkle-copy-dsyms.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7776EC9C0A8C9946CCE32864C9728BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DAE17A98FB45438E0061EBB6E1E74A /* Pods-Animal Age-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832EE89DB5C6D547E5646CBB1F8DD1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E31189CB3B967851A2298E5EB75DBE /* Pods-Animal Age Website-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B44FAAEB0AE99B3D9D8487F260A4B936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,54 +625,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8F8B9E98C1E894D34FFBCCCAEC23A7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D2950D27781454DF8D746758F8FDEBA /* Pods-Animal Age-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E57F3665B0154EED3E4EC5741E927D2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2082940AC06B9F7E12BB40F596F1E57D /* Pods-Animal Age Website-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21746EF418F54F497C2CC991027BDC57 /* PBXTargetDependency */ = {
+		41DEC492ABE218A3E5408B60358899D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Armchair;
 			target = 28C67B1DAC307ADA6B99663A8D96A761 /* Armchair */;
-			targetProxy = 47ADCFC6E882DA63B473DE9E57809392 /* PBXContainerItemProxy */;
+			targetProxy = 37EECEF3CF51E85C4B64B4976F632975 /* PBXContainerItemProxy */;
 		};
-		ADEED162E2F7E245D5CC34F8FAC26B8A /* PBXTargetDependency */ = {
+		B16B69DD527DDFD57ED71BEBEB51C818 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Sparkle;
 			target = ED77B4B88587C894E85C361023D67C53 /* Sparkle */;
-			targetProxy = 72BFD126EA53354847AFD5DA3A5D2D0E /* PBXContainerItemProxy */;
+			targetProxy = 034CE947D293558EB0BA4A76BB7F0C28 /* PBXContainerItemProxy */;
 		};
-		FFDEF31207D8D97282D5197C67FEEF79 /* PBXTargetDependency */ = {
+		EA76F367DA235287A7BFC0FDEADEF3FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Armchair;
 			target = 28C67B1DAC307ADA6B99663A8D96A761 /* Armchair */;
-			targetProxy = 58AA507CACB9485B76D1C2C976020271 /* PBXContainerItemProxy */;
+			targetProxy = 75FF63CB06632DE4A1B9660D0BF72F5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ED3D8820AD0423B24F9FB6943BF54FC /* Debug */ = {
+		17CAC3DD44175585B61C684ACC7A3FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84617B47AA66DDB7287B2AFC438D2DEF /* Pods-Animal Age.debug.xcconfig */;
+			baseConfigurationReference = 261F32429BE3C56C08CD9F745CB8CB96 /* Pods-Animal Age Website.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -641,7 +664,52 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C33B34DE279560D8E1322AC324AEF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7D99C2BAA85BB81571B6C97983AB50 /* Sparkle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1E245ADBD2747B558B632A7A2659A816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84617B47AA66DDB7287B2AFC438D2DEF /* Pods-Animal Age.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age/Pods-Animal Age-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -660,24 +728,75 @@
 			};
 			name = Debug;
 		};
-		21221507EB6C5017FA40BD87C8A5AE87 /* Release */ = {
+		7B7229251377582407F0F615B836099A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 821C717ACF2D9F4955CB5D4D4F2A23C9 /* Sparkle.xcconfig */;
+			baseConfigurationReference = C20C6E071AC1ECE08428DA3665FD31D2 /* Armchair.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Armchair/Armchair-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Armchair/Armchair-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Armchair/Armchair.modulemap";
+				OTHER_SWIFT_FLAGS = "-DDebug";
+				PRODUCT_MODULE_NAME = Armchair;
+				PRODUCT_NAME = Armchair;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91D4E820E7EA3B86A987FC8C34727D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E176875D604E3F157F43E379D2ADB7 /* Armchair.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Armchair/Armchair-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Armchair/Armchair-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Armchair/Armchair.modulemap";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_MODULE_NAME = Armchair;
+				PRODUCT_NAME = Armchair;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */ = {
+		A734648D21C485124F4CA7866CB7B37C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -700,6 +819,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -738,13 +858,12 @@
 			};
 			name = Debug;
 		};
-		5113DEC31CC363058BA7B64E8E6EFBE0 /* Release */ = {
+		BADFE0377290301E55D602C386FCCA84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DCE4BADEA95B0BABBD355926E4B406A /* Armchair.xcconfig */;
+			baseConfigurationReference = 5D0239D4403026E4C46311985DBC057A /* Pods-Animal Age Website.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -754,29 +873,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Armchair/Armchair-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Armchair/Armchair-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Armchair/Armchair.modulemap";
-				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_MODULE_NAME = Armchair;
-				PRODUCT_NAME = Armchair;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		597E092427DF423992C59C814880FE96 /* Release */ = {
+		D7C18A4BB3A23E3E9BD431BC6F0C4001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -799,6 +918,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -826,35 +946,31 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		5AFD67EFA6B3F27B4F0B0F8027C335F7 /* Debug */ = {
+		D83E4EE068D3325AE45B12BB2B4939BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 821C717ACF2D9F4955CB5D4D4F2A23C9 /* Sparkle.xcconfig */;
+			baseConfigurationReference = 88A2E29C92C6959D806628085ADBA17D /* Sparkle.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 			};
-			name = Debug;
+			name = Release;
 		};
-		7A28839D1DA4B12B7D7E55D56732DCA5 /* Release */ = {
+		F122C5465385C8E3E0E28DA339DBF57D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8684885681FC9D0783A8DD987B5714E6 /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -864,7 +980,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age/Pods-Animal Age-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -883,121 +998,14 @@
 			};
 			name = Release;
 		};
-		A5C0198949ECAF14395E09D908FCFB52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D0239D4403026E4C46311985DBC057A /* Pods-Animal Age Website.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C4A1A8FF63D86ED3AD08B022478D0498 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DCE4BADEA95B0BABBD355926E4B406A /* Armchair.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Armchair/Armchair-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Armchair/Armchair-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Armchair/Armchair.modulemap";
-				OTHER_SWIFT_FLAGS = "-DDebug";
-				PRODUCT_MODULE_NAME = Armchair;
-				PRODUCT_NAME = Armchair;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C6780BFE532A107E80D9ADDA5F42F310 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 261F32429BE3C56C08CD9F745CB8CB96 /* Pods-Animal Age Website.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C8D06A2289713323892B3638F08AC0B /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
+		0C4C5FBB7FBB4C1325B408B8B41B3053 /* Build configuration list for PBXNativeTarget "Pods-Animal Age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AFD67EFA6B3F27B4F0B0F8027C335F7 /* Debug */,
-				21221507EB6C5017FA40BD87C8A5AE87 /* Release */,
+				1E245ADBD2747B558B632A7A2659A816 /* Debug */,
+				F122C5465385C8E3E0E28DA339DBF57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1005,8 +1013,8 @@
 		2FED0E1518B1052203B6A07A1CA2FB9A /* Build configuration list for PBXNativeTarget "Armchair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4A1A8FF63D86ED3AD08B022478D0498 /* Debug */,
-				5113DEC31CC363058BA7B64E8E6EFBE0 /* Release */,
+				7B7229251377582407F0F615B836099A /* Debug */,
+				91D4E820E7EA3B86A987FC8C34727D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1014,26 +1022,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				430C0A1F2A9CB52955BEC7CE69B7B629 /* Debug */,
-				597E092427DF423992C59C814880FE96 /* Release */,
+				A734648D21C485124F4CA7866CB7B37C /* Debug */,
+				D7C18A4BB3A23E3E9BD431BC6F0C4001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C924C19DD254954778E2E73D5A48EC4 /* Build configuration list for PBXNativeTarget "Pods-Animal Age Website" */ = {
+		6347E178A154C832C62FFEFD8D07C44A /* Build configuration list for PBXAggregateTarget "Sparkle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6780BFE532A107E80D9ADDA5F42F310 /* Debug */,
-				A5C0198949ECAF14395E09D908FCFB52 /* Release */,
+				1C33B34DE279560D8E1322AC324AEF13 /* Debug */,
+				D83E4EE068D3325AE45B12BB2B4939BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9932D546A39A505294D6753369AD9617 /* Build configuration list for PBXNativeTarget "Pods-Animal Age" */ = {
+		89154D507E2B42953C824D3625A69649 /* Build configuration list for PBXNativeTarget "Pods-Animal Age Website" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ED3D8820AD0423B24F9FB6943BF54FC /* Debug */,
-				7A28839D1DA4B12B7D7E55D56732DCA5 /* Release */,
+				17CAC3DD44175585B61C684ACC7A3FDB /* Debug */,
+				BADFE0377290301E55D602C386FCCA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,20 +1,20 @@
 PODS:
-  - Armchair (0.3.6)
-  - Sparkle (1.21.3)
+  - Armchair (0.3.7)
+  - Sparkle (1.26.0)
 
 DEPENDENCIES:
   - Armchair
   - Sparkle
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Armchair
     - Sparkle
 
 SPEC CHECKSUMS:
-  Armchair: 2dd361337cf81937e73e8b9d48f9eda9a21d316c
-  Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
+  Armchair: ea2da13f78515da627bd63d9540bd58a50e71562
+  Sparkle: d56d028f4b0c123577825f5d1004f6140d77f90e
 
 PODFILE CHECKSUM: cdebef106118f8dd782ca2e1918bf59ee14043f4
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.10.1
