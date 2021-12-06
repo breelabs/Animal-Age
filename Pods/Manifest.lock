@@ -1,6 +1,6 @@
 PODS:
   - Armchair (0.3.7)
-  - Sparkle (1.26.0)
+  - Sparkle (1.27.1)
 
 DEPENDENCIES:
   - Armchair
@@ -13,8 +13,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Armchair: ea2da13f78515da627bd63d9540bd58a50e71562
-  Sparkle: d56d028f4b0c123577825f5d1004f6140d77f90e
+  Sparkle: 23f98b268284c8c03e6228230fc8f1807ef041d5
 
 PODFILE CHECKSUM: cdebef106118f8dd782ca2e1918bf59ee14043f4
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
