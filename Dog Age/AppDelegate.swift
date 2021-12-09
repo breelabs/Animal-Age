@@ -29,7 +29,12 @@ class AppDelegate : NSObject, NSApplicationDelegate {
     
     
     override init() {
+        
+#if WEBSITE
         AppDelegate.setupArmchair()
+#endif
+        
+
         
     }
     
@@ -113,11 +118,17 @@ class AppDelegate : NSObject, NSApplicationDelegate {
     
 }
 
+#if WEBSITE
 let appID = "717666889" // Our App!
-
 import Armchair
+#endif
+
+
+
 
 extension AppDelegate {
+    
+#if WEBSITE
     
     class func setupArmchair() {
         // Normally, all the setup would be here.
@@ -132,4 +143,7 @@ extension AppDelegate {
         Armchair.appID(appID)
         Armchair.debugEnabled(true)
     }
+    
+#endif
+    
 }

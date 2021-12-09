@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19455"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -421,24 +421,24 @@
         <window title="Animal Age" allowsToolTipsWhenApplicationIsInactive="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="897" y="429" width="364" height="296"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" wantsLayer="YES" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="364" height="296"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <customView wantsLayer="YES" canDrawConcurrently="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcz-YL-Arx">
+                    <customView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcz-YL-Arx">
                         <rect key="frame" x="0.0" y="236" width="364" height="61"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <animations>
                             <caTransition key="subviews">
                                 <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEV2Zyb21Ub3BWbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB9IaGxwdWiRjbGFz
-c25hbWVYJGNsYXNzZXNXTlNBcnJheaIcHlhOU09iamVjdNIaGyAhXENBVHJhbnNpdGlvbqMiIx5cQ0FU
-cmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0A
-MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
-+QEFARcBGgEfAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASE
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
+S2V5ZWRBcmNoaXZlctEICVRyb290gAGpCwwVFhcPDh0jVSRudWxs1A0ODxAREhMUViRjbGFzc1R0eXBl
+V3N1YnR5cGVfEBJfX0NBQ29kaW5nQ29udGVudHOACIADgAKABFdmcm9tVG9wVm1vdmVJbtIYDRkcWk5T
+Lm9iamVjdHOiGhuABYAGgAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiICJYTlNPYmpl
+Y3TSHh8kJVxDQVRyYW5zaXRpb26jJiciXENBVHJhbnNpdGlvbltDQUFuaW1hdGlvbgAIABEAGgAkACkA
+MgA3AEkATABRAFMAXQBjAGwAcwB4AIAAlQCXAJkAmwCdAKUArACxALwAvwDBAMMAxQDKANUA3gDmAOkA
+8gD3AQQBCAEVAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASE
 </mutableData>
                             </caTransition>
                         </animations>
@@ -470,13 +470,13 @@ MgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCJAJAAlQCgAKMApQCnAKkArgC5AMIAygDNANYA2wDoAOwA
                 <animations>
                     <caTransition key="subviews">
                         <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEV2Zyb21Ub3BUcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xhc3Nu
-YW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENBVHJh
-bnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAtADIA
-NwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAiQCOAJMAngChAKMApQCnAKwAtwDAAMgAywDUANkA5gDqAPcB
-AwEVARgBHQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
+S2V5ZWRBcmNoaXZlctEICVRyb290gAGpCwwVFhcPDh0jVSRudWxs1A0ODxAREhMUViRjbGFzc1R0eXBl
+V3N1YnR5cGVfEBJfX0NBQ29kaW5nQ29udGVudHOACIADgAKABFdmcm9tVG9wVHB1c2jSGA0ZHFpOUy5v
+YmplY3RzohobgAWABoAH0h4fICFaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0FycmF5oiAiWE5TT2JqZWN0
+0h4fJCVcQ0FUcmFuc2l0aW9uoyYnIlxDQVRyYW5zaXRpb25bQ0FBbmltYXRpb24ACAARABoAJAApADIA
+NwBJAEwAUQBTAF0AYwBsAHMAeACAAJUAlwCZAJsAnQClAKoArwC6AL0AvwDBAMMAyADTANwA5ADnAPAA
+9QECAQYBEwAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
 </mutableData>
                     </caTransition>
                 </animations>
@@ -490,7 +490,7 @@ AwEVARgBHQAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEfA
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="207" width="285" height="106"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1415"/>
             <view key="contentView" id="590">
                 <rect key="frame" x="0.0" y="0.0" width="285" height="106"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -727,13 +727,13 @@ DQ
             <animations>
                 <caTransition key="subviews">
                     <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
-c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
-VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
-ADIANwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAjACRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
-APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
+S2V5ZWRBcmNoaXZlctEICVRyb290gAGpCwwVFhcPDh0jVSRudWxs1A0ODxAREhMUViRjbGFzc1R0eXBl
+V3N1YnR5cGVfEBJfX0NBQ29kaW5nQ29udGVudHOACIADgAKABFpmcm9tQm90dG9tVHB1c2jSGA0ZHFpO
+Uy5vYmplY3RzohobgAWABoAH0h4fICFaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0FycmF5oiAiWE5TT2Jq
+ZWN00h4fJCVcQ0FUcmFuc2l0aW9uoyYnIlxDQVRyYW5zaXRpb25bQ0FBbmltYXRpb24ACAARABoAJAAp
+ADIANwBJAEwAUQBTAF0AYwBsAHMAeACAAJUAlwCZAJsAnQCoAK0AsgC9AMAAwgDEAMYAywDWAN8A5wDq
+APMA+AEFAQkBFgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
 </mutableData>
                 </caTransition>
             </animations>
@@ -792,13 +792,13 @@ APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
             <animations>
                 <caTransition key="subviews">
                     <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEWmZyb21Cb3R0b21UcHVzaNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
-c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
-VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
-ADIANwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAjACRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
-APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
+S2V5ZWRBcmNoaXZlctEICVRyb290gAGpCwwVFhcPDh0jVSRudWxs1A0ODxAREhMUViRjbGFzc1R0eXBl
+V3N1YnR5cGVfEBJfX0NBQ29kaW5nQ29udGVudHOACIADgAKABFpmcm9tQm90dG9tVHB1c2jSGA0ZHFpO
+Uy5vYmplY3RzohobgAWABoAH0h4fICFaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0FycmF5oiAiWE5TT2Jq
+ZWN00h4fJCVcQ0FUcmFuc2l0aW9uoyYnIlxDQVRyYW5zaXRpb25bQ0FBbmltYXRpb24ACAARABoAJAAp
+ADIANwBJAEwAUQBTAF0AYwBsAHMAeACAAJUAlwCZAJsAnQCoAK0AsgC9AMAAwgDEAMYAywDWAN8A5wDq
+APMA+AEFAQkBFgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
 </mutableData>
                 </caTransition>
             </animations>
