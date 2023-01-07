@@ -1,0 +1,4 @@
+framework module Armchair {
+  header "Armchair-Swift.h"
+  requires objc
+}

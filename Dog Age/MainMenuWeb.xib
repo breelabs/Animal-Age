@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="19455"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,7 +14,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application">
+        <customObject id="-3" userLabel="Application" customClass="NSObject">
             <connections>
                 <outlet property="delegate" destination="494" id="Lla-j1-tG5"/>
             </connections>
@@ -43,7 +43,7 @@
                             </menuItem>
                             <menuItem title="Check for Updates..." keyEquivalent="u" id="Iqo-76-SNk">
                                 <connections>
-                                    <action selector="checkForUpdates:" target="nde-L3-gVf" id="jkV-MG-ACo"/>
+                                    <action selector="checkForUpdates:" target="HqF-OG-5pG" id="aCU-wI-ajm"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
@@ -1001,6 +1001,7 @@ APMA+AEFAQkBFgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
             </view>
             <point key="canvasLocation" x="-129" y="208"/>
         </window>
+        <customObject id="HqF-OG-5pG" customClass="SPUStandardUpdaterController"/>
     </objects>
     <resources>
         <image name="Contact" width="25" height="25"/>

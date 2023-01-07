@@ -3,16 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059E4283ED9AF15A703F7D0E /* Pods_Animal_Age_Website.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F529BACDAF917EC5E1576333 /* Pods_Animal_Age_Website.framework */; };
 		111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111AECBD14BF842F00653A12 /* WebKit.framework */; };
 		112709A214BBA19C00673DF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112709A114BBA19C00673DF8 /* Cocoa.framework */; };
 		112709AC14BBA19C00673DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		112709B214BBA19C00673DF8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
-		3CE2AFCCB91B85768BB0EE00 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65261ACB17EE7831816734A5 /* Pods_Animal_Age.framework */; };
 		FC071D2622B5B7FC00212CF3 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC071D2522B5B7FC00212CF3 /* WindowController.swift */; };
 		FC071D2922B5BA5300212CF3 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC071D2822B5BA5300212CF3 /* TopBar.swift */; };
 		FC071D2A22B5BAEA00212CF3 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC071D2822B5BA5300212CF3 /* TopBar.swift */; };
@@ -24,7 +22,6 @@
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
-		FC263FC8276137E6001B1656 /* Pods_Animal_Age.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC263FC7276137E6001B1656 /* Pods_Animal_Age.framework */; };
 		FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
 		FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
 		FC58C41319EB26F200547C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8CFF19E4D059007A1781 /* Images.xcassets */; };
@@ -40,6 +37,10 @@
 		FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8D0519E4D0AB007A1781 /* MainMenuWeb.xib */; };
 		FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
 		FC8225BD19E4E63000557F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */; };
+		FC9D293A296A225600679741 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9D2939296A225600679741 /* Sparkle.framework */; };
+		FC9D293B296A225600679741 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC9D2939296A225600679741 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC9D293D296A24ED00679741 /* Armchair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9D293C296A24ED00679741 /* Armchair.framework */; };
+		FC9D293E296A24ED00679741 /* Armchair.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC9D293C296A24ED00679741 /* Armchair.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC9D8D0019E4D059007A1781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8CFF19E4D059007A1781 /* Images.xcassets */; };
 		FC9D8D0419E4D076007A1781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8D0319E4D076007A1781 /* MainMenu.xib */; };
 		FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
@@ -48,22 +49,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FCE527191E5D43B200BA0687 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FCF3D7261E77A764004A8525 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				FC9D293B296A225600679741 /* Sparkle.framework in CopyFiles */,
+				FC9D293E296A24ED00679741 /* Armchair.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,19 +71,11 @@
 		112709A614BBA19C00673DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		112709AB14BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		112709B114BBA19C00673DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2B45594196789073BFF38919 /* Pods-Animal Age Website.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age Website.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.debug.xcconfig"; sourceTree = "<group>"; };
-		38A763BA21665A7EB415B51F /* Pods-Animal Age.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.release.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.release.xcconfig"; sourceTree = "<group>"; };
-		65261ACB17EE7831816734A5 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8127B8CC846426C50B8A87B /* Pods-Animal Age Website.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age Website.release.xcconfig"; path = "Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website.release.xcconfig"; sourceTree = "<group>"; };
-		D2279162C4224942B1A8EA0B /* Pods-Animal Age.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Age.debug.xcconfig"; path = "Target Support Files/Pods-Animal Age/Pods-Animal Age.debug.xcconfig"; sourceTree = "<group>"; };
-		F529BACDAF917EC5E1576333 /* Pods_Animal_Age_Website.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Age_Website.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC071D2522B5B7FC00212CF3 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		FC071D2822B5BA5300212CF3 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		FC071D2C22B5BF4800212CF3 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		FC0C088F181D1A7E00E34270 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1B01E42761CD7F00E6C5E6 /* Dog Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog Age-Prefix.pch"; sourceTree = "<group>"; };
-		FC263FC4276137DC001B1656 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC263FC7276137E6001B1656 /* Pods_Animal_Age.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Animal_Age.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4949711FB8FE0200E9B1BB /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC58C41719EB2AD700547C23 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal Age.entitlements"; sourceTree = "<group>"; };
 		FC58C43819EB2BC900547C23 /* Animal Age-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Animal Age-Info.plist"; path = "plist/Animal Age-Info.plist"; sourceTree = "<group>"; };
@@ -101,6 +86,8 @@
 		FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC9D2939296A225600679741 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Carthage/Build/Mac/Sparkle.framework; sourceTree = "<group>"; };
+		FC9D293C296A24ED00679741 /* Armchair.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Armchair.framework; path = Carthage/Build/Mac/Armchair.framework; sourceTree = "<group>"; };
 		FC9D8CFF19E4D059007A1781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC9D8D0319E4D076007A1781 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		FC9D8D0519E4D0AB007A1781 /* MainMenuWeb.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuWeb.xib; sourceTree = "<group>"; };
@@ -109,6 +96,7 @@
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		FCF8C971276180CF0053D18F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FCFC3B6A296A2E8700B9E3E6 /* Animal Age Website.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal Age Website.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +106,9 @@
 			files = (
 				FC8225BD19E4E63000557F22 /* SystemConfiguration.framework in Frameworks */,
 				FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */,
-				FC263FC8276137E6001B1656 /* Pods_Animal_Age.framework in Frameworks */,
 				FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */,
 				111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */,
 				112709A214BBA19C00673DF8 /* Cocoa.framework in Frameworks */,
-				3CE2AFCCB91B85768BB0EE00 /* Pods_Animal_Age.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,11 +117,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0C0862181D1A7E00E34270 /* WebKit.framework in Frameworks */,
+				FC9D293A296A225600679741 /* Sparkle.framework in Frameworks */,
 				FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */,
 				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
+				FC9D293D296A24ED00679741 /* Armchair.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
 				FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */,
-				059E4283ED9AF15A703F7D0E /* Pods_Animal_Age_Website.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,12 +132,12 @@
 		1127099214BBA19C00673DF8 = {
 			isa = PBXGroup;
 			children = (
+				FCFC3B6A296A2E8700B9E3E6 /* Animal Age Website.entitlements */,
 				FCC2E5FC2761A35D00668C0E /* Animal AgeRelease.entitlements */,
 				FC58C41719EB2AD700547C23 /* Animal Age.entitlements */,
 				112709A714BBA19C00673DF8 /* Dog Age */,
 				112709A014BBA19C00673DF8 /* Frameworks */,
 				1127099E14BBA19C00673DF8 /* Products */,
-				4DBB261DA484DBBBE69DB4AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +153,8 @@
 		112709A014BBA19C00673DF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC263FC7276137E6001B1656 /* Pods_Animal_Age.framework */,
-				FC263FC4276137DC001B1656 /* Pods_Animal_Age.framework */,
+				FC9D293C296A24ED00679741 /* Armchair.framework */,
+				FC9D2939296A225600679741 /* Sparkle.framework */,
 				FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */,
 				FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */,
 				FCDAAFF3181D1D11000128E1 /* Security.framework */,
@@ -175,8 +162,6 @@
 				112709A114BBA19C00673DF8 /* Cocoa.framework */,
 				FCE527041E5D43B100BA0687 /* NotificationCenter.framework */,
 				112709A314BBA19C00673DF8 /* Other Frameworks */,
-				65261ACB17EE7831816734A5 /* Pods_Animal_Age.framework */,
-				F529BACDAF917EC5E1576333 /* Pods_Animal_Age_Website.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,17 +212,6 @@
 			name = htdocs;
 			sourceTree = "<group>";
 		};
-		4DBB261DA484DBBBE69DB4AD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D2279162C4224942B1A8EA0B /* Pods-Animal Age.debug.xcconfig */,
-				38A763BA21665A7EB415B51F /* Pods-Animal Age.release.xcconfig */,
-				2B45594196789073BFF38919 /* Pods-Animal Age Website.debug.xcconfig */,
-				A8127B8CC846426C50B8A87B /* Pods-Animal Age Website.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		FC58C43E19EB2BCE00547C23 /* PLIST */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,11 +248,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112709BB14BBA19D00673DF8 /* Build configuration list for PBXNativeTarget "Animal Age" */;
 			buildPhases = (
-				E09D1CA7205EA323427ED091 /* [CP] Check Pods Manifest.lock */,
 				1127099914BBA19C00673DF8 /* Sources */,
 				1127099A14BBA19C00673DF8 /* Frameworks */,
 				1127099B14BBA19C00673DF8 /* Resources */,
-				FCE527191E5D43B200BA0687 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -293,13 +265,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC0C088C181D1A7E00E34270 /* Build configuration list for PBXNativeTarget "Animal Age Website" */;
 			buildPhases = (
-				5526C5CD06CC38C9C5AA9041 /* [CP] Check Pods Manifest.lock */,
 				FC0C0858181D1A7E00E34270 /* Sources */,
 				FC0C0861181D1A7E00E34270 /* Frameworks */,
 				FC0C0864181D1A7E00E34270 /* Resources */,
 				FCF3D7261E77A764004A8525 /* CopyFiles */,
-				B935E4DA41F300F3B55D6F72 /* [CP] Embed Pods Frameworks */,
-				FC2108E022B6232F00118262 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -317,12 +286,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = JBD;
 				TargetAttributes = {
 					1127099C14BBA19C00673DF8 = {
-						DevelopmentTeam = 2D4Z7WQ7RS;
 						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -347,7 +316,7 @@
 				};
 			};
 			buildConfigurationList = 1127099714BBA19C00673DF8 /* Build configuration list for PBXProject "Dog Age" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -397,90 +366,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5526C5CD06CC38C9C5AA9041 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Animal Age Website-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B935E4DA41F300F3B55D6F72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Armchair/Armchair.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Armchair.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Age Website/Pods-Animal Age Website-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E09D1CA7205EA323427ED091 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Animal Age-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC2108E022B6232F00118262 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\n\n# By default, use the configured code signing identity for the project/target\nIDENTITY=\"${CODE_SIGN_IDENTITY}\"\nif [ \"$IDENTITY\" == \"\" ]\nthen\n    # If a code signing identity is not specified, use ad hoc signing\n    IDENTITY=\"-\"\nfi\ncodesign --verbose --force --deep -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force -o runtime --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1127099914BBA19C00673DF8 /* Sources */ = {
@@ -553,6 +438,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -604,6 +490,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -619,30 +506,32 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 			};
 			name = Release;
 		};
 		112709BC14BBA19D00673DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2279162C4224942B1A8EA0B /* Pods-Animal Age.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_ENTITLEMENTS = "Animal Age.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "Animal Age.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.3.0;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Dog\\ Age",
-					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Dog\\ Age",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -650,12 +539,16 @@
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Dog Age-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Dog Age/Animal Age-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -666,24 +559,24 @@
 		};
 		112709BD14BBA19D00673DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38A763BA21665A7EB415B51F /* Pods-Animal Age.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_ENTITLEMENTS = "Animal AgeRelease.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "Animal Age.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.3.0;
-				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
+				CURRENT_PROJECT_VERSION = 10;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Dog\\ Age",
-					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Dog\\ Age",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -691,15 +584,20 @@
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Dog Age-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.${PRODUCT_NAME:rfc1034identifier}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[arch=*]" = "";
 				"PROVISIONING_PROFILE[sdk=macosx*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Dog Age/Animal Age-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
@@ -708,22 +606,24 @@
 		};
 		FC0C088D181D1A7E00E34270 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B45594196789073BFF38919 /* Pods-Animal Age Website.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age Website.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.3.0;
+				CURRENT_PROJECT_VERSION = 8.4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
@@ -738,9 +638,12 @@
 				);
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.3.0;
+				MARKETING_VERSION = 8.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";
@@ -753,31 +656,36 @@
 		};
 		FC0C088E181D1A7E00E34270 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8127B8CC846426C50B8A87B /* Pods-Animal Age Website.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CODE_SIGN_ENTITLEMENTS = "Animal Age Website.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.3.0;
+				CURRENT_PROJECT_VERSION = 8.4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2D4Z7WQ7RS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Dog\\ Age",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dog Age/Dog Age-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = WEBSITE;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Dog Age/plist/Animal Age-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.3.0;
+				MARKETING_VERSION = 8.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";

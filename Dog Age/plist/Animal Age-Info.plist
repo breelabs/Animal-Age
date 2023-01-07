@@ -28,11 +28,6 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>jonbrown.org</key>
-			<string></string>
-		</dict>
 		<key>NSIncludesSubdomains</key>
 		<true/>
 		<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
@@ -47,8 +42,10 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>https://shine.grovedesigns.co/appcast.php?id=2</string>
+	<string>https://grovetech.co/appcasts/aa_appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
+	<key>SUPublicEDKey</key>
+	<string>ZhZZ1WkO/YGSrgrghVOk10hRX6qyJtofgwM+GPuS/Bk=</string>
 </dict>
 </plist>

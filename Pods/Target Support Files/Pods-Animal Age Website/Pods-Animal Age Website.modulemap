@@ -1,6 +1,0 @@
-framework module Pods_Animal_Age_Website {
-  umbrella header "Pods-Animal Age Website-umbrella.h"
-
-  export *
-  module * { export * }
-}

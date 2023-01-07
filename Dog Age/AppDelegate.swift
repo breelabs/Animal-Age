@@ -8,6 +8,12 @@
 import Cocoa
 import WebKit
 
+#if WEBSITE
+import Sparkle
+import Armchair
+#endif
+
+
 class AppDelegate : NSObject, NSApplicationDelegate {
     @IBOutlet var TxtShddow: NSTextField!
     @IBOutlet var TxtShddow2: NSTextField!

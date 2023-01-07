@@ -4,7 +4,4 @@
    <FileRef
       location = "group:Dog Age.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
 </Workspace>
