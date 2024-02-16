@@ -10,7 +10,6 @@ import WebKit
 
 #if WEBSITE
 import Sparkle
-import Armchair
 #endif
 
 
@@ -37,7 +36,7 @@ class AppDelegate : NSObject, NSApplicationDelegate {
     override init() {
         
 #if WEBSITE
-        AppDelegate.setupArmchair()
+        
 #endif
         
 
@@ -126,7 +125,6 @@ class AppDelegate : NSObject, NSApplicationDelegate {
 
 #if WEBSITE
 let appID = "717666889" // Our App!
-import Armchair
 #endif
 
 
@@ -146,8 +144,6 @@ extension AppDelegate {
         // because it needs to receive application life-cycle notifications
         //
         // NOTE: The appID call always has to go before any other Armchair calls
-        Armchair.appID(appID)
-        Armchair.debugEnabled(true)
     }
     
 #endif
