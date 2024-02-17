@@ -27,7 +27,7 @@
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.reference</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>11.0</string>
+	<string>12.0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2021 Grove Designs. All rights reserved.</string>
 	<key>NSMainNibFile</key>
