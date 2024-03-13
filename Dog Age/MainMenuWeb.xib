@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22689"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -475,14 +474,99 @@ MgA3AEkATABRAFMAXQBjAGwAcwB4AIAAlQCXAJkAmwCdAKUArACxALwAvwDBAMMAxQDKANUA3gDmAOkA
                                     <color key="backgroundColor" name="scrollBarColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <wkWebView wantsLayer="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OFh-RO-97s">
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="leh-TP-89q">
                                 <rect key="frame" x="0.0" y="0.0" width="364" height="116"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ubf-38-glG">
+                                        <rect key="frame" x="0.0" y="90" width="366" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Life Expectancy" id="iJU-dM-2CQ">
+                                            <font key="font" size="10" name="ArialMT"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <customView clipsToBounds="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fg8-fw-zto">
+                                        <rect key="frame" x="14" y="42" width="336" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hK2-gO-exh" customClass="HorizontalBarChartView" customModule="DGCharts">
+                                                <rect key="frame" x="-10" y="-10" width="384" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                            </customView>
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nS-bW-9Mz">
+                                        <rect key="frame" x="14" y="7" width="350" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygj-fC-v7u">
+                                                <rect key="frame" x="25" y="7" width="65" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="1PK-Gf-5tL">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6xq-Yh-yP0">
+                                                <rect key="frame" x="113" y="7" width="53" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="p1Q-1V-8SY">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZj-48-nBq">
+                                                <rect key="frame" x="198" y="7" width="53" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="Igr-3T-4Fe">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HA7-1z-ddK">
+                                                <rect key="frame" x="10" y="10" width="10" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            </customView>
+                                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnB-Hk-RFD">
+                                                <rect key="frame" x="96" y="10" width="10" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            </customView>
+                                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dcH-eO-qfG">
+                                                <rect key="frame" x="182" y="10" width="10" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            </customView>
+                                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4mr-Ic-nGU">
+                                                <rect key="frame" x="273" y="10" width="10" height="10"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            </customView>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yg4-DA-Rn8">
+                                                <rect key="frame" x="289" y="7" width="50" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="FQB-1X-aoM">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E9F-c7-uRd" customClass="HitView">
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                </subviews>
+                            </customView>
                         </subviews>
                     </customView>
                 </subviews>
@@ -626,12 +710,22 @@ DQ
         </customView>
         <customObject id="494" customClass="AppDelegate" customModule="Animal_Age" customModuleProvider="target">
             <connections>
+                <outlet property="GraphClipping" destination="Fg8-fw-zto" id="cJ7-vM-t32"/>
                 <outlet property="TxtShddow" destination="540" id="586"/>
                 <outlet property="aButton" destination="664" id="674"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0Rm-Bj-Gh2"/>
                 <outlet property="arrowImage" destination="w3T-wH-pdI" id="rjq-O0-60w"/>
                 <outlet property="arrowImage2" destination="pRF-qq-quu" id="0Xz-F4-c6r"/>
-                <outlet property="graphView" destination="OFh-RO-97s" id="kOZ-Js-oiL"/>
+                <outlet property="graphBack" destination="leh-TP-89q" id="7M9-hu-p3c"/>
+                <outlet property="graphView" destination="hK2-gO-exh" id="4o6-iu-jq7"/>
+                <outlet property="lab1" destination="ygj-fC-v7u" id="goO-f7-LyG"/>
+                <outlet property="lab2" destination="6xq-Yh-yP0" id="Vpc-Hg-VYQ"/>
+                <outlet property="lab3" destination="uZj-48-nBq" id="tbS-lC-InC"/>
+                <outlet property="lab4" destination="yg4-DA-Rn8" id="4nC-VP-gUG"/>
+                <outlet property="leg1" destination="HA7-1z-ddK" id="eB8-Fq-TI4"/>
+                <outlet property="leg2" destination="cnB-Hk-RFD" id="j9o-1w-XtV"/>
+                <outlet property="leg3" destination="dcH-eO-qfG" id="evi-fC-6MJ"/>
+                <outlet property="leg4" destination="4mr-Ic-nGU" id="nSU-hn-WZ7"/>
                 <outlet property="popcalc" destination="657" id="659"/>
                 <outlet property="popover" destination="601" id="609"/>
                 <outlet property="poprevcalc" destination="nAd-pS-Y0h" id="cdd-ZD-Ohl"/>
@@ -655,11 +749,20 @@ DQ
         <customObject id="420" customClass="NSFontManager"/>
         <customObject id="536" customClass="Dog" customModule="Animal_Age" customModuleProvider="target">
             <connections>
+                <outlet property="GraphClipping" destination="Fg8-fw-zto" id="fhI-m4-gVi"/>
                 <outlet property="aButton" destination="664" id="673"/>
                 <outlet property="aButton2" destination="5Ex-xr-AYL" id="0LJ-XQ-cHV"/>
                 <outlet property="alertField" destination="641" id="643"/>
                 <outlet property="answerField" destination="546" id="549"/>
                 <outlet property="errorSheet" destination="589" id="595"/>
+                <outlet property="label1" destination="ygj-fC-v7u" id="kaD-zE-EwD"/>
+                <outlet property="label2" destination="6xq-Yh-yP0" id="CNe-FY-WVI"/>
+                <outlet property="label3" destination="uZj-48-nBq" id="iCe-n0-p82"/>
+                <outlet property="label4" destination="yg4-DA-Rn8" id="Fun-Rf-juQ"/>
+                <outlet property="leg1" destination="HA7-1z-ddK" id="1la-Pd-mD2"/>
+                <outlet property="leg2" destination="cnB-Hk-RFD" id="pyA-cI-f0X"/>
+                <outlet property="leg3" destination="dcH-eO-qfG" id="iz7-B1-d8j"/>
+                <outlet property="leg4" destination="4mr-Ic-nGU" id="3fb-tn-rcu"/>
                 <outlet property="myProgress" destination="PdV-Co-0e4" id="gfX-JA-yug"/>
                 <outlet property="myProgress2" destination="Tgr-Hy-7Lt" id="25y-OQ-amP"/>
                 <outlet property="numberField" destination="550" id="553"/>
@@ -669,7 +772,7 @@ DQ
                 <outlet property="typeField" destination="556" id="564"/>
                 <outlet property="typeField2" destination="ckl-uv-Z3t" id="lRN-tK-QGb"/>
                 <outlet property="view" destination="rcz-YL-Arx" id="viH-BD-UhC"/>
-                <outlet property="webView" destination="OFh-RO-97s" id="vAQ-K8-OA4"/>
+                <outlet property="webView" destination="hK2-gO-exh" id="NHb-TQ-vbb"/>
                 <outlet property="window" destination="371" id="kGG-YV-Wca"/>
             </connections>
         </customObject>

@@ -18,6 +18,7 @@ import Quartz
 import QuartzCore
 import WebKit
 import Cocoa
+import DGCharts
 
 class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
     
@@ -31,16 +32,58 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
     @IBOutlet weak var window: NSWindow!
     @IBOutlet weak var aButton: NSButton!
     @IBOutlet weak var aButton2: NSButton!
-    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet weak var webView: HorizontalBarChartView!
     @IBOutlet var myProgress: NSProgressIndicator!
     @IBOutlet var myProgress2: NSProgressIndicator!
     @IBOutlet var topView: NSView!
     @IBOutlet var view: NSView!
     @IBOutlet var secondView: NSView!
-    
+    @IBOutlet var GraphClipping:NSView!
+    @IBOutlet var leg1:NSView!
+    @IBOutlet var leg2:NSView!
+    @IBOutlet var leg3:NSView!
+    @IBOutlet var leg4:NSView!
+    @IBOutlet var label1:NSTextField!
+    @IBOutlet var label2:NSTextField!
+    @IBOutlet var label3:NSTextField!
+    @IBOutlet var label4:NSTextField!
     @IBAction func calculateAnswer(_ sender: Any) {
         
 
+        func setChart(values: [Double], yvalues: [Double], y2values: [Double], y3values: [Double]) {
+            
+            let pFormatter = NumberFormatter()
+            pFormatter.numberStyle = .percent
+            pFormatter.maximumFractionDigits = 1
+            pFormatter.multiplier = 1
+            pFormatter.percentSymbol = ""
+
+            
+            var dataEntries: [BarChartDataEntry] = []
+            for i in 0..<values.count {
+                let dataEntry = BarChartDataEntry(x: 0, yValues:  [values[i],yvalues[i],y2values[i],y3values[i]], data: "groupChart")
+                       //let dataEntry = BarChartDataEntry(x: Double(i) , y: values[i])
+                       dataEntries.append(dataEntry)
+           }
+            
+            print(dataEntries[0].data as Any)
+            let barChartDataSet = BarChartDataSet(entries: dataEntries)
+            barChartDataSet.drawValuesEnabled = false
+            let barChartData = BarChartData(dataSet: barChartDataSet)
+            barChartData.barWidth = Double(2)
+            
+            
+            webView.data = barChartData
+            
+            let colors = [NSUIColor(red: 192/255.0, green: 57/255.0, blue: 43/255.0, alpha: 1.0),
+                NSUIColor(red: 243/255.0, green: 156/255.0, blue: 18/255.0, alpha: 1.0),
+                NSUIColor(red: 39/255.0, green: 174/255.0, blue: 96/255.0, alpha: 1.0),
+                NSUIColor(red: 41/255.0, green: 128/255.0, blue: 185/255.0, alpha: 1.0)]
+            barChartDataSet.colors = colors
+            
+          }
+        
+        
         var num1: Float
         var type: Float
         var answer: Float
@@ -126,7 +169,18 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
                 
-                webView.evaluateJavaScript("loadDogData()", completionHandler: nil)
+                //webView.evaluateJavaScript("loadDogData()", completionHandler: nil)
+                
+                label1.stringValue = "Sm."
+                label2.stringValue = "Med."
+                label3.stringValue = "Lg."
+                label4.stringValue = "People."
+                let one = [18.0]
+                let two = [10.0]
+                let three = [8.0]
+                let four = [80.0]
+                setChart(values: one, yvalues: two, y2values: three, y3values: four)
+                webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
                 
                 // Select Dog Popup
                 
@@ -205,7 +259,18 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
                 
-                webView.evaluateJavaScript("loadCatData()", completionHandler: nil)
+               // webView.evaluateJavaScript("loadCatData()", completionHandler: nil)
+                
+                label1.stringValue = "Outdoor."
+                label2.stringValue = "Indoor."
+                label3.stringValue = "Wildcat."
+                label4.stringValue = "People."
+                let one = [5.0]
+                let two = [55.0]
+                let three = [30.0]
+                let four = [80.0]
+                setChart(values: one, yvalues: two, y2values: three, y3values: four)
+                webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
                 
                 // Select Cat Popup
                 
@@ -260,7 +325,18 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
             }
-            webView.evaluateJavaScript("loadCowData()", completionHandler: nil)
+            //webView.evaluateJavaScript("loadCowData()", completionHandler: nil)
+            
+            label1.stringValue = "Organic."
+            label2.stringValue = "Dairy."
+            label3.stringValue = "Wild."
+            label4.stringValue = "People."
+            let one = [20.0]
+            let two = [6.0]
+            let three = [28.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
             
             // Select Cow Popup
             
@@ -314,7 +390,19 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
             }
-            webView.evaluateJavaScript("loadRabbitData()", completionHandler: nil)
+            //webView.evaluateJavaScript("loadRabbitData()", completionHandler: nil)
+            
+            label1.stringValue = "Farm."
+            label2.stringValue = "Wild."
+            label3.stringValue = "Pet."
+            label4.stringValue = "People."
+            let one = [10.0]
+            let two = [5.0]
+            let three = [19.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+            
             
             // Select Cow Popup
             
@@ -368,7 +456,19 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
             }
-            webView.evaluateJavaScript("loadDuckData()", completionHandler: nil)
+           // webView.evaluateJavaScript("loadDuckData()", completionHandler: nil)
+            
+            label1.stringValue = "Farm."
+            label2.stringValue = "Wild."
+            label3.stringValue = "Pet."
+            label4.stringValue = "People."
+            let one = [10.0]
+            let two = [18.0]
+            let three = [7.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+            
             
             // Select Cow Popup
             
@@ -423,7 +523,19 @@ class Dog: NSObject, NSApplicationDelegate, CAAnimationDelegate {
                     window.title = "Animal Age"
                 }
             }
-            webView.evaluateJavaScript("loadChickenData()", completionHandler: nil)
+            //webView.evaluateJavaScript("loadChickenData()", completionHandler: nil)
+            
+            label1.stringValue = "Farm."
+            label2.stringValue = "Wild."
+            label3.stringValue = "Pet."
+            label4.stringValue = "People."
+            let one = [10.0]
+            let two = [5.0]
+            let three = [19.0]
+            let four = [80.0]
+            setChart(values: one, yvalues: two, y2values: three, y3values: four)
+            webView.animate(xAxisDuration: 1.5, yAxisDuration: 1.5)
+            
             
             // Select Cow Popup
             

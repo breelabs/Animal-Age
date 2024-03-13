@@ -22,15 +22,7 @@
 		FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112709AA14BBA19C00673DF8 /* InfoPlist.strings */; };
 		FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 112709B014BBA19C00673DF8 /* Credits.rtf */; };
 		FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
-		FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
-		FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC4949711FB8FE0200E9B1BB /* icon.icns */; };
 		FC58C41319EB26F200547C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9D8CFF19E4D059007A1781 /* Images.xcassets */; };
-		FC58C44119EB2BF500547C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C44019EB2BF500547C23 /* main.m */; };
-		FC58C44219EB2BF500547C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C44019EB2BF500547C23 /* main.m */; };
-		FC58C44519EB2C1900547C23 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44319EB2C1900547C23 /* index.html */; };
-		FC58C44619EB2C1900547C23 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44319EB2C1900547C23 /* index.html */; };
-		FC58C44719EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */; };
-		FC58C44819EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */; };
 		FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */; };
 		FC77FD3E22B5F9C7009C8239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */; };
 		FC77FD3F22B5F9C7009C8239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */; };
@@ -42,7 +34,12 @@
 		FCD347E42B7EE39A00AFB74B /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = FCD347E32B7EE39A00AFB74B /* Sparkle */; };
 		FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
 		FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDAAFF3181D1D11000128E1 /* Security.framework */; };
-		FCF8C972276180CF0053D18F /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FCF8C971276180CF0053D18F /* dsa_pub.pem */; };
+		FCEDB86F2BA1174000769FD3 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FCEDB86E2BA1174000769FD3 /* DGCharts */; };
+		FCEDB8712BA1174E00769FD3 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = FCEDB8702BA1174E00769FD3 /* DGCharts */; };
+		FCEDB8722BA11A3100769FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C44019EB2BF500547C23 /* main.m */; };
+		FCEDB8732BA11A3200769FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C44019EB2BF500547C23 /* main.m */; };
+		FCEDB8752BA13BF100769FD3 /* HitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDB8742BA13BF100769FD3 /* HitView.swift */; };
+		FCEDB8762BA13BF100769FD3 /* HitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDB8742BA13BF100769FD3 /* HitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,13 +68,10 @@
 		FC071D2C22B5BF4800212CF3 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		FC0C088F181D1A7E00E34270 /* Animal Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1B01E42761CD7F00E6C5E6 /* Dog Age-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog Age-Prefix.pch"; sourceTree = "<group>"; };
-		FC4949711FB8FE0200E9B1BB /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		FC58C41719EB2AD700547C23 /* Animal Age.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal Age.entitlements"; sourceTree = "<group>"; };
 		FC58C43819EB2BC900547C23 /* Animal Age-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Animal Age-Info.plist"; path = "plist/Animal Age-Info.plist"; sourceTree = "<group>"; };
 		FC58C43919EB2BC900547C23 /* Dog Age-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Dog Age-Info.plist"; path = "plist/Dog Age-Info.plist"; sourceTree = "<group>"; };
 		FC58C44019EB2BF500547C23 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = classes/main.m; sourceTree = "<group>"; };
-		FC58C44319EB2C1900547C23 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = htdocs/index.html; sourceTree = "<group>"; };
-		FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "htdocs/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 		FC70429418A1FC9B00BA87E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8225BA19E4E46900557F22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -88,6 +82,7 @@
 		FCC2E5FC2761A35D00668C0E /* Animal AgeRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal AgeRelease.entitlements"; sourceTree = "<group>"; };
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FCEDB8742BA13BF100769FD3 /* HitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HitView.swift; path = classes/HitView.swift; sourceTree = "<group>"; };
 		FCF8C971276180CF0053D18F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FCFC3B6A296A2E8700B9E3E6 /* Animal Age Website.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal Age Website.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +96,7 @@
 				FC70429518A1FC9B00BA87E7 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF4181D1D11000128E1 /* Security.framework in Frameworks */,
 				111AECBE14BF842F00653A12 /* WebKit.framework in Frameworks */,
+				FCEDB86F2BA1174000769FD3 /* DGCharts in Frameworks */,
 				112709A214BBA19C00673DF8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +110,7 @@
 				FC8225BB19E4E46900557F22 /* SystemConfiguration.framework in Frameworks */,
 				FC237EFD18A84B3500F16FB8 /* QuartzCore.framework in Frameworks */,
 				FCDAAFF5181D1D19000128E1 /* Security.framework in Frameworks */,
+				FCEDB8712BA1174E00769FD3 /* DGCharts in Frameworks */,
 				FC0C0863181D1A7E00E34270 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +169,6 @@
 				FC1B01E42761CD7F00E6C5E6 /* Dog Age-Prefix.pch */,
 				FCEFEABC18B16F93008B33B8 /* Classes */,
 				FC7D32F816DC847A00689DC8 /* resources */,
-				11C3EE8514BF9C77003C96AE /* htdocs */,
 				112709A814BBA19C00673DF8 /* Supporting Files */,
 			);
 			path = "Dog Age";
@@ -190,16 +186,6 @@
 				112709B014BBA19C00673DF8 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		11C3EE8514BF9C77003C96AE /* htdocs */ = {
-			isa = PBXGroup;
-			children = (
-				FC4949711FB8FE0200E9B1BB /* icon.icns */,
-				FC58C44319EB2C1900547C23 /* index.html */,
-				FC58C44419EB2C1900547C23 /* jquery-1.7.1.min.js */,
-			);
-			name = htdocs;
 			sourceTree = "<group>";
 		};
 		FC58C43E19EB2BCE00547C23 /* PLIST */ = {
@@ -224,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				FC77FD3D22B5F9C7009C8239 /* AppDelegate.swift */,
+				FCEDB8742BA13BF100769FD3 /* HitView.swift */,
 				FC071D2C22B5BF4800212CF3 /* Dog.swift */,
 				FC071D2822B5BA5300212CF3 /* TopBar.swift */,
 				FC071D2522B5B7FC00212CF3 /* WindowController.swift */,
@@ -247,6 +234,9 @@
 			dependencies = (
 			);
 			name = "Animal Age";
+			packageProductDependencies = (
+				FCEDB86E2BA1174000769FD3 /* DGCharts */,
+			);
 			productName = "Dog Age";
 			productReference = 1127099D14BBA19C00673DF8 /* Animal Age.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +257,7 @@
 			name = "Animal Age Website";
 			packageProductDependencies = (
 				FCD347E32B7EE39A00AFB74B /* Sparkle */,
+				FCEDB8702BA1174E00769FD3 /* DGCharts */,
 			);
 			productName = "Dog Age";
 			productReference = FC0C088F181D1A7E00E34270 /* Animal Age.app */;
@@ -280,7 +271,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = JBD;
 				TargetAttributes = {
 					1127099C14BBA19C00673DF8 = {
@@ -320,6 +311,7 @@
 			mainGroup = 1127099214BBA19C00673DF8;
 			packageReferences = (
 				FCD347E22B7EE39A00AFB74B /* XCRemoteSwiftPackageReference "Sparkle" */,
+				FCEDB86D2BA1174000769FD3 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 1127099E14BBA19C00673DF8 /* Products */;
 			projectDirPath = "";
@@ -338,9 +330,6 @@
 			files = (
 				112709AC14BBA19C00673DF8 /* InfoPlist.strings in Resources */,
 				112709B214BBA19C00673DF8 /* Credits.rtf in Resources */,
-				FC58C44519EB2C1900547C23 /* index.html in Resources */,
-				FC58C44719EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
-				FC4949721FB8FE0200E9B1BB /* icon.icns in Resources */,
 				FC9D8D0019E4D059007A1781 /* Images.xcassets in Resources */,
 				FC9D8D0419E4D076007A1781 /* MainMenu.xib in Resources */,
 			);
@@ -351,13 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */,
-				FCF8C972276180CF0053D18F /* dsa_pub.pem in Resources */,
-				FC58C44819EB2C1900547C23 /* jquery-1.7.1.min.js in Resources */,
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
 				FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */,
-				FC4949731FB8FE0F00E9B1BB /* icon.icns in Resources */,
 				FC58C41319EB26F200547C23 /* Images.xcassets in Resources */,
-				FC58C44619EB2C1900547C23 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEDB8752BA13BF100769FD3 /* HitView.swift in Sources */,
+				FCEDB8732BA11A3200769FD3 /* main.m in Sources */,
 				FC77FD3E22B5F9C7009C8239 /* AppDelegate.swift in Sources */,
-				FC58C44119EB2BF500547C23 /* main.m in Sources */,
 				FC071D2922B5BA5300212CF3 /* TopBar.swift in Sources */,
 				FC071D2622B5B7FC00212CF3 /* WindowController.swift in Sources */,
 				FC071D2D22B5BF4800212CF3 /* Dog.swift in Sources */,
@@ -380,10 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEDB8762BA13BF100769FD3 /* HitView.swift in Sources */,
+				FCEDB8722BA11A3100769FD3 /* main.m in Sources */,
 				FC77FD3F22B5F9C7009C8239 /* AppDelegate.swift in Sources */,
 				FC071D2A22B5BAEA00212CF3 /* TopBar.swift in Sources */,
 				FC071D2E22B5BFB500212CF3 /* Dog.swift in Sources */,
-				FC58C44219EB2BF500547C23 /* main.m in Sources */,
 				FC071D2B22B5BAEE00212CF3 /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -467,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -523,7 +512,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 10.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -542,7 +531,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 10;
+				MARKETING_VERSION = 10.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -568,7 +557,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 10.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -587,7 +576,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 10;
+				MARKETING_VERSION = 10.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -613,7 +602,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.4;
+				CURRENT_PROJECT_VERSION = 8.4.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -640,7 +629,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.4;
+				MARKETING_VERSION = 8.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";
@@ -662,7 +651,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8.4;
+				CURRENT_PROJECT_VERSION = 8.4.1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F64HQQLAVQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -681,7 +670,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 8.4;
+				MARKETING_VERSION = 8.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonbrown.org.Animal-Age";
 				PRODUCT_NAME = "Animal Age";
 				PROVISIONING_PROFILE = "";
@@ -734,6 +723,14 @@
 				minimumVersion = 2.5.2;
 			};
 		};
+		FCEDB86D2BA1174000769FD3 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -741,6 +738,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FCD347E22B7EE39A00AFB74B /* XCRemoteSwiftPackageReference "Sparkle" */;
 			productName = Sparkle;
+		};
+		FCEDB86E2BA1174000769FD3 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCEDB86D2BA1174000769FD3 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		FCEDB8702BA1174E00769FD3 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCEDB86D2BA1174000769FD3 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

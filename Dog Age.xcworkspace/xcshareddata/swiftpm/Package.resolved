@@ -1,5 +1,15 @@
 {
+  "originHash" : "5c7ef1185a88aa033396c16d6fcf19b5872c72c69e56a0d0a59c35685acc34ba",
   "pins" : [
+    {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts.git",
+      "state" : {
+        "revision" : "dd9c72e3d7e751e769971092a6bd72d39198ae63",
+        "version" : "5.1.0"
+      }
+    },
     {
       "identity" : "sparkle",
       "kind" : "remoteSourceControl",
@@ -10,5 +20,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
