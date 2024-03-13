@@ -40,6 +40,7 @@
 		FCEDB8732BA11A3200769FD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC58C44019EB2BF500547C23 /* main.m */; };
 		FCEDB8752BA13BF100769FD3 /* HitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDB8742BA13BF100769FD3 /* HitView.swift */; };
 		FCEDB8762BA13BF100769FD3 /* HitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDB8742BA13BF100769FD3 /* HitView.swift */; };
+		FCEDB8782BA14A9F00769FD3 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = FCEDB8772BA14A9E00769FD3 /* dsa_pub.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,7 +84,7 @@
 		FCDAAFF3181D1D11000128E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCE527041E5D43B100BA0687 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		FCEDB8742BA13BF100769FD3 /* HitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HitView.swift; path = classes/HitView.swift; sourceTree = "<group>"; };
-		FCF8C971276180CF0053D18F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		FCEDB8772BA14A9E00769FD3 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		FCFC3B6A296A2E8700B9E3E6 /* Animal Age Website.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Animal Age Website.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,7 +178,7 @@
 		112709A814BBA19C00673DF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCF8C971276180CF0053D18F /* dsa_pub.pem */,
+				FCEDB8772BA14A9E00769FD3 /* dsa_pub.pem */,
 				FCAE348A1B841F5300956348 /* Animal Age-Bridging-Header.h */,
 				FC9D8CFF19E4D059007A1781 /* Images.xcassets */,
 				FC58C44019EB2BF500547C23 /* main.m */,
@@ -339,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEDB8782BA14A9F00769FD3 /* dsa_pub.pem in Resources */,
 				FC0C0865181D1A7E00E34270 /* InfoPlist.strings in Resources */,
 				FC0C0866181D1A7E00E34270 /* Credits.rtf in Resources */,
 				FC8225AE19E4D82E00557F22 /* MainMenuWeb.xib in Resources */,
