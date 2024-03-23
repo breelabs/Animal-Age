@@ -16,7 +16,6 @@
 import Foundation
 import Quartz
 import QuartzCore
-import WebKit
 import Cocoa
 import DGCharts
 
