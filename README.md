@@ -1,9 +1,5 @@
 # 🐾 Animal Age  
-![Platform: macOS](https://img.shields.io/badge/Platform-macOS-blue.svg)  
-![Language: Swift](https://img.shields.io/badge/Language-Swift-orange.svg)  
-![App Store](https://img.shields.io/badge/App%20Store-Download-blue?logo=apple)  
-![Version](https://img.shields.io/badge/Version-Live%20on%20Mac%20App%20Store-success.svg)  
-![Issues Welcome](https://img.shields.io/badge/Feedback-Issues%20%26%20Requests%20Welcome-brightgreen.svg)
+![Platform: macOS](https://img.shields.io/badge/Platform-macOS-blue.svg)  ![Language: Swift](https://img.shields.io/badge/Language-Swift-orange.svg)  ![App Store](https://img.shields.io/badge/App%20Store-Download-blue?logo=apple)  ![Version](https://img.shields.io/badge/Version-Live%20on%20Mac%20App%20Store-success.svg)  ![Issues Welcome](https://img.shields.io/badge/Feedback-Issues%20%26%20Requests%20Welcome-brightgreen.svg)
 
 ## 🎉 Welcome to the Official Animal Age Repository
 
